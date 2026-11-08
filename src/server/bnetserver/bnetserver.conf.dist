@@ -224,6 +224,15 @@ WrongPass.Logging = 0
 BanExpiryCheckInterval = 60
 
 #
+#    Realm.HideOfflineSubRegions
+#        Description: Hide region-selector entries with no online realm. Useful for Classic
+#                     clients where each ruleset realm has its own sub-region entry.
+#        Default:     0 - (Show offline sub-regions)
+#                     1 - (Hide offline sub-regions)
+
+Realm.HideOfflineSubRegions = 0
+
+#
 #    SourceDirectory
 #        Description: The path to your TrinityCore source directory.
 #                     If the path is left empty, the built-in CMAKE_SOURCE_DIR is used.

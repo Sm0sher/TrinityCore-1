@@ -3,6 +3,9 @@
 The custom auth migration renames Normal realm 70 to MoshPit and sets the offline
 flag on realms 71 (PvP), 72 (RP), and 73 (Hardcore). Their rows and character data
 are retained. Region 70 and the client build 70862 are unchanged.
+Set `Realm.HideOfflineSubRegions = 1` in bnetserver.conf as well: offline rows
+otherwise still create region-dropdown entries even though their ruleset cards
+are hidden. The option defaults to off for existing deployments.
 
 The hotfix migration changes Cfg_Regions record 1160 to MoshPit, including ruRU,
 and publishes its hotfix record. The client receives and caches this value only

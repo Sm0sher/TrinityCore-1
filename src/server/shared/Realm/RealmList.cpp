@@ -112,6 +112,7 @@ void RealmList::UpdateRealms()
 
     std::unordered_set<std::string> newSubRegions;
     RealmMap newRealms;
+    bool hideOfflineSubRegions = sConfigMgr->GetBoolDefault("Realm.HideOfflineSubRegions", false);
 
     // Circle through results and add them to the realm map
     if (result)
@@ -164,7 +165,8 @@ void RealmList::UpdateRealms()
                 flag, timezone, (allowedSecurityLevel <= SEC_ADMINISTRATOR ? AccountTypes(allowedSecurityLevel) : SEC_ADMINISTRATOR), pop);
             newRealms[id]->ContentSetId = fields[15].GetUInt32();
 
-            newSubRegions.insert(id.GetSubRegionAddress());
+            if (!hideOfflineSubRegions || pop != RealmPopulationState::Offline)
+                newSubRegions.insert(id.GetSubRegionAddress());
 
             auto buildAddressesLogText = [&]
             {
