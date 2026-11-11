@@ -3376,14 +3376,18 @@ void SpellMgr::LoadSpellInfoCustomAttributes()
     TC_LOG_INFO("server.loading", ">> Loaded SpellInfo custom attributes in {} ms", GetMSTimeDiffToNow(oldMSTime));
 }
 
-inline void ApplySpellFix(std::initializer_list<uint32> spellIds, void(*fix)(SpellInfo*))
+inline void ApplySpellFix(std::initializer_list<uint32> spellIds, void(*fix)(SpellInfo*), bool required = false)
 {
     for (uint32 spellId : spellIds)
     {
         auto range = _GetSpellInfo(spellId);
         if (range.begin() == range.end())
         {
-            TC_LOG_ERROR("server.loading", "Spell info correction specified for non-existing spell {}", spellId);
+            // Shared corrections include content that is absent from some client data sets.
+            if (required || sSpellNameStore.HasRecord(spellId))
+                TC_LOG_ERROR("server.loading", "Spell info correction specified for non-existing spell {}", spellId);
+            else
+                TC_LOG_DEBUG("server.loading", "Skipping spell info correction for unavailable spell {}", spellId);
             continue;
         }
 
@@ -3764,7 +3768,7 @@ void SpellMgr::LoadSpellInfoCorrections()
                 effect->MiscValue = SPELL_SCHOOL_MASK_ALL;
             }
         });
-    });
+    }, /*required=*/true);
 
     // Classic item activation spells delegate to the actual disguise or summon spell.
     ApplySpellFix({ 8213, 23076 }, [](SpellInfo* spellInfo)
@@ -3778,7 +3782,7 @@ void SpellMgr::LoadSpellInfoCorrections()
                 effect->ApplyAuraName = SPELL_AURA_NONE;
             }
         });
-    });
+    }, /*required=*/true);
 
     // Parasitic Shadowfiend Passive
     ApplySpellFix({ 41913 }, [](SpellInfo* spellInfo)
@@ -5353,14 +5357,17 @@ void SpellMgr::LoadSpellInfoCorrections()
     {
         properties->Title = AsUnderlyingType(SummonTitle::Totem);
     });
-    summonProperties.ApplyHotfix(647, [](SummonPropertiesEntry* properties) // 52893
-    {
-        properties->Title = AsUnderlyingType(SummonTitle::Totem);
-    });
-    summonProperties.ApplyHotfix(628, [](SummonPropertiesEntry* properties) // Hungry Plaguehound
-    {
-        properties->Control = SUMMON_CATEGORY_PET;
-    });
+    // These properties belong to summons available only in some client data sets.
+    if (sSummonPropertiesStore.HasRecord(647)) // 52893
+        summonProperties.ApplyHotfix(647, [](SummonPropertiesEntry* properties)
+        {
+            properties->Title = AsUnderlyingType(SummonTitle::Totem);
+        });
+    if (sSummonPropertiesStore.HasRecord(628)) // Hungry Plaguehound
+        summonProperties.ApplyHotfix(628, [](SummonPropertiesEntry* properties)
+        {
+            properties->Control = SUMMON_CATEGORY_PET;
+        });
 
     TC_LOG_INFO("server.loading", ">> Loaded SpellInfo corrections in {} ms", GetMSTimeDiffToNow(oldMSTime));
 }
