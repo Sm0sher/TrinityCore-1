@@ -1678,6 +1678,10 @@ bool Aura::CanStackWith(Aura const* existingAura) const
         || (sameCaster && m_spellInfo->IsAuraExclusiveBySpecificPerCasterWith(existingSpellInfo)))
         return false;
 
+    // Blessing of Sacrifice ranks in Classic do not share a spell rank chain.
+    if (sameCaster && HasEffectType(SPELL_AURA_562) && existingAura->HasEffectType(SPELL_AURA_562))
+        return false;
+
     // check spell group stack rules
     switch (sSpellMgr->CheckSpellGroupStackRules(m_spellInfo, existingSpellInfo))
     {

@@ -631,7 +631,7 @@ NonDefaultConstructible<pAuraEffectHandler> AuraEffectHandler[TOTAL_AURAS]=
     &AuraEffect::HandleNULL,                                      //559
     &AuraEffect::HandleNULL,                                      //560
     &AuraEffect::HandleNULL,                                      //561
-    &AuraEffect::HandleNULL,                                      //562
+    &AuraEffect::HandleNoImmediateEffect,                         //562 Flat damage split in Unit::CalcAbsorbResist
     &AuraEffect::HandleNULL,                                      //563
     &AuraEffect::HandleNULL,                                      //564
     &AuraEffect::HandleNULL,                                      //565

@@ -376,11 +376,10 @@ class spell_pal_blessing_of_protection : public SpellScript
 {
     bool Validate(SpellInfo const* spellInfo) override
     {
-        return ValidateSpellInfo(
-        {
-            SPELL_PALADIN_FORBEARANCE,
-            SPELL_PALADIN_IMMUNE_SHIELD_MARKER
-        }) && spellInfo->ExcludeTargetAuraSpell == SPELL_PALADIN_IMMUNE_SHIELD_MARKER;
+        return ValidateSpellInfo({ SPELL_PALADIN_FORBEARANCE })
+            && (spellInfo->ExcludeTargetAuraSpell == SPELL_PALADIN_FORBEARANCE
+                || (spellInfo->ExcludeTargetAuraSpell == SPELL_PALADIN_IMMUNE_SHIELD_MARKER
+                    && ValidateSpellInfo({ SPELL_PALADIN_IMMUNE_SHIELD_MARKER })));
     }
 
     void TriggerForbearance() const

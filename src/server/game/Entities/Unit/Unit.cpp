@@ -2075,8 +2075,11 @@ void Unit::HandleEmoteCommand(Emote emoteId, Player* target /*=nullptr*/, Trinit
     {
         // We're going to call functions which can modify content of the list during iteration over it's elements
         // Let's copy the list so we can prevent iterator invalidation
-        AuraEffectVector vSplitDamagePctCopy = CopyAuraEffectList(damageInfo.GetVictim()->GetAuraEffectsByType(SPELL_AURA_SPLIT_DAMAGE_PCT));
-        for (auto itr = vSplitDamagePctCopy.begin(); itr != vSplitDamagePctCopy.end() && damageInfo.GetDamage() > 0; ++itr)
+        AuraEffectVector splitAuras = CopyAuraEffectList(damageInfo.GetVictim()->GetAuraEffectsByType(SPELL_AURA_SPLIT_DAMAGE_PCT));
+        // Classic Blessing of Sacrifice redirects a fixed amount per hit.
+        for (AuraEffect* flatSplit : damageInfo.GetVictim()->GetAuraEffectsByType(SPELL_AURA_562))
+            splitAuras.push_back(flatSplit);
+        for (auto itr = splitAuras.begin(); itr != splitAuras.end() && damageInfo.GetDamage() > 0; ++itr)
         {
             // Check if aura was removed during iteration - we don't need to work on such auras
             AuraApplication const* aurApp = (*itr)->GetBase()->GetApplicationOfTarget(damageInfo.GetVictim()->GetGUID());
@@ -2092,7 +2095,9 @@ void Unit::HandleEmoteCommand(Emote emoteId, Player* target /*=nullptr*/, Trinit
             if (!caster || (caster == damageInfo.GetVictim()) || !caster->IsInWorld() || !caster->IsAlive())
                 continue;
 
-            uint32 splitDamage = CalculatePct(damageInfo.GetDamage(), (*itr)->GetAmount());
+            uint32 splitDamage = (*itr)->GetAuraType() == SPELL_AURA_562
+                ? std::min(damageInfo.GetDamage(), uint32(std::max(0, (*itr)->GetAmountAsInt())))
+                : CalculatePct(damageInfo.GetDamage(), (*itr)->GetAmount());
 
             (*itr)->GetBase()->CallScriptEffectSplitHandlers((*itr), aurApp, damageInfo, splitDamage);
 

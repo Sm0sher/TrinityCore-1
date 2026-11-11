@@ -3753,6 +3753,33 @@ void SpellMgr::LoadSpellInfoCorrections()
         });
     });
 
+    // Classic Spirit of Redemption: invoke the talent's script on a lethal hit.
+    ApplySpellFix({ 20711 }, [](SpellInfo* spellInfo)
+    {
+        ApplySpellEffectFix(spellInfo, EFFECT_0, [](SpellEffectInfo* effect)
+        {
+            if (effect->ApplyAuraName == SPELL_AURA_DUMMY)
+            {
+                effect->ApplyAuraName = SPELL_AURA_SCHOOL_ABSORB_OVERKILL;
+                effect->MiscValue = SPELL_SCHOOL_MASK_ALL;
+            }
+        });
+    });
+
+    // Classic item activation spells delegate to the actual disguise or summon spell.
+    ApplySpellFix({ 8213, 23076 }, [](SpellInfo* spellInfo)
+    {
+        ApplySpellEffectFix(spellInfo, EFFECT_0, [](SpellEffectInfo* effect)
+        {
+            if (effect->Effect == SPELL_EFFECT_APPLY_AURA &&
+                (effect->ApplyAuraName == SPELL_AURA_DUMMY || (effect->ApplyAuraName == SPELL_AURA_TRANSFORM && !effect->MiscValue)))
+            {
+                effect->Effect = SPELL_EFFECT_DUMMY;
+                effect->ApplyAuraName = SPELL_AURA_NONE;
+            }
+        });
+    });
+
     // Parasitic Shadowfiend Passive
     ApplySpellFix({ 41913 }, [](SpellInfo* spellInfo)
     {

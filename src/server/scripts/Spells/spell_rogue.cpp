@@ -1528,7 +1528,7 @@ class spell_rog_vanish : public SpellScript
     }
 };
 
-// 11327 - Vanish
+// 11327, 11329 - Vanish
 class spell_rog_vanish_aura : public AuraScript
 {
     bool Validate(SpellInfo const* /*spellInfo*/) override
@@ -1536,14 +1536,19 @@ class spell_rog_vanish_aura : public AuraScript
         return ValidateSpellInfo({ SPELL_ROGUE_STEALTH });
     }
 
-    void HandleEffectRemove(AuraEffect const* /*aurEff*/, AuraEffectHandleModes /*mode*/)
+    void ApplyStealth(AuraEffect const* /*aurEff*/, AuraEffectHandleModes /*mode*/)
     {
-        GetTarget()->CastSpell(GetTarget(), SPELL_ROGUE_STEALTH, TRIGGERED_FULL_MASK);
+        Unit* target = GetTarget();
+        if (target->HasAura(SPELL_ROGUE_STEALTH))
+            return;
+
+        target->GetSpellHistory()->ResetCooldown(SPELL_ROGUE_STEALTH, true);
+        target->CastSpell(target, SPELL_ROGUE_STEALTH, TRIGGERED_FULL_MASK);
     }
 
     void Register() override
     {
-        AfterEffectRemove += AuraEffectRemoveFn(spell_rog_vanish_aura::HandleEffectRemove, EFFECT_0, SPELL_AURA_DUMMY, AURA_EFFECT_HANDLE_REAL);
+        AfterEffectApply += AuraEffectApplyFn(spell_rog_vanish_aura::ApplyStealth, EFFECT_1, SPELL_AURA_MOD_STEALTH, AURA_EFFECT_HANDLE_REAL_OR_REAPPLY_MASK);
     }
 };
 
