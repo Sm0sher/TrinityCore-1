@@ -255,7 +255,10 @@ void ConversationDataStore::LoadConversationTemplates()
 
             ConversationLineEntry const* currentConversationLine = sConversationLineStore.LookupEntry(conversationTemplate.FirstLineId);
             if (!currentConversationLine)
+            {
                 TC_LOG_ERROR("sql.sql", "Table `conversation_template` references an invalid line (ID: {}) for Conversation {}, skipped", conversationTemplate.FirstLineId, conversationTemplate.Id);
+                continue;
+            }
 
             while (currentConversationLine != nullptr)
             {
