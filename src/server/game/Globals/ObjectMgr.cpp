@@ -5138,10 +5138,14 @@ void ObjectMgr::LoadQuests()
             // no changes, quest can't be done for this requirement
         }
 
-        if (qinfo->_requiredMinRepValue && qinfo->_requiredMinRepValue > ReputationMgr::Reputation_Cap)
+        int32 maxReputation = ReputationMgr::Reputation_Cap;
+        if (FactionEntry const* faction = sFactionStore.LookupEntry(qinfo->_requiredMinRepFaction))
+            maxReputation = std::max(maxReputation, std::ranges::max(faction->ReputationMax));
+
+        if (qinfo->_requiredMinRepValue && qinfo->_requiredMinRepValue > maxReputation)
         {
             TC_LOG_ERROR("sql.sql", "Quest {} has `RequiredMinRepValue` = {} but max reputation is {}, quest can't be done.",
-                qinfo->GetQuestId(), qinfo->_requiredMinRepValue, ReputationMgr::Reputation_Cap);
+                qinfo->GetQuestId(), qinfo->_requiredMinRepValue, maxReputation);
             // no changes, quest can't be done for this requirement
         }
 
