@@ -1,0 +1,283 @@
+{
+  "client_build": 70938,
+  "operations": 75,
+  "updates": 9,
+  "removed_auxiliary_rows": 65,
+  "inserted_bindings": 1,
+  "startup_before": 5344,
+  "startup_after": 5309,
+  "new_messages": 0,
+  "validated_spell_handlers_before": 802,
+  "validated_spell_handlers_after": 803,
+  "accepted_npc_texts_before": 15722,
+  "accepted_npc_texts_after": 15723,
+  "tables": {
+    "creature_template_difficulty": 4,
+    "jump_charge_params": 3,
+    "npc_text": 2,
+    "quest_mail_sender": 2,
+    "achievement_scripts": 2,
+    "creature_template_gossip": 2,
+    "quest_reward_display_spell": 1,
+    "spell_script_names": 2,
+    "smart_scripts": 3,
+    "waypoint_path": 1,
+    "spell_loot_template": 49,
+    "prospecting_loot_template": 4
+  },
+  "native_inputs": {
+    "Curve": {
+      "table": "Curve",
+      "records": 20079,
+      "layout": "D362535A",
+      "layout_src": "D362535A",
+      "sections": 2,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 20079,
+      "id_field": "ID",
+      "sha256": "cb7dd249b682dc2cd4014d69c82bf24110aa2987720967d8f2e4a0012d82a105"
+    },
+    "BroadcastText": {
+      "table": "BroadcastText",
+      "records": 12,
+      "layout": "00EB45B3",
+      "layout_src": "00EB45B3",
+      "sections": 1,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 12,
+      "id_field": "ID",
+      "sha256": "f8a2c04d5a7bb3a4357c676d1ee657707642ded93289c6cdf27fc5b3eb847c37"
+    },
+    "Achievement": {
+      "table": "Achievement",
+      "records": 495,
+      "layout": "6FC5281B",
+      "layout_src": "6FC5281B",
+      "sections": 2,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 495,
+      "id_field": "ID",
+      "sha256": "cbefd1fe3ad1d734bcbff11851c74943763edc5afa00f1029e9dc91293e8e652"
+    },
+    "SkillLineAbility": {
+      "table": "SkillLineAbility",
+      "records": 7853,
+      "layout": "224F7EA0",
+      "layout_src": "224F7EA0",
+      "sections": 9,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 7853,
+      "id_field": "ID",
+      "sha256": "05e8c94d13d36eb7f914fdc7152766baa60d804e8addfea6831656eebcfef847"
+    },
+    "Item": {
+      "table": "Item",
+      "records": 9148,
+      "layout": "9A2A4834",
+      "layout_src": "9A2A4834",
+      "sections": 17,
+      "encrypted_sections": 1,
+      "encrypted_records": 53,
+      "decoded": 32008,
+      "id_field": "ID",
+      "sha256": "cfcaaed12522b8d0ca3c6c81dac70c4e2508df26e5565e21f76fe2b8b0d426f0"
+    },
+    "ItemSparse": {
+      "table": "ItemSparse",
+      "records": 19335,
+      "layout": "6FCC3191",
+      "layout_src": "6FCC3191",
+      "sections": 16,
+      "encrypted_sections": 1,
+      "encrypted_records": 63,
+      "decoded": 19325,
+      "id_field": "ID",
+      "sha256": "b5ecab0bde1338bb1ecf236870a09686e4e13c7c15b7b90f3e3f153b3e2ca88a"
+    }
+  },
+  "spell_loot_owner_proof": {
+    "candidates": [
+      58165,
+      58168,
+      58172,
+      59502,
+      61898,
+      85325
+    ],
+    "found": [],
+    "absent": [
+      58165,
+      58168,
+      58172,
+      59502,
+      61898,
+      85325
+    ],
+    "cpp_protected": [],
+    "native_spell_tables": [
+      {
+        "table": "SpellAuraOptions",
+        "sha256": "612f54d63cdc353ca5e2b43fc63bd37fc301a4b271f8b3f1b15cba4d533b56ab",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_aura_options",
+        "decoded": 12812
+      },
+      {
+        "table": "SpellAuraRestrictions",
+        "sha256": "0a3173c0fb86a3b946574fd08af687efebdc6ca61cf6182c38af9fd4a5853a89",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_aura_restrictions",
+        "decoded": 334
+      },
+      {
+        "table": "SpellCastingRequirements",
+        "sha256": "590798c33049a5be254b4acd8cc5dec337be3bdccd1fdb14878315d5ebe27ef7",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_casting_requirements",
+        "decoded": 3299
+      },
+      {
+        "table": "SpellCategories",
+        "sha256": "83d7d52d3367947bf85972f6a358fda268977fcf9abf56f49880c0b3998c6ab0",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_categories",
+        "decoded": 10822
+      },
+      {
+        "table": "SpellClassOptions",
+        "sha256": "375727648ca66e4566c062d56e3f809cf20959fede26b0e1171d843156553826",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_class_options",
+        "decoded": 6125
+      },
+      {
+        "table": "SpellCooldowns",
+        "sha256": "52f8adda3127ae156491dc8e9adde7fcffe149dd8dd7d80b10277afb366885b6",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_cooldowns",
+        "decoded": 4545
+      },
+      {
+        "table": "SpellEffect",
+        "sha256": "cd6cd7df23a5e648736cc994b159e6e56dac74da72dffa646768c4e2899c4766",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_effect",
+        "decoded": 43519
+      },
+      {
+        "table": "SpellEmpower",
+        "sha256": "dd8a679c5eac5fd908213542df2c0376f26e21ba517645d15ab622446628bf76",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_empower",
+        "decoded": 0
+      },
+      {
+        "table": "SpellEquippedItems",
+        "sha256": "0dabadcbe9e6389496938cade035864584608d0a4ef2355e46e0c18bef17957c",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_equipped_items",
+        "decoded": 1901
+      },
+      {
+        "table": "SpellInterrupts",
+        "sha256": "0c9675ef54af832eca6c9d17a7d6a062c35a9549acd95c23d16cd377f5c3ead6",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_interrupts",
+        "decoded": 10036
+      },
+      {
+        "table": "SpellLabel",
+        "sha256": "c1b85cebfe6c18172d0bf674daf9ef9b307809ccfdfad9e98007f5bb138ebd16",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_label",
+        "decoded": 4693
+      },
+      {
+        "table": "SpellLearnSpell",
+        "sha256": "c3dec36e62c6d7fea8977094d83d2bebf096401c2f2228a015bfd1ff761c8590",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_learn_spell",
+        "decoded": 52
+      },
+      {
+        "table": "SpellLevels",
+        "sha256": "4727e2009b65d6dc17409e700683bb37243b4ea55ce1abeb380d95ca77f5e5aa",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_levels",
+        "decoded": 13078
+      },
+      {
+        "table": "SpellMisc",
+        "sha256": "cafd0cf6e07305ba80ce6a9e5a6efb30ba210c73bba5a2fd5311169d38603fab",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_misc",
+        "decoded": 32470
+      },
+      {
+        "table": "SpellPower",
+        "sha256": "ab77a34c3cf3342108c24fa4abddbc94baa08b4636a55c1b976611c90cca7948",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_power",
+        "decoded": 3505
+      },
+      {
+        "table": "SpellReagents",
+        "sha256": "5309c4246aecf335453ba6e99eb3f1b2064fc3b8f45912f8d3139e84573d6edd",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_reagents",
+        "decoded": 3319
+      },
+      {
+        "table": "SpellReagentsCurrency",
+        "sha256": "10c544303272226a521ed10a9975ad923ea4503b559296d2e880632a332148de",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_reagents_currency",
+        "decoded": 0
+      },
+      {
+        "table": "SpellScaling",
+        "sha256": "21b4bc266a6f226a976f1c1e85f7d9eb4dc3a9a173f16fd40b6bf1bc8e48a2fd",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_scaling",
+        "decoded": 0
+      },
+      {
+        "table": "SpellShapeshift",
+        "sha256": "acdcbff6d8b5b9f8aa9f5519accb5901c68a06165dcb07d940d6f7e45a17b623",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_shapeshift",
+        "decoded": 3467
+      },
+      {
+        "table": "SpellTargetRestrictions",
+        "sha256": "0aa6559855f3c13d67fd147b165236e14fde9d9bcc5bf7df9ee0951e49aeb94e",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_target_restrictions",
+        "decoded": 4542
+      },
+      {
+        "table": "SpellTotems",
+        "sha256": "0e290056e6725fa3421e782dd440d900a7deb638aa2be980182f91bf8cd7620b",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_totems",
+        "decoded": 1124
+      },
+      {
+        "table": "SpellXSpellVisual",
+        "sha256": "562e5d1edad36f43a43698a0937dad1764397e0547e3704c0263e134c4f4fb73",
+        "matching_spell_ids": [],
+        "hotfix_table": "spell_x_spell_visual",
+        "decoded": 20760
+      }
+    ]
+  },
+  "verified_rows_per_application": [
+    75,
+    75
+  ],
+  "sql_sha256": "420387929441c2ce99c6cac0294cac32d240841f8f3770dfa9f2b2002833ed8b"
+}
