@@ -1,0 +1,85 @@
+{
+  "client_build": 70938,
+  "updated_rows": 35,
+  "archived_rejected_rows": 369,
+  "tables": {
+    "npc_text": 28,
+    "creature_model_info": 3,
+    "creature_summoned_data": 1,
+    "smart_scripts": 2,
+    "conditions": 1,
+    "spell_enchant_proc_data": 10,
+    "spell_learn_spell": 5,
+    "spell_pet_auras": 1,
+    "spell_group_stack_rules": 6,
+    "skill_discovery_template": 347
+  },
+  "native_inputs": {
+    "BroadcastText": {
+      "table": "BroadcastText",
+      "records": 12,
+      "layout": "00EB45B3",
+      "layout_src": "00EB45B3",
+      "sections": 1,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 12,
+      "id_field": "ID",
+      "sha256": "f8a2c04d5a7bb3a4357c676d1ee657707642ded93289c6cdf27fc5b3eb847c37"
+    },
+    "CreatureDisplayInfo": {
+      "table": "CreatureDisplayInfo",
+      "records": 14234,
+      "layout": "7275F5F6",
+      "layout_src": "7275F5F6",
+      "sections": 11,
+      "encrypted_sections": 1,
+      "encrypted_records": 7,
+      "decoded": 14227,
+      "id_field": "ID",
+      "sha256": "6fc4ef685af554f59615971e6cbd23eb1093d174c273b48c4c596b5fd6c7cb7f"
+    },
+    "SpellName": {
+      "table": "SpellName",
+      "records": 17938,
+      "layout": "782EE721",
+      "layout_src": "782EE721",
+      "sections": 15,
+      "encrypted_sections": 2,
+      "encrypted_records": 376,
+      "decoded": 32491,
+      "id_field": "ID",
+      "sha256": "cfa45c61ecb5ebf9dd0bd2173a741f94937724c9395aed916c5dcce80202a15b"
+    },
+    "SpellItemEnchantment": {
+      "table": "SpellItemEnchantment",
+      "records": 2196,
+      "layout": "952B72B2",
+      "layout_src": "952B72B2",
+      "sections": 2,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 2219,
+      "id_field": "ID",
+      "sha256": "56397c3e31f70ef98c3469e355ac4a697e5e77cbb76a17f8cabff114c6ae401f"
+    },
+    "SkillLineAbility": {
+      "table": "SkillLineAbility",
+      "records": 7853,
+      "layout": "224F7EA0",
+      "layout_src": "224F7EA0",
+      "sections": 9,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 7853,
+      "id_field": "ID",
+      "sha256": "05e8c94d13d36eb7f914fdc7152766baa60d804e8addfea6831656eebcfef847"
+    }
+  },
+  "startup_before": 5556,
+  "startup_after": 5490,
+  "new_messages": 0,
+  "restored_npc_texts": 28,
+  "sql": "sql/custom/world/2026_11_13_01_world_simple_70938.sql",
+  "core_fix": "Clear the matching optional mount field when a summoned creature model is invalid"
+}
