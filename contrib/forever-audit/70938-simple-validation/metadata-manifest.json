@@ -1,0 +1,116 @@
+{
+  "client_build": 70938,
+  "rows": 49,
+  "updated_rows": 14,
+  "archived_rejected_rows": 35,
+  "tables": {
+    "gossip_menu_addon": 9,
+    "battlemaster_entry": 4,
+    "creature_template": 5,
+    "npc_spellclick_spells": 1,
+    "gossip_menu_option": 12,
+    "vehicle_template": 6,
+    "disables": 4,
+    "spell_area": 5,
+    "creature_equip_template": 3
+  },
+  "native_inputs": {
+    "Faction": {
+      "table": "Faction",
+      "records": 251,
+      "layout": "6D443C38",
+      "layout_src": "6D443C38",
+      "sections": 1,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 253,
+      "id_field": "ID",
+      "sha256": "cdd4bd3a59e25b522f4628c421d1106b901572a7639777f84ec3741e5f2e93a7"
+    },
+    "BattlemasterList": {
+      "table": "BattlemasterList",
+      "records": 9,
+      "layout": "3414CBD7",
+      "layout_src": "3414CBD7",
+      "sections": 1,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 9,
+      "id_field": "ID",
+      "sha256": "777f5f58193a02d8c020e7141768dadd25fbf4ca997d3ed9f3f8ac9a16f336e4"
+    },
+    "SpellName": {
+      "table": "SpellName",
+      "records": 17938,
+      "layout": "782EE721",
+      "layout_src": "782EE721",
+      "sections": 15,
+      "encrypted_sections": 2,
+      "encrypted_records": 376,
+      "decoded": 32491,
+      "id_field": "ID",
+      "sha256": "cfa45c61ecb5ebf9dd0bd2173a741f94937724c9395aed916c5dcce80202a15b"
+    },
+    "GossipNPCOption": {
+      "table": "GossipNPCOption",
+      "records": 1582,
+      "layout": "5247127B",
+      "layout_src": "5247127B",
+      "sections": 2,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 1582,
+      "id_field": "ID",
+      "sha256": "21ed90ee982ff87c63dfd6f400249042f546efca992317f6162f1fc31b4c3df6"
+    },
+    "Map": {
+      "table": "Map",
+      "records": 81,
+      "layout": "D43AFAC3",
+      "layout_src": "D43AFAC3",
+      "sections": 4,
+      "encrypted_sections": 2,
+      "encrypted_records": 3,
+      "decoded": 78,
+      "id_field": "ID",
+      "sha256": "3813ba0c74cdfd47bb104bbbd23173f5ef85abfebeadbd1d562ddb8df5c9301a"
+    },
+    "Phase": {
+      "table": "Phase",
+      "records": 10,
+      "layout": "6D5EB3BD",
+      "layout_src": "6D5EB3BD",
+      "sections": 1,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 105,
+      "id_field": "ID",
+      "sha256": "e007f7f8f5a243286fe5177f7d95c3ee81bf61efbd5917fcbcd538ad58c93466"
+    },
+    "AreaTable": {
+      "table": "AreaTable",
+      "records": 1421,
+      "layout": "9995B797",
+      "layout_src": "9995B797",
+      "sections": 4,
+      "encrypted_sections": 2,
+      "encrypted_records": 17,
+      "decoded": 1404,
+      "id_field": "ID",
+      "sha256": "a6383dcc6c14824f96b16379242599e33d091b87f21375c183fbb343e174911d"
+    }
+  },
+  "deferred": [
+    {
+      "table": "gossip_menu_option",
+      "id": [
+        "28666",
+        "1"
+      ],
+      "reason": "Referenced by conditions; preserve for separate repair"
+    }
+  ],
+  "combined_startup_before": 5556,
+  "combined_startup_after": 5446,
+  "new_messages": {}
+}
