@@ -77,9 +77,12 @@
     }
   },
   "startup_before": 5556,
-  "startup_after": 5490,
   "new_messages": 0,
   "restored_npc_texts": 28,
   "sql": "sql/custom/world/2026_11_13_01_world_simple_70938.sql",
-  "core_fix": "Clear the matching optional mount field when a summoned creature model is invalid"
+  "core_fix": "Clear the matching optional mount field when a summoned creature model is invalid",
+  "combined_startup_after": 5426,
+  "combined_startup_before": 5556,
+  "verified_rows_per_application": 453,
+  "verified_applications": 2
 }

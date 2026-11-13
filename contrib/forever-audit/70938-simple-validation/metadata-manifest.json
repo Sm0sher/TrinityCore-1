@@ -111,6 +111,8 @@
     }
   ],
   "combined_startup_before": 5556,
-  "combined_startup_after": 5446,
-  "new_messages": {}
+  "combined_startup_after": 5426,
+  "new_messages": {},
+  "verified_rows_per_application": 453,
+  "verified_applications": 2
 }
