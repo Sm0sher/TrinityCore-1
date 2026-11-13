@@ -1,13 +1,13 @@
 # ![logo](https://community.trinitycore.org/public/style_images/1_trinitycore.png) TrinityCore (master)
 
-## This fork: WoW Forever 1.60.1.70888
+## This fork: WoW Forever 1.60.1.70938
 
 > **Not an official TrinityCore branch.** This is a community fork run by the Forever project. It is not made, supported or
 > endorsed by the TrinityCore team, and it is up to them whether they support it or take any of it upstream. Please don't
 > ask the TrinityCore team for help with this fork: questions and bug reports go to the
 > [Forever Discord](https://discord.gg/9GdBGrWPfj).
 
-Branch `codex/forever-70888` runs TrinityCore against the **WoW Forever client 1.60.1.70888** (`_forever_\Wow.exe`, Battle.net
+Branch `codex/forever-70938` runs TrinityCore against the **WoW Forever client 1.60.1.70938** (`_forever_\Wow.exe`, Battle.net
 product `wowf`; until 70658 it was the Classic beta, `_classic_beta_\WowB.exe`) with a vanilla world (converted from
 VMaNGOS) and the Skyborne / Zephras Isle content. Client 1.60.1.70450 notes: see [doc/Classic70450.md](doc/Classic70450.md).
 
