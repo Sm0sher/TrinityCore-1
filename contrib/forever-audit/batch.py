@@ -77,7 +77,12 @@ class Fixture:
             cfg.update(user=user, password=password)
         if database:
             cfg["database"] = database
-        return pymysql.connect(**cfg)
+        connection = pymysql.connect(**cfg)
+        if not user:
+            # Administrative copies and snapshots belong only to the disposable fixture.
+            # Keep bulk test data out of the production server's binary logs.
+            execute(connection, "SET SESSION sql_log_bin=0")
+        return connection
 
     def save(self):
         temporary = self.state_file.with_suffix(".tmp")
