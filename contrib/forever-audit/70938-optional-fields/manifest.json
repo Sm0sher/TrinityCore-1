@@ -1,0 +1,179 @@
+{
+  "client_build": 70938,
+  "planned_operations": 98,
+  "operations_by_action": {
+    "restore_row": 16,
+    "update": 21,
+    "archive_rejected_row": 61
+  },
+  "tables": {
+    "gossip_menu_option": 13,
+    "gossip_menu_addon": 2,
+    "creature_template": 8,
+    "quest_request_items": 1,
+    "quest_template": 1,
+    "reputation_spillover_template": 8,
+    "creature_template_addon": 1,
+    "quest_greeting": 1,
+    "spawn_tracking_template": 1,
+    "playercreateinfo_item": 1,
+    "spell_script_names": 18,
+    "spell_proc": 7,
+    "conditions": 34,
+    "spell_target_position": 2
+  },
+  "startup_before": 5426,
+  "startup_after": 5344,
+  "new_messages": 0,
+  "validated_spell_scripts": 802,
+  "restored_gossip_options": 12,
+  "active_capital_spillover_rules": 8,
+  "reputation_templates_before": 4,
+  "reputation_templates_after": 12,
+  "equivalent_rank_chains": [
+    {
+      "script": "classic_spell_warr_gore_drinker",
+      "spells": [
+        23881,
+        23892,
+        23893,
+        23894
+      ]
+    },
+    {
+      "script": "classic_talent_dru_form_talents",
+      "spells": [
+        5487,
+        9634
+      ]
+    },
+    {
+      "script": "classic_spell_pal_seal_of_righteousness",
+      "spells": [
+        20154,
+        21084
+      ]
+    }
+  ],
+  "native_inputs": {
+    "GossipNPCOption": {
+      "table": "GossipNPCOption",
+      "records": 1582,
+      "layout": "5247127B",
+      "layout_src": "5247127B",
+      "sections": 2,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 1582,
+      "id_field": "ID",
+      "sha256": "21ed90ee982ff87c63dfd6f400249042f546efca992317f6162f1fc31b4c3df6"
+    },
+    "LFGDungeons": {
+      "table": "LFGDungeons",
+      "records": 76,
+      "layout": "34B02DE8",
+      "layout_src": "34B02DE8",
+      "sections": 2,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 76,
+      "id_field": "ID",
+      "sha256": "0e8bf42822fdd27c2a123770a0802b27b27333acee2716d35cd9c7d0d97fd921"
+    },
+    "Emotes": {
+      "table": "Emotes",
+      "records": 127,
+      "layout": "0A598B68",
+      "layout_src": "0A598B68",
+      "sections": 2,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 129,
+      "id_field": "ID",
+      "sha256": "2378e324b63ef79236b1a5ed3012a161a0525a6f2745cb843fdc2cf93ddb4282"
+    },
+    "Faction": {
+      "table": "Faction",
+      "records": 251,
+      "layout": "6D443C38",
+      "layout_src": "6D443C38",
+      "sections": 1,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 253,
+      "id_field": "ID",
+      "sha256": "cdd4bd3a59e25b522f4628c421d1106b901572a7639777f84ec3741e5f2e93a7"
+    },
+    "Map": {
+      "table": "Map",
+      "records": 81,
+      "layout": "D43AFAC3",
+      "layout_src": "D43AFAC3",
+      "sections": 4,
+      "encrypted_sections": 2,
+      "encrypted_records": 3,
+      "decoded": 78,
+      "id_field": "ID",
+      "sha256": "3813ba0c74cdfd47bb104bbbd23173f5ef85abfebeadbd1d562ddb8df5c9301a"
+    },
+    "ChrClasses": {
+      "table": "ChrClasses",
+      "records": 9,
+      "layout": "AFC9B0C2",
+      "layout_src": "AFC9B0C2",
+      "sections": 1,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 9,
+      "id_field": "ID",
+      "sha256": "01d8ae1014c3a983760137acb247b5dcdb3df6c6d10867b0d09227fd45a6de4e"
+    },
+    "AreaTrigger": {
+      "table": "AreaTrigger",
+      "records": 333,
+      "layout": "B97D2FC5",
+      "layout_src": "B97D2FC5",
+      "sections": 1,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 333,
+      "id_field": "ID",
+      "sha256": "b5c773a5c624e7205c0ec5c7219fba5caf6ebb0a47cd4e286d4a5dcdc5233669"
+    },
+    "SkillLineAbility": {
+      "table": "SkillLineAbility",
+      "records": 7853,
+      "layout": "224F7EA0",
+      "layout_src": "224F7EA0",
+      "sections": 9,
+      "encrypted_sections": 0,
+      "encrypted_records": 0,
+      "decoded": 7853,
+      "id_field": "ID",
+      "sha256": "05e8c94d13d36eb7f914fdc7152766baa60d804e8addfea6831656eebcfef847"
+    },
+    "SpellEffect": {
+      "table": "SpellEffect",
+      "records": 44384,
+      "layout": "5362E3D4",
+      "layout_src": "5362E3D4",
+      "sections": 15,
+      "encrypted_sections": 2,
+      "encrypted_records": 865,
+      "decoded": 43519,
+      "id_field": "ID",
+      "sha256": "cd6cd7df23a5e648736cc994b159e6e56dac74da72dffa646768c4e2899c4766"
+    }
+  },
+  "verified_rows_per_application": [
+    98,
+    98
+  ],
+  "sql_sha256": "437d0cb5dbcb3d970c09e3a101e402470643d19ba54ca7b9ee07dba56e51edef",
+  "sql_payload_sha256": "29907b5c499d032201ec1cd4481cc33590fe64c57ccb9300b048e87936d177c0",
+  "lfg_regression": {
+    "old_loader_rejects_existing_id": 1,
+    "fixed_loader_accepts_existing_id": 1,
+    "fixed_loader_rejects_unavailable_id": 1515
+  }
+}

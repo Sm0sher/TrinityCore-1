@@ -10037,7 +10037,7 @@ void ObjectMgr::LoadGossipMenuAddon()
             }
         }
 
-        if (addon.LfgDungeonsID && sLFGDungeonsStore.LookupEntry(addon.LfgDungeonsID))
+        if (addon.LfgDungeonsID && !sLFGDungeonsStore.LookupEntry(addon.LfgDungeonsID))
         {
             TC_LOG_ERROR("sql.sql", "Table gossip_menu_addon: ID {} is using non-existing LfgDungeonsID {}", menuID, addon.LfgDungeonsID);
             addon.LfgDungeonsID = 0;

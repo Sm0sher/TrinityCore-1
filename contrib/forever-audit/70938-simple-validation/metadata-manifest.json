@@ -2,7 +2,7 @@
   "client_build": 70938,
   "rows": 49,
   "updated_rows": 14,
-  "archived_rejected_rows": 35,
+  "archived_rejected_rows": 23,
   "tables": {
     "gossip_menu_addon": 9,
     "battlemaster_entry": 4,
@@ -114,5 +114,6 @@
   "combined_startup_after": 5426,
   "new_messages": {},
   "verified_rows_per_application": 453,
-  "verified_applications": 2
+  "verified_applications": 2,
+  "gossip_options_restored_by_followup": 12
 }
