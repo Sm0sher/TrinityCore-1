@@ -1,0 +1,119 @@
+{
+  "client_build": 70938,
+  "operations": 5,
+  "cumulative_operations": 80,
+  "production_before": 5309,
+  "production_expected_after": 5304,
+  "cumulative_test_before": 5344,
+  "cumulative_test_after": 5304,
+  "new_messages": 0,
+  "verified_rows_per_application": [
+    80,
+    80
+  ],
+  "mining_peer_proof": {
+    "parent_pool": 8145,
+    "matching_peer_pools": [
+      "3112",
+      "3113",
+      "3114",
+      "3115",
+      "3116",
+      "3117",
+      "3118",
+      "3119",
+      "3120",
+      "3121",
+      "3122",
+      "3123",
+      "3124",
+      "3293",
+      "3294",
+      "3295",
+      "3296",
+      "3990",
+      "14453",
+      "14454"
+    ],
+    "affected_pool": 1465,
+    "objects": {
+      "30002440": [
+        "177388",
+        "1",
+        "-8189.69",
+        "414.282",
+        "-79.2324"
+      ],
+      "30002442": [
+        "123309",
+        "1",
+        "-8189.69",
+        "414.282",
+        "-79.2324"
+      ]
+    },
+    "source_dump_check": {
+      "source": "D:\\Projects\\WoW Forever-server\\TDB_full_world_forever_2026_10_14.sql",
+      "rows": [
+        [
+          1,
+          30002440,
+          1465,
+          95.0
+        ],
+        [
+          1,
+          30002441,
+          1466,
+          5.0
+        ],
+        [
+          1,
+          30002442,
+          1465,
+          95.0
+        ],
+        [
+          1,
+          30002443,
+          1466,
+          5.0
+        ]
+      ]
+    }
+  },
+  "proc_phase_proof": {
+    "engine_source_sha256": "06dbc7cda80e02b825a264399478b6439f3b5efa0c893146c494ad49a153acc1",
+    "generated_phase_default": 2,
+    "native_omen_options": [
+      {
+        "ID": 129438,
+        "DifficultyID": 0,
+        "CumulativeAura": 0,
+        "ProcCategoryRecovery": 10000,
+        "ProcChance": 100,
+        "ProcCharges": 0,
+        "SpellProcsPerMinuteID": 0,
+        "ProcTypeMask1": 81940,
+        "ProcTypeMask2": 0,
+        "SpellID": 16864
+      }
+    ],
+    "runtime_warning_source": "D:\\Projects\\WoW Forever-audit\\world-retail-prune-trial-20261108\\production-block145-DBErrors.log"
+  },
+  "native_inputs": {
+    "SpellAuraOptions": {
+      "table": "SpellAuraOptions",
+      "records": 12860,
+      "layout": "95F4D5E1",
+      "layout_src": "95F4D5E1",
+      "sections": 7,
+      "encrypted_sections": 2,
+      "encrypted_records": 48,
+      "decoded": 12812,
+      "id_field": "ID",
+      "sha256": "612f54d63cdc353ca5e2b43fc63bd37fc301a4b271f8b3f1b15cba4d533b56ab"
+    }
+  },
+  "sql_sha256": "3ec9ff5354cff1779923734245721b5d636a8a64b073f79a4e5bed6861241001"
+}
