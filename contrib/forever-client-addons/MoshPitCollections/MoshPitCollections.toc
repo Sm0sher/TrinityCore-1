@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: MoshPit Collections
+## Notes: Restores collected and uncollected appearance filters in WoW Forever.
+## Author: MoshPit
+## Version: 1.0.0
+## SavedVariables: MoshPitCollectionsSettings
+
+MoshPitCollections.lua
