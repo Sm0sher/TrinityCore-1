@@ -6204,6 +6204,14 @@ void ObjectMgr::LoadEventSet()
         if (spellEffect->Effect == SPELL_EFFECT_SEND_EVENT && spellEffect->EffectMiscValue[0])
             _eventStore.insert(spellEffect->EffectMiscValue[0]);
 
+    // Server-side spells and runtime spell corrections can also send events.
+    sSpellMgr->ForEachSpellInfo([this](SpellInfo const* spellInfo)
+    {
+        for (SpellEffectInfo const& spellEffect : spellInfo->GetEffects())
+            if (spellEffect.IsEffect(SPELL_EFFECT_SEND_EVENT) && spellEffect.MiscValue)
+                _eventStore.insert(spellEffect.MiscValue);
+    });
+
     // Load all possible event ids from taxi path nodes
     for (TaxiPathNodeEntry const* node : sTaxiPathNodeStore)
     {

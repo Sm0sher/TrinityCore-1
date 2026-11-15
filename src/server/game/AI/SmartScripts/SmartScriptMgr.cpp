@@ -1855,7 +1855,7 @@ bool SmartAIMgr::IsEventValid(SmartScriptHolder& e)
 
             CacheSpellContainerBounds sBounds = GetSummonCreatureSpellContainerBounds(e.action.summonCreature.creature);
             for (CacheSpellContainer::const_iterator itr = sBounds.first; itr != sBounds.second; ++itr)
-                TC_LOG_ERROR("sql.sql", "SmartAIMgr: Entry {} SourceType {} Event {} Action {} creature summon: There is a summon spell for creature entry {} (SpellId: {}, effect: {})",
+                TC_LOG_INFO("server.loading", "SmartAIMgr: Entry {} SourceType {} Event {} Action {} creature summon: There is a summon spell for creature entry {} (SpellId: {}, effect: {})",
                                 e.entryOrGuid, e.GetScriptType(), e.event_id, e.GetActionType(), e.action.summonCreature.creature, itr->second.first, itr->second.second);
 
             if (e.action.summonCreature.type < TEMPSUMMON_TIMED_OR_DEAD_DESPAWN || e.action.summonCreature.type > TEMPSUMMON_MANUAL_DESPAWN)
@@ -1891,7 +1891,7 @@ bool SmartAIMgr::IsEventValid(SmartScriptHolder& e)
 
             CacheSpellContainerBounds sBounds = GetKillCreditSpellContainerBounds(e.action.killedMonster.creature);
             for (CacheSpellContainer::const_iterator itr = sBounds.first; itr != sBounds.second; ++itr)
-                TC_LOG_ERROR("sql.sql", "SmartAIMgr: Entry {} SourceType {} Event {} Action {} Kill Credit: There is a killcredit spell for creatureEntry {} (SpellId: {} effect: {})",
+                TC_LOG_INFO("server.loading", "SmartAIMgr: Entry {} SourceType {} Event {} Action {} Kill Credit: There is a killcredit spell for creatureEntry {} (SpellId: {} effect: {})",
                                 e.entryOrGuid, e.GetScriptType(), e.event_id, e.GetActionType(), e.action.killedMonster.creature, itr->second.first, itr->second.second);
 
             if (e.GetTargetType() == SMART_TARGET_POSITION)
@@ -1930,7 +1930,7 @@ bool SmartAIMgr::IsEventValid(SmartScriptHolder& e)
 
             CacheSpellContainerBounds sBounds = GetSummonGameObjectSpellContainerBounds(e.action.summonGO.entry);
             for (CacheSpellContainer::const_iterator itr = sBounds.first; itr != sBounds.second; ++itr)
-                TC_LOG_ERROR("sql.sql", "SmartAIMgr: Entry {} SourceType {} Event {} Action {} gameobject summon: There is a summon spell for gameobject entry {} (SpellId: {}, effect: {})",
+                TC_LOG_INFO("server.loading", "SmartAIMgr: Entry {} SourceType {} Event {} Action {} gameobject summon: There is a summon spell for gameobject entry {} (SpellId: {}, effect: {})",
                     e.entryOrGuid, e.GetScriptType(), e.event_id, e.GetActionType(), e.action.summonGO.entry, itr->second.first, itr->second.second);
             break;
         }
@@ -1951,7 +1951,7 @@ bool SmartAIMgr::IsEventValid(SmartScriptHolder& e)
 
             CacheSpellContainerBounds sBounds = GetCreateItemSpellContainerBounds(e.action.item.entry);
             for (CacheSpellContainer::const_iterator itr = sBounds.first; itr != sBounds.second; ++itr)
-                TC_LOG_ERROR("sql.sql", "SmartAIMgr: Entry {} SourceType {} Event {} Action {} Create Item: There is a create item spell for item {} (SpellId: {} effect: {})",
+                TC_LOG_INFO("server.loading", "SmartAIMgr: Entry {} SourceType {} Event {} Action {} Create Item: There is a create item spell for item {} (SpellId: {} effect: {})",
                     e.entryOrGuid, e.GetScriptType(), e.event_id, e.GetActionType(), e.action.item.entry, itr->second.first, itr->second.second);
             break;
         }
