@@ -39,13 +39,18 @@ For 61 pets a source line names a native summon item whose ItemXItemEffect and
 ItemEffect chain reaches that summon spell. Retail vendor locations and prices
 are not copied. Other source text remains empty.
 
-One reversible toy experiment changes Toy record 29 (item 21540) from flags 2
-to 0. It tests uncollected visibility without granting ownership. Do not extend
-that change to the other toys before checking the native client result.
+The one-record toy experiment (Toy 29, item 21540) was verified in-game:
+clearing flag 2 made the uncollected lantern appear. Follow-up migration
+`2026_11_15_04_hotfixes_collection_visibility_70938.sql` applies that visibility
+change to the 17 toy items present in native data or server hotfixes. Five
+references remain deferred for missing item data: 279471, 279519, 284164,
+286203 and 286573. No toys are awarded to the account.
 
 ## Wire format and verification
 
-Typed DB2 stores use their normal hotfix tables. Client-only journal tables
+Typed DB2 stores, including JournalEncounter, use their normal hotfix tables.
+Redundant blob copies for those stores are removed by the follow-up migration;
+they only caused startup warnings and were ignored by the loader. Client-only journal tables
 are sent through hotfix_blob using the target 70938 metadata, including native
 integer widths, array order, NUL-terminated UTF-8 strings and omission of an
 external record ID from the payload. The target table hashes are read from its
@@ -65,3 +70,27 @@ verification after deployment; server startup alone cannot establish them.
 Sources: [Wago JournalEncounter](https://wago.tools/db2/JournalEncounter?build=12.1.7.70892),
 [Wago BattlePetSpecies](https://wago.tools/db2/BattlePetSpecies?build=12.1.7.70892),
 [native collections UI](https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.lua).
+
+## Native client module restoration
+
+In-game testing revealed `MainMenuBarMicroButtons.lua:1825: attempt to call a
+nil value`: the journal button called CanShowEncounterJournal, but the bundled
+journal TOC did not load its bootstrap for Camelot. Server data cannot define
+that Lua function.
+
+`contrib/forever-client-patches/install_native_journal.py` restores the two
+native Blizzard modules from the exact 70938 UI commit. Its checked-in manifest
+pins all 58 source files by SHA256. It adds Camelot journal load conditions and
+restores the native Collected/Not collected wardrobe checkboxes while preserving
+source filters. It does not add a MoshPit helper addon or modify Wow.exe.
+
+With the client closed, run the installer with `--client` pointing at `_forever_`
+and `--cache` pointing at a download cache outside the client. It refuses to
+overwrite existing local Blizzard_Collections or Blizzard_EncounterJournal
+directories. Preserve preexisting modifications before installing. A full
+client restart is required to load the TOCs; loose-file precedence and the
+restored native window must be verified on the actual client.
+
+To roll back the client portion, close the client and move those two installed
+directories outside Interface/AddOns, preserving their contents. The client
+will return to its bundled files. Server data and account ownership are separate.

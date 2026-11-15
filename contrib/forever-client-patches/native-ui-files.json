@@ -1,0 +1,295 @@
+{
+  "source_commit": "bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+  "files": [
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Blizzard_Collections.toc",
+      "bytes": 2372,
+      "upstream_sha256": "b907e0d2976590cd8ee40f788b7fa487d63c6fee452bf837133dcd62063a6fb7"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Blizzard_Collections_Bootstrap.lua",
+      "bytes": 1666,
+      "upstream_sha256": "00c9331aeebcc1b98668b697fd11408b02bc5932d2a274561451a44cb6670788"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_CollectionsConstants.lua",
+      "bytes": 277,
+      "upstream_sha256": "d5497ac529f7efcd7c605e24e76f7bb056fdae4a1c846b26d28daedbf54a1052"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_CollectionsOverrides.lua",
+      "bytes": 1342,
+      "upstream_sha256": "519c7adc36c490a2b22f837f8eae081afdc106fa029b268d1ebbb0e1cc8ec77f"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_CollectionsTabs.xml",
+      "bytes": 1808,
+      "upstream_sha256": "603fc3f42ac5b925c7c87e8b3cfbc1f02f703497d8ad5b300377199db7b1bd04"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_PetCollectionScrollBar.xml",
+      "bytes": 538,
+      "upstream_sha256": "9d0d556a1b0494ff4ba4f7d645e7abac88db03df31a333150d45ea6facad5432"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_ToyBoxProgressTracker.xml",
+      "bytes": 475,
+      "upstream_sha256": "82089181269f8b162b6f7a3f375dce6caabce5eb733245108be26435d1387d11"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Camelot/Blizzard_Wardrobe.lua",
+      "bytes": 1107,
+      "upstream_sha256": "9b55450f8c8d8eed4aebe1ad8a630c1ff55a26ebb113283ac1112093a4e6b9cb"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml",
+      "bytes": 10263,
+      "upstream_sha256": "e403a4492082edd6af8ce445aa90de56e58232fa768f2b889b09aff8a05ca291"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.lua",
+      "bytes": 22927,
+      "upstream_sha256": "7a9d36d96b9dbdba5034e47de2acfb9445f548508e6bb5797ec0f6adb8f2b444"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml",
+      "bytes": 5005,
+      "upstream_sha256": "8ff3c8b19261ff280f36392978c56b7a9c8a0b988cc58d15322e53289ec8c0f0"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.lua",
+      "bytes": 21924,
+      "upstream_sha256": "69f4696ea720fcdd9f281affa6ecb1e42b11691170adea7cbd40335ec358aae1"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml",
+      "bytes": 18342,
+      "upstream_sha256": "903d4f9162717ad4ef5ffecaf4ed9fb2124ad6f7ec96da85803cfd73d9a08fc7"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.lua",
+      "bytes": 23479,
+      "upstream_sha256": "9bf3bdeffba874766980506d1044be94a4190fc78684829d10035f284ea3b0cf"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml",
+      "bytes": 13224,
+      "upstream_sha256": "8f39cb98c53fd6f55358f384ef64bf14a9fd89b1103174deb0bd55cd685ade2e"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollectionScrollBar.xml",
+      "bytes": 538,
+      "upstream_sha256": "dbd7f69f466e86ebdb57f46655f0658b40472c2afcf08271a16af826c8f38b9e"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.lua",
+      "bytes": 11024,
+      "upstream_sha256": "a06b069e6468d6b69629113483447f22681fc0c87e62a82cc2d99400f397139a"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml",
+      "bytes": 6655,
+      "upstream_sha256": "61a53b047021b2f10b5404393afaa9b6f6335e85e6187bbd5fefb4888a163466"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua",
+      "bytes": 46985,
+      "upstream_sha256": "fbff51bff7f6f7f17e635ef1f4daff5d4f128820e156be0a3b4e318c4aae1e73"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.xml",
+      "bytes": 25616,
+      "upstream_sha256": "fcab747838012776949bcd992437ed7e665b52587ee5be0e4f84246f723b0f23"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Classic/Localization.lua",
+      "bytes": 393,
+      "upstream_sha256": "ae91a1314656798922cc80d4df8b1d6a1db0370210d9a12faac2c9318145b87b"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Localization.lua",
+      "bytes": 372,
+      "upstream_sha256": "7ea905f4dea2ee681f2abf926975a9a674a6a29597149ef4d09c3158ee6e76be"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_CollectionTemplates.xml",
+      "bytes": 1322,
+      "upstream_sha256": "cf719e4799cdb80a0d766817c87aed18a39a97ce1d423141008e3b5aae0dea3e"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_HeirloomCollection.lua",
+      "bytes": 22667,
+      "upstream_sha256": "99ec83c582a53d9bed79963ef7a4815020b4019c20d0618b1b1b911668430a39"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_HeirloomCollection.xml",
+      "bytes": 5246,
+      "upstream_sha256": "d8b0fc5e8d81cbf771d63fa9ca1d2700125e77d418f9a64c88423bde47c7389d"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.lua",
+      "bytes": 39302,
+      "upstream_sha256": "18d814ac9a2e2b2c44cde111637ac37234a5c993ee84637f58c3e449fba2cba1"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml",
+      "bytes": 22525,
+      "upstream_sha256": "516158f87a7cabdcbdc01b5f5223ca817dd5eb623c6600060727c561d7938f80"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_ToyBox.lua",
+      "bytes": 14550,
+      "upstream_sha256": "13d56f2f2dd77ccde6a3462d24537f4c55dda2d9481b35d12fad336817b6ed87"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_ToyBox.xml",
+      "bytes": 6372,
+      "upstream_sha256": "edfe55b46e5445735475a9eba65e8a7168ba37af6cab8b621f74b8b9f23936cb"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_ToyBoxProgressTracker.xml",
+      "bytes": 422,
+      "upstream_sha256": "22fc7eadff1aa000d527eacbfb36b5d80236e68ed26eec32fa5da51583431c55"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_WarbandSceneCollection.lua",
+      "bytes": 2099,
+      "upstream_sha256": "924f8cdc07030f08ea2b73f854cfa553cf77ce1da6d413043a74b52b7ab00513"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_WarbandSceneCollection.xml",
+      "bytes": 3146,
+      "upstream_sha256": "1115c5c4f4582cab80eece23ccbd4ce663fb668efd5501d69da89f6acce9b708"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.lua",
+      "bytes": 60416,
+      "upstream_sha256": "047df217f7536e8c64239b4834e8ddd49028dbd6672c74aa1aa48f436ee1c874"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml",
+      "bytes": 27575,
+      "upstream_sha256": "e311c44d9edbb916d095cad9eb55841f889751562d0d74eae3ef67cb56a61379"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Shared/Blizzard_CollectionTemplates.lua",
+      "bytes": 4490,
+      "upstream_sha256": "850da80a0b0feedbb9e0641017a86eb4f893d911862629b02216b3163372f749"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Shared/Blizzard_CollectionTemplates.xml",
+      "bytes": 7278,
+      "upstream_sha256": "30d87c492dba4db5cd6fdc7776cf23e4a158c35ab628b364217c6bec162cd126"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.lua",
+      "bytes": 5748,
+      "upstream_sha256": "aab41889df8a6fd6435fc9b1f7426cc5e7a8320b2f2992cff2795d42dc0b0662"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.xml",
+      "bytes": 794,
+      "upstream_sha256": "c7992a0d933dc6549ea70a99bb67b937760bc3c4e4db8e300bd0e742f8443d32"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Shared/Blizzard_CollectionsConstants.lua",
+      "bytes": 488,
+      "upstream_sha256": "c6365351cfd1ac224319a21f6ce68b9521bf2ef0f6e963cb45f7552f8c959c55"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Shared/Blizzard_CollectionsTabs.xml",
+      "bytes": 1339,
+      "upstream_sha256": "2cfbd540fef15275c4502b087c49a3e0eefd08a1d63700c4c94a859428282be9"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.lua",
+      "bytes": 59521,
+      "upstream_sha256": "103c16389463f25ce096d11f766281a2e8eeb06134839f9ea9c4377063e2741a"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml",
+      "bytes": 63460,
+      "upstream_sha256": "978c0f73ee4112c6bc8166561c75008d567ad3885bd79e0b377fd6f664422b06"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.lua",
+      "bytes": 40951,
+      "upstream_sha256": "ab57a84051d68221e568fdc12b230f997e5e5af34a7bf9c9c56d3fdf246fdc5f"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml",
+      "bytes": 4502,
+      "upstream_sha256": "7108e43429b00ef427ac3a41d73d3816bd365c4cf07ad97cd287fcccfc1d9c08"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Collections/Standard/Blizzard_Wardrobe.lua",
+      "bytes": 1708,
+      "upstream_sha256": "bc09b0c974a506cb5405db523d4212b5c7d5dc84d2ebe0d82ea1d1cdb228ba99"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Blizzard_EncounterJournal.toc",
+      "bytes": 1368,
+      "upstream_sha256": "c5a68bc328224719918985ffe642a3a35e14c46684d5933e9ecbd2a278db17db"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Blizzard_EncounterJournal_Bootstrap.lua",
+      "bytes": 1625,
+      "upstream_sha256": "7f1b335a819dde6d2c62142f4e4e23a63128f96a5942c0bf9f483942ba176cda"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Localization.lua",
+      "bytes": 356,
+      "upstream_sha256": "2048f14946ff149fc613616d90567f7474a6428aec217768640759eac12f4a49"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.lua",
+      "bytes": 126826,
+      "upstream_sha256": "b4e31fc68be7db95cdbcf0395b106d4d97ab0a0cb853d03de6f674c287f4145e"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml",
+      "bytes": 101386,
+      "upstream_sha256": "85d37967cd650f83bfc55f9a24c1ccb3854da724c7afffa6389b1f09cedba91b"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua",
+      "bytes": 36630,
+      "upstream_sha256": "f6510d3099d1861dba6ff5f3c4730b220cb936710f93222b9ea2f947a6a74481"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.xml",
+      "bytes": 25114,
+      "upstream_sha256": "985b0d59fefd745b7cb78b749b76bb442acee9d261c607548a85d974ca169168"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournal.lua",
+      "bytes": 6829,
+      "upstream_sha256": "fe34b5dc645e9aac53270e4cf2e00b1ef5fa1bdbfc25ac8d228bbba6ea0fe642"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournal.xml",
+      "bytes": 4919,
+      "upstream_sha256": "c84336de52551f322ee870e71eec1659267ca5102d8c4cfaa8f7462ed1c3ceea"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua",
+      "bytes": 9268,
+      "upstream_sha256": "35025612e63e003321f9760e997ae3d8ae4d2bbbdeb084ef052f92b112e7c64b"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.xml",
+      "bytes": 4041,
+      "upstream_sha256": "e5ef4924b66db24febd8978c2aa2ac0615a4b8125f4785ff3f8514447c724b18"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua",
+      "bytes": 55792,
+      "upstream_sha256": "c02b972cb98435cf0cbd0d27b230410781b29052e3c33ece14217dc602189f30"
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml",
+      "bytes": 23775,
+      "upstream_sha256": "d8a31bb12575f3bd1fe1ac9c8b1d01a65e00f021ecc1a4d2ee2b04ae37d7cb9d"
+    }
+  ]
+}

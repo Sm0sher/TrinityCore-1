@@ -94,3 +94,7 @@ collections. The appearance-set tab also has native valid-set/class checks.
 - [Wago BattlePetSpecies export](https://wago.tools/db2/BattlePetSpecies/csv?build=1.60.1.70938)
 - [Wago Toy export](https://wago.tools/db2/Toy/csv?build=1.60.1.70938)
 - [Wago TransmogSet export](https://wago.tools/db2/TransmogSet/csv?build=1.60.1.70938)
+
+The pinned native-module restoration in `doc/forever-journal-data.md` supplies
+the wardrobe UI change described above. Its restored menu uses the regular
+native collection APIs and preferences.
