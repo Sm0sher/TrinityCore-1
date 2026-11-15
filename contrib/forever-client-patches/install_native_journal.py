@@ -1,8 +1,9 @@
-"""Restore the bundled 70938 journal UI and native wardrobe filters.
+"""Experimental loose-file copy of the 70938 native UI sources.
 
 Downloads only pinned, hash-checked Blizzard UI source. Does not patch Wow.exe,
 change security settings, install a separate helper addon or grant collectibles.
-Run with the client closed, then restart through the usual launcher.
+The tested 70938 client ignores these copies. This is not a working installer
+for that client; patch() is also used to prepare offline CASC experiments.
 """
 import argparse
 import hashlib
@@ -50,7 +51,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--client", required=True, type=Path, help="The _forever_ directory")
     parser.add_argument("--cache", required=True, type=Path)
+    parser.add_argument("--experimental-loose-files", action="store_true",
+                        help="Allow the ineffective-on-tested-70938 loose-file experiment")
     args = parser.parse_args()
+    if not args.experimental_loose_files:
+        parser.error("The tested 70938 client ignores loose native UI replacements; "
+                     "this experimental installer is disabled by default")
     client = args.client.resolve()
     if not (client / "Wow.exe").is_file():
         parser.error("--client must contain Wow.exe")

@@ -71,26 +71,43 @@ Sources: [Wago JournalEncounter](https://wago.tools/db2/JournalEncounter?build=1
 [Wago BattlePetSpecies](https://wago.tools/db2/BattlePetSpecies?build=12.1.7.70892),
 [native collections UI](https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.lua).
 
-## Native client module restoration
+## Client resource investigation: restoration not verified
 
 In-game testing revealed `MainMenuBarMicroButtons.lua:1825: attempt to call a
 nil value`: the journal button called CanShowEncounterJournal, but the bundled
 journal TOC did not load its bootstrap for Camelot. Server data cannot define
 that Lua function.
 
-`contrib/forever-client-patches/install_native_journal.py` restores the two
-native Blizzard modules from the exact 70938 UI commit. Its checked-in manifest
+`contrib/forever-client-patches/install_native_journal.py` was an experimental
+loose-file copy of two native Blizzard modules from the exact 70938 UI commit. Its manifest
 pins all 58 source files by SHA256. It adds Camelot journal load conditions and
 restores the native Collected/Not collected wardrobe checkboxes while preserving
 source filters. It does not add a MoshPit helper addon or modify Wow.exe.
 
-With the client closed, run the installer with `--client` pointing at `_forever_`
-and `--cache` pointing at a download cache outside the client. It refuses to
-overwrite existing local Blizzard_Collections or Blizzard_EncounterJournal
-directories. Preserve preexisting modifications before installing. A full
-client restart is required to load the TOCs; loose-file precedence and the
-restored native window must be verified on the actual client.
+The actual client ignored these replacements after a full restart. The same
+nil-function error remained. The installer is now disabled by default; the
+`--experimental-loose-files` flag is only for explicitly reproducing that failed
+experiment. These files must not be described as an installed working fix.
 
-To roll back the client portion, close the client and move those two installed
-directories outside Interface/AddOns, preserving their contents. The client
-will return to its bundled files. Server data and account ownership are separate.
+The two experiment directories were moved outside Interface/AddOns, preserving
+their contents. No separate helper addon is installed.
+
+Local read-only extraction from CASC confirmed the TOC load conditions and the
+Camelot wardrobe's forced `SetUncollectedShown(false)`. This establishes client
+behavior, but does not prove that archive modification is the correct solution;
+server-controlled availability and loading conditions still require investigation.
+
+An offline CASC candidate changed only the two TOCs and the Camelot wardrobe
+Lua file. ROOT, VFS-575, VFS-root and ENCODING references were updated. All three
+files round-tripped through the independently built CascLib reader with exact
+byte agreement. That check was insufficient: the real client rejected the newly
+generated container indexes before loading UI, with `Truncated updated section`
+and `NeedsRepair` in Tact.log. The index writer omitted update-area capacity
+for buckets larger than its fixed file-size assumption.
+
+The candidate was rolled back. Original archive contents were never overwritten;
+the added archive and build config are outside the client. Original build key
+`3627b099867bfde3e37a17cf44f69cdc` is active again, and Battle.net completed its
+file verification. No successful native guide-window test has been established.
+Further client archive changes are suspended while server and database behavior
+is checked. Server catalogue data and account ownership were not rolled back.
