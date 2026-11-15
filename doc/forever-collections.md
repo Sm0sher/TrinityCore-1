@@ -47,6 +47,32 @@ To inspect the value in-game without installing an addon:
 After changing it, verify the tabs, filter dropdowns and uncollected entries in
 the actual client. Saved cache values alone do not prove the rendered result.
 
+### Confirmed in-game checks
+
+On 70938 the tabs appeared after the native CVar change. The mount list was
+still empty because its separate **Not collected** checkbox was off. Enabling
+that checkbox populated the list and its 3D preview. **Unusable** additionally
+allows browsing mounts the current character cannot use. The owned counter can
+remain zero while the uncollected catalogue is visible.
+
+The toy list remained empty with Collected and Not collected enabled, Usable
+only disabled and the World of Warcraft expansion enabled. Selecting all
+sources and toggling Not collected off/on did not resolve it. Do not describe
+the toy catalogue as fixed merely because its tab is visible.
+
+All 22 native Toy rows have Flags=2; that observation alone does not establish
+the flag's meaning. Eight referenced items are absent from decoded ItemSparse,
+but three of those are supplied by server hotfixes. The remaining five require
+checking client-effective item data: 279471, 279519, 284164, 286203 and 286573.
+Missing items alone do not explain why every toy is hidden.
+
+All 122 native BattlePetSpecies entries have empty Description and SourceText;
+the Wago 70938 export has the same empty fields. The native Classic pet card's
+OnEnter only opens its source tooltip when sourceText is nonempty. This explains
+the missing source tooltip without an account-ownership or Lua runtime failure.
+Restoring descriptions requires a separately verified content source; exporting
+the same empty table again cannot supply them.
+
 ## Separate wardrobe limitation
 
 The Camelot wardrobe override independently calls
