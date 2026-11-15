@@ -26,6 +26,7 @@
 #include "CharacterPackets.h"
 #include "ChatPackets.h"
 #include "ClientConfigPackets.h"
+#include "Config.h"
 #include "Containers.h"
 #include "DatabaseEnv.h"
 #include "FriendsService.h"
@@ -882,12 +883,64 @@ void WorldSession::SendConnectToInstance(WorldPackets::Auth::ConnectToSerial ser
 
 void WorldSession::LoadAccountData(PreparedQueryResult result, uint32 mask)
 {
+    auto applyCollectionSetting = [this, mask]()
+    {
+        if (!sConfigMgr->GetBoolDefault("Classic.Collections.ShowUncollected", false))
+            return;
+
+        // Apply after both account and character cache loads. A character cache
+        // can otherwise restore the client's collected-only default at login.
+        for (AccountDataType type : { GLOBAL_CONFIG_CACHE, PER_CHARACTER_CONFIG_CACHE })
+        {
+            if (!(mask & (1 << type)))
+                continue;
+
+            AccountData& cache = _accountData[type];
+            std::string const prefix = "SET onlyShowCollectedItemsInJournal ";
+            std::string const setting = prefix + "\"0\"";
+            bool changed = false;
+            bool found = false;
+            for (std::size_t pos = 0; (pos = cache.Data.find(prefix, pos)) != std::string::npos;)
+            {
+                if (pos && cache.Data[pos - 1] != '\n')
+                {
+                    pos += prefix.size();
+                    continue;
+                }
+
+                found = true;
+                std::size_t end = cache.Data.find_first_of("\r\n", pos);
+                std::size_t length = end == std::string::npos ? cache.Data.size() - pos : end - pos;
+                if (cache.Data.compare(pos, length, setting) != 0)
+                {
+                    cache.Data.replace(pos, length, setting);
+                    changed = true;
+                }
+                pos += setting.size();
+            }
+
+            if (!found)
+            {
+                if (!cache.Data.empty() && cache.Data.back() != '\n')
+                    cache.Data += '\n';
+                cache.Data += setting + '\n';
+                changed = true;
+            }
+
+            if (changed)
+                cache.Time = std::max(cache.Time + 1, GameTime::GetGameTime());
+        }
+    };
+
     for (uint32 i = 0; i < NUM_ACCOUNT_DATA_TYPES; ++i)
         if (mask & (1 << i))
             _accountData[i] = AccountData();
 
     if (!result)
+    {
+        applyCollectionSetting();
         return;
+    }
 
     do
     {
@@ -911,6 +964,7 @@ void WorldSession::LoadAccountData(PreparedQueryResult result, uint32 mask)
         _accountData[type].Data = fields[2].GetString();
     }
     while (result->NextRow());
+    applyCollectionSetting();
 }
 
 void WorldSession::SetAccountData(AccountDataType type, time_t time, std::string const& data)

@@ -4700,6 +4700,18 @@ Classic.SecuredBagSlotsForAll = 1
 
 Classic.Shop.Enabled = 0
 
+#    Classic.AdventureGuide.Enabled
+#        Enable the native Adventure Guide. Requires a compatible journal catalogue.
+#        Default: 0
+#
+#    Classic.Collections.ShowUncollected
+#        Send the native full-catalogue preference in account and character config caches.
+#        Does not grant collectibles or override the wardrobe's client UI code.
+#        Default: 0
+
+Classic.AdventureGuide.Enabled = 0
+Classic.Collections.ShowUncollected = 0
+
 #    Classic.Shop.GoldMarketFee
 #        Description: Percent of the price in shop points kept back from the seller when a Gold Market listing sells.
 #        Default:     10
