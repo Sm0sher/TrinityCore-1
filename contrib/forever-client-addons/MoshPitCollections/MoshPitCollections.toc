@@ -1,8 +1,0 @@
-## Interface: 16001
-## Title: MoshPit Collections
-## Notes: Restores mount, pet, toy and appearance catalogues in WoW Forever.
-## Author: MoshPit
-## Version: 1.1.0
-## SavedVariables: MoshPitCollectionsSettings
-
-MoshPitCollections.lua
