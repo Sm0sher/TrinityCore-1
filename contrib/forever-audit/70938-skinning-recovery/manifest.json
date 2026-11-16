@@ -1,0 +1,1189 @@
+{
+  "build": 70938,
+  "block": 161,
+  "pools": 14,
+  "loot_rows": 37,
+  "quarantined": 0,
+  "sources": {
+    "azerothcore": "17f9f9d5003708136c798ab4ef8c1b9762251bad",
+    "cmangos_wotlk": "13d883fb6e65968aeca95f77a557dd6445f12e9d"
+  },
+  "proof": [
+    {
+      "pool": 10882,
+      "creature": 10882,
+      "name": "Arikara",
+      "source_pool": 100010,
+      "ac_rows": [
+        {
+          "Entry": 100010,
+          "Item": 2319,
+          "Reference": 0,
+          "Chance": 73.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100010,
+          "Item": 4232,
+          "Reference": 0,
+          "Chance": 5.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100010,
+          "Item": 4234,
+          "Reference": 0,
+          "Chance": 20.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100010,
+          "Item": 4235,
+          "Reference": 0,
+          "Chance": 2.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 10882,
+          "item": 2319,
+          "ChanceOrQuestChance": 73.2218,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Medium Leather"
+        },
+        {
+          "entry": 10882,
+          "item": 4232,
+          "ChanceOrQuestChance": 5.4393,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Medium Hide"
+        },
+        {
+          "entry": 10882,
+          "item": 4234,
+          "ChanceOrQuestChance": 20.5021,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Heavy Leather"
+        },
+        {
+          "entry": 10882,
+          "item": 4235,
+          "ChanceOrQuestChance": 0.8368,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Heavy Hide"
+        }
+      ]
+    },
+    {
+      "pool": 16353,
+      "creature": 16353,
+      "name": "Mistbat",
+      "source_pool": 100002,
+      "ac_rows": [
+        {
+          "Entry": 100002,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 40.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100002,
+          "Item": 2934,
+          "Reference": 0,
+          "Chance": 60.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 16353,
+          "item": 2318,
+          "ChanceOrQuestChance": 41.0576,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 16353,
+          "item": 2934,
+          "ChanceOrQuestChance": 58.9424,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Ruined Leather Scraps"
+        }
+      ]
+    },
+    {
+      "pool": 16354,
+      "creature": 16354,
+      "name": "Vampiric Mistbat",
+      "source_pool": 100015,
+      "ac_rows": [
+        {
+          "Entry": 100015,
+          "Item": 783,
+          "Reference": 0,
+          "Chance": 5.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": "10-15 drops - Light Hide"
+        },
+        {
+          "Entry": 100015,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 60.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 2,
+          "Comment": "10-15 drops - Light Leather"
+        },
+        {
+          "Entry": 100015,
+          "Item": 2934,
+          "Reference": 0,
+          "Chance": 35.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": "10-15 drops - Ruined Leather Scraps"
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 16354,
+          "item": 783,
+          "ChanceOrQuestChance": 4.922,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Hide"
+        },
+        {
+          "entry": 16354,
+          "item": 2318,
+          "ChanceOrQuestChance": 60.5842,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 2,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 16354,
+          "item": 2934,
+          "ChanceOrQuestChance": 34.4938,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Ruined Leather Scraps"
+        }
+      ]
+    },
+    {
+      "pool": 16355,
+      "creature": 16355,
+      "name": "Lesser Scourgebat",
+      "source_pool": 100004,
+      "ac_rows": [
+        {
+          "Entry": 100004,
+          "Item": 783,
+          "Reference": 0,
+          "Chance": 5.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100004,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 72.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 2,
+          "Comment": null
+        },
+        {
+          "Entry": 100004,
+          "Item": 2319,
+          "Reference": 0,
+          "Chance": 20.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100004,
+          "Item": 4232,
+          "Reference": 0,
+          "Chance": 3.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 16355,
+          "item": 783,
+          "ChanceOrQuestChance": 5.7823,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Hide"
+        },
+        {
+          "entry": 16355,
+          "item": 2318,
+          "ChanceOrQuestChance": 72.7891,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 2,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 16355,
+          "item": 2319,
+          "ChanceOrQuestChance": 19.2177,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Medium Leather"
+        },
+        {
+          "entry": 16355,
+          "item": 4232,
+          "ChanceOrQuestChance": 2.2109,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Medium Hide"
+        }
+      ]
+    },
+    {
+      "pool": 17200,
+      "creature": 17200,
+      "name": "Moongraze Stag",
+      "source_pool": 100002,
+      "ac_rows": [
+        {
+          "Entry": 100002,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 40.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100002,
+          "Item": 2934,
+          "Reference": 0,
+          "Chance": 60.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 17200,
+          "item": 2318,
+          "ChanceOrQuestChance": 39.562,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 17200,
+          "item": 2934,
+          "ChanceOrQuestChance": 60.438,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Ruined Leather Scraps"
+        }
+      ]
+    },
+    {
+      "pool": 17202,
+      "creature": 17202,
+      "name": "Infected Nightstalker Runt",
+      "source_pool": 100002,
+      "ac_rows": [
+        {
+          "Entry": 100002,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 40.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100002,
+          "Item": 2934,
+          "Reference": 0,
+          "Chance": 60.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 17202,
+          "item": 2318,
+          "ChanceOrQuestChance": 38.2836,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 17202,
+          "item": 2934,
+          "ChanceOrQuestChance": 61.7164,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Ruined Leather Scraps"
+        }
+      ]
+    },
+    {
+      "pool": 17203,
+      "creature": 17203,
+      "name": "Nightstalker",
+      "source_pool": 100002,
+      "ac_rows": [
+        {
+          "Entry": 100002,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 40.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100002,
+          "Item": 2934,
+          "Reference": 0,
+          "Chance": 60.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 17203,
+          "item": 2318,
+          "ChanceOrQuestChance": 38.511,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 17203,
+          "item": 2934,
+          "ChanceOrQuestChance": 61.489,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Ruined Leather Scraps"
+        }
+      ]
+    },
+    {
+      "pool": 17345,
+      "creature": 17345,
+      "name": "Brown Bear",
+      "source_pool": 100002,
+      "ac_rows": [
+        {
+          "Entry": 100002,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 40.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100002,
+          "Item": 2934,
+          "Reference": 0,
+          "Chance": 60.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 17345,
+          "item": 2318,
+          "ChanceOrQuestChance": 38.7368,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 17345,
+          "item": 2934,
+          "ChanceOrQuestChance": 61.2632,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Ruined Leather Scraps"
+        }
+      ]
+    },
+    {
+      "pool": 17347,
+      "creature": 17347,
+      "name": "Grizzled Brown Bear",
+      "source_pool": 100015,
+      "ac_rows": [
+        {
+          "Entry": 100015,
+          "Item": 783,
+          "Reference": 0,
+          "Chance": 5.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": "10-15 drops - Light Hide"
+        },
+        {
+          "Entry": 100015,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 60.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 2,
+          "Comment": "10-15 drops - Light Leather"
+        },
+        {
+          "Entry": 100015,
+          "Item": 2934,
+          "Reference": 0,
+          "Chance": 35.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": "10-15 drops - Ruined Leather Scraps"
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 17347,
+          "item": 783,
+          "ChanceOrQuestChance": 5.5424,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Hide"
+        },
+        {
+          "entry": 17347,
+          "item": 2318,
+          "ChanceOrQuestChance": 60.1719,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 2,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 17347,
+          "item": 2934,
+          "ChanceOrQuestChance": 34.2857,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Ruined Leather Scraps"
+        }
+      ]
+    },
+    {
+      "pool": 17348,
+      "creature": 17348,
+      "name": "Elder Brown Bear",
+      "source_pool": 100004,
+      "ac_rows": [
+        {
+          "Entry": 100004,
+          "Item": 783,
+          "Reference": 0,
+          "Chance": 5.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100004,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 72.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 2,
+          "Comment": null
+        },
+        {
+          "Entry": 100004,
+          "Item": 2319,
+          "Reference": 0,
+          "Chance": 20.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100004,
+          "Item": 4232,
+          "Reference": 0,
+          "Chance": 3.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 17348,
+          "item": 783,
+          "ChanceOrQuestChance": 5.1628,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Hide"
+        },
+        {
+          "entry": 17348,
+          "item": 2318,
+          "ChanceOrQuestChance": 72.814,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 2,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 17348,
+          "item": 2319,
+          "ChanceOrQuestChance": 20.0465,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Medium Leather"
+        },
+        {
+          "entry": 17348,
+          "item": 4232,
+          "ChanceOrQuestChance": 1.9767,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Medium Hide"
+        }
+      ]
+    },
+    {
+      "pool": 17372,
+      "creature": 17372,
+      "name": "Timberstrider Fledgling",
+      "source_pool": 100002,
+      "ac_rows": [
+        {
+          "Entry": 100002,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 40.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100002,
+          "Item": 2934,
+          "Reference": 0,
+          "Chance": 60.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 17372,
+          "item": 2318,
+          "ChanceOrQuestChance": 41.1707,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 17372,
+          "item": 2934,
+          "ChanceOrQuestChance": 58.8293,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Ruined Leather Scraps"
+        }
+      ]
+    },
+    {
+      "pool": 17373,
+      "creature": 17373,
+      "name": "Timberstrider",
+      "source_pool": 100002,
+      "ac_rows": [
+        {
+          "Entry": 100002,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 40.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        },
+        {
+          "Entry": 100002,
+          "Item": 2934,
+          "Reference": 0,
+          "Chance": 60.0,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": null
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 17373,
+          "item": 2318,
+          "ChanceOrQuestChance": 36.444,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 17373,
+          "item": 2934,
+          "ChanceOrQuestChance": 63.556,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Ruined Leather Scraps"
+        }
+      ]
+    },
+    {
+      "pool": 17374,
+      "creature": 17374,
+      "name": "Greater Timberstrider",
+      "source_pool": 17374,
+      "ac_rows": [
+        {
+          "Entry": 17374,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 43.5629,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": "Greater Timberstrider - Light Leather"
+        },
+        {
+          "Entry": 17374,
+          "Item": 2934,
+          "Reference": 0,
+          "Chance": 56.4371,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": "Greater Timberstrider - Ruined Leather Scraps"
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 17374,
+          "item": 2318,
+          "ChanceOrQuestChance": 43.5629,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 17374,
+          "item": 2934,
+          "ChanceOrQuestChance": 56.4371,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Ruined Leather Scraps"
+        }
+      ]
+    },
+    {
+      "pool": 17592,
+      "creature": 17592,
+      "name": "Razormaw",
+      "source_pool": 17592,
+      "ac_rows": [
+        {
+          "Entry": 17592,
+          "Item": 783,
+          "Reference": 0,
+          "Chance": 7.5758,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 1,
+          "Comment": "Razormaw - Light Hide"
+        },
+        {
+          "Entry": 17592,
+          "Item": 2318,
+          "Reference": 0,
+          "Chance": 63.6364,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 2,
+          "Comment": "Razormaw - Light Leather"
+        },
+        {
+          "Entry": 17592,
+          "Item": 2319,
+          "Reference": 0,
+          "Chance": 28.7879,
+          "QuestRequired": 0,
+          "LootMode": 1,
+          "GroupId": 1,
+          "MinCount": 1,
+          "MaxCount": 2,
+          "Comment": "Razormaw - Medium Leather"
+        }
+      ],
+      "cmwotlk_rows": [
+        {
+          "entry": 17592,
+          "item": 783,
+          "ChanceOrQuestChance": 7.5758,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 1,
+          "condition_id": 0,
+          "comments": "Light Hide"
+        },
+        {
+          "entry": 17592,
+          "item": 2318,
+          "ChanceOrQuestChance": 63.6364,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 2,
+          "condition_id": 0,
+          "comments": "Light Leather"
+        },
+        {
+          "entry": 17592,
+          "item": 2319,
+          "ChanceOrQuestChance": 28.7879,
+          "groupid": 1,
+          "mincountOrRef": 1,
+          "maxcount": 2,
+          "condition_id": 0,
+          "comments": "Medium Leather"
+        }
+      ]
+    }
+  ],
+  "retained_spell_targets": [
+    {
+      "SourceTypeOrReferenceId": 13,
+      "SourceGroup": 7,
+      "SourceEntry": 5628,
+      "SourceId": 0,
+      "ElseGroup": 0,
+      "ConditionTypeOrReference": 31,
+      "ConditionTarget": 0,
+      "ConditionValue1": 3,
+      "ConditionValue2": 2011,
+      "ConditionValue3": 0,
+      "ConditionStringValue1": "",
+      "NegativeCondition": 0,
+      "ErrorType": 0,
+      "ErrorTextId": 0,
+      "ScriptName": "",
+      "Comment": null
+    },
+    {
+      "SourceTypeOrReferenceId": 13,
+      "SourceGroup": 7,
+      "SourceEntry": 5628,
+      "SourceId": 0,
+      "ElseGroup": 1,
+      "ConditionTypeOrReference": 31,
+      "ConditionTarget": 0,
+      "ConditionValue1": 3,
+      "ConditionValue2": 2012,
+      "ConditionValue3": 0,
+      "ConditionStringValue1": "",
+      "NegativeCondition": 0,
+      "ErrorType": 0,
+      "ErrorTextId": 0,
+      "ScriptName": "",
+      "Comment": null
+    },
+    {
+      "SourceTypeOrReferenceId": 13,
+      "SourceGroup": 7,
+      "SourceEntry": 5628,
+      "SourceId": 0,
+      "ElseGroup": 2,
+      "ConditionTypeOrReference": 31,
+      "ConditionTarget": 0,
+      "ConditionValue1": 3,
+      "ConditionValue2": 2013,
+      "ConditionValue3": 0,
+      "ConditionStringValue1": "",
+      "NegativeCondition": 0,
+      "ErrorType": 0,
+      "ErrorTextId": 0,
+      "ScriptName": "",
+      "Comment": null
+    },
+    {
+      "SourceTypeOrReferenceId": 13,
+      "SourceGroup": 7,
+      "SourceEntry": 5628,
+      "SourceId": 0,
+      "ElseGroup": 3,
+      "ConditionTypeOrReference": 31,
+      "ConditionTarget": 0,
+      "ConditionValue1": 3,
+      "ConditionValue2": 2014,
+      "ConditionValue3": 0,
+      "ConditionStringValue1": "",
+      "NegativeCondition": 0,
+      "ErrorType": 0,
+      "ErrorTextId": 0,
+      "ScriptName": "",
+      "Comment": null
+    }
+  ],
+  "sql_sha256": "7d56abd77cda47cb2f43e8a52fafda7c38184d63b235fff88e2d8b122379bd2d",
+  "deferred": [
+    "Young Arikara: conflicting source skinning role, no Deviate Scale recipe installed",
+    "Four model bindings: required resources unreadable in installed client",
+    "Remaining skinning pools: missing item dependencies"
+  ],
+  "native_spell_effects": [
+    {
+      "ID": 684030,
+      "EffectAura": 319,
+      "DifficultyID": 0,
+      "EffectIndex": 0,
+      "Effect": 6,
+      "EffectAmplitude": 0.0,
+      "EffectAttributes": 0,
+      "EffectAuraPeriod": 0,
+      "EffectBonusCoefficient": 0.0,
+      "EffectChainAmplitude": 1.0,
+      "EffectChainTargets": 0,
+      "EffectItemType": 0,
+      "EffectMechanic": 0,
+      "EffectPointsPerResource": 0.0,
+      "EffectPosFacing": 0.0,
+      "EffectRealPointsPerLevel": 0.0,
+      "EffectTriggerSpell": 0,
+      "BonusCoefficientFromAP": 0.0,
+      "PvpMultiplier": 1.0,
+      "Coefficient": 0.0,
+      "Variance": 0.0,
+      "ResourceCoefficient": 0.0,
+      "GroupSizeBasePointsCoefficient": 1.0,
+      "EffectBasePoints": 30.0,
+      "ScalingClass": 0,
+      "TargetNodeGraph": 0,
+      "EffectMiscValue1": 0,
+      "EffectMiscValue2": 0,
+      "EffectRadiusIndex1": 0,
+      "EffectRadiusIndex2": 13,
+      "EffectSpellClassMask1": 0,
+      "EffectSpellClassMask2": 0,
+      "EffectSpellClassMask3": 0,
+      "EffectSpellClassMask4": 0,
+      "ImplicitTarget1": 22,
+      "ImplicitTarget2": 7,
+      "SpellID": 5628
+    },
+    {
+      "ID": 684031,
+      "EffectAura": 31,
+      "DifficultyID": 0,
+      "EffectIndex": 1,
+      "Effect": 6,
+      "EffectAmplitude": 0.0,
+      "EffectAttributes": 0,
+      "EffectAuraPeriod": 0,
+      "EffectBonusCoefficient": 0.0,
+      "EffectChainAmplitude": 1.0,
+      "EffectChainTargets": 0,
+      "EffectItemType": 0,
+      "EffectMechanic": 0,
+      "EffectPointsPerResource": 0.0,
+      "EffectPosFacing": 0.0,
+      "EffectRealPointsPerLevel": 0.0,
+      "EffectTriggerSpell": 0,
+      "BonusCoefficientFromAP": 0.0,
+      "PvpMultiplier": 1.0,
+      "Coefficient": 0.0,
+      "Variance": 0.0,
+      "ResourceCoefficient": 0.0,
+      "GroupSizeBasePointsCoefficient": 1.0,
+      "EffectBasePoints": 40.0,
+      "ScalingClass": 0,
+      "TargetNodeGraph": 0,
+      "EffectMiscValue1": 0,
+      "EffectMiscValue2": 0,
+      "EffectRadiusIndex1": 0,
+      "EffectRadiusIndex2": 13,
+      "EffectSpellClassMask1": 0,
+      "EffectSpellClassMask2": 0,
+      "EffectSpellClassMask3": 0,
+      "EffectSpellClassMask4": 0,
+      "ImplicitTarget1": 22,
+      "ImplicitTarget2": 7,
+      "SpellID": 5628
+    },
+    {
+      "ID": 684032,
+      "EffectAura": 61,
+      "DifficultyID": 0,
+      "EffectIndex": 2,
+      "Effect": 6,
+      "EffectAmplitude": 0.0,
+      "EffectAttributes": 0,
+      "EffectAuraPeriod": 0,
+      "EffectBonusCoefficient": 0.0,
+      "EffectChainAmplitude": 1.0,
+      "EffectChainTargets": 0,
+      "EffectItemType": 0,
+      "EffectMechanic": 0,
+      "EffectPointsPerResource": 0.0,
+      "EffectPosFacing": 0.0,
+      "EffectRealPointsPerLevel": 0.0,
+      "EffectTriggerSpell": 0,
+      "BonusCoefficientFromAP": 0.0,
+      "PvpMultiplier": 1.0,
+      "Coefficient": 0.0,
+      "Variance": 0.0,
+      "ResourceCoefficient": 0.0,
+      "GroupSizeBasePointsCoefficient": 1.0,
+      "EffectBasePoints": 25.0,
+      "ScalingClass": 0,
+      "TargetNodeGraph": 0,
+      "EffectMiscValue1": 0,
+      "EffectMiscValue2": 0,
+      "EffectRadiusIndex1": 0,
+      "EffectRadiusIndex2": 13,
+      "EffectSpellClassMask1": 0,
+      "EffectSpellClassMask2": 0,
+      "EffectSpellClassMask3": 0,
+      "EffectSpellClassMask4": 0,
+      "ImplicitTarget1": 22,
+      "ImplicitTarget2": 7,
+      "SpellID": 5628
+    }
+  ],
+  "verification": {
+    "isolated": {
+      "before": 2782,
+      "after": 2753,
+      "new": {},
+      "rows_per_application": [
+        37,
+        37
+      ]
+    },
+    "production": {
+      "block": 161,
+      "before": 2782,
+      "after": 2753,
+      "new": {},
+      "messages_removed": 29,
+      "added_loot_rows": 37,
+      "restored_skinning_pools": 14,
+      "removed_duplicate_conditions": 2,
+      "quarantined_records": 0,
+      "audit": "D:\\Projects\\WoW Forever-audit\\loot-recovery-2782-70938-20261116"
+    }
+  }
+}
