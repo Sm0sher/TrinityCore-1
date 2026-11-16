@@ -41,3 +41,22 @@ the repository. Client cache version is raised to at least 26092, so subsequent
 logins can discard cached English query responses. Worldserver was restarted to
 load the locale rows and cache version. In-game display after the player's next
 login remains to be verified.
+
+## Ventaari dialogue follow-up
+
+`2026_11_16_02_world_ventaari_gossip_ruru.sql` and the corresponding hotfix
+migration translate the complete currently configured dialogue branch for
+Ventaari Brightwish (creature 251487): menus 41424, 41612 and 41611, two questions,
+and BroadcastText IDs 304012, 305036 and 305038. These are project translations
+of the English official-beta capture already in the database, not claimed
+Blizzard Russian text. No matching Russian records were found in the checked
+upstream sources. The opening line uses a gender marker for the player.
+
+Questions belong to `gossip_menu_option_locale`; responses belong to
+`broadcast_text_locale`. Translating creature names or quest text cannot fill
+these independent tables. Both migrations preserve nonempty Russian values,
+English source records, menu links and gameplay conditions. The hotfix push is
+4050003 (three records), with custom locale VerifiedBuild=0. The world cache
+version is raised to at least 26093. Applying each migration twice in separate
+test schemas produced identical data. The English BroadcastText records were
+checked unchanged. Backups and rollback SQL are kept outside the repository.
