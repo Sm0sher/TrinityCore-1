@@ -1,0 +1,451 @@
+{
+  "client_build": 70938,
+  "block": 160,
+  "before_messages": 2809,
+  "after_messages": 2782,
+  "new_messages": 0,
+  "added_proc_rules": 27,
+  "quarantined_records": 0,
+  "inputs_sha256": {
+    "D:\\Projects\\WoW Forever-server\\Data\\dbc\\ruRU\\SpellEffect.db2": "cd6cd7df23a5e648736cc994b159e6e56dac74da72dffa646768c4e2899c4766",
+    "D:\\Projects\\WoW Forever-server\\Data\\dbc\\ruRU\\SpellAuraOptions.db2": "612f54d63cdc353ca5e2b43fc63bd37fc301a4b271f8b3f1b15cba4d533b56ab",
+    "D:\\Projects\\WoW Forever-server\\Data\\dbc\\ruRU\\SpellClassOptions.db2": "375727648ca66e4566c062d56e3f809cf20959fede26b0e1171d843156553826",
+    "D:\\Projects\\WoW Forever-server\\Data\\dbc\\ruRU\\SpellName.db2": "cfa45c61ecb5ebf9dd0bd2173a741f94937724c9395aed916c5dcce80202a15b",
+    "D:\\Projects\\WoW Forever\\src\\server\\game\\Spells\\SpellMgr.cpp": "06dbc7cda80e02b825a264399478b6439f3b5efa0c893146c494ad49a153acc1",
+    "D:\\Projects\\WoW Forever\\src\\server\\game\\Spells\\SpellMgr.h": "cfe2a7ec0d0e05c8ff0463c37928935fab7cc1c8c3c7dc624fe503596e57dee4",
+    "D:\\Projects\\WoW Forever\\src\\server\\game\\Spells\\Spell.cpp": "b00cc749d6d37366d7e337868381dba98ce1b4d7d0f3e52ac23fb59754c1779b",
+    "D:\\Projects\\WoW Forever\\src\\server\\game\\Spells\\SpellInfo.cpp": "9e96ca52b67675336f174870e61f7d1c2ec0b19ac195397f0879a51b328d2e0b",
+    "D:\\Projects\\WoW Forever\\src\\server\\game\\Spells\\SpellDefines.h": "98351915cb6d8b143dda5a2002c887c0461027e8998e875ae908e6a87fa850d9",
+    "D:\\Projects\\WoW Forever\\src\\server\\game\\Spells\\Auras\\SpellAuraEffects.cpp": "581e0290811c064674275e9c958af8003531d6ef4a82fbbae9be8ec2d6a072a6",
+    "D:\\Projects\\WoW Forever\\src\\server\\game\\Spells\\Auras\\SpellAuras.cpp": "a4c2ede065d048c7dae271877955f3df1292af52a320dfa0612579b57dc03c6b",
+    "D:\\Projects\\WoW Forever\\src\\server\\game\\Entities\\Player\\Player.cpp": "67928b563afadf23815c956ac93e80aa9df3b972e7524be686ecb6e92d63accc",
+    "D:\\Projects\\WoW Forever-audit\\proc-repair-2809-70938-20261116\\world.sql": "61e041fbe67f5771a6d4a656446b4897865f2e55953792f71696f719f86acafd"
+  },
+  "deployed_sql_sha256": "61e041fbe67f5771a6d4a656446b4897865f2e55953792f71696f719f86acafd",
+  "migration_lf_sha256": "b44237de7179d15684f361cc92206c2263b3692646d0824dc7154d85d2a18d3a",
+  "rules": [
+    {
+      "spell_id": 12043,
+      "name_ru": "Присутствие разума",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        1073741824,
+        0,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 12536,
+      "name_ru": "Ясность мысли",
+      "modifier_operations": [
+        14
+      ],
+      "family_mask_uint32": [
+        549591799,
+        167936,
+        268697664,
+        540672
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 16166,
+      "name_ru": "Власть над молнией",
+      "modifier_operations": [
+        10,
+        11
+      ],
+      "family_mask_uint32": [
+        3,
+        4096,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 16188,
+      "name_ru": "Природная стремительность",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        2499,
+        0,
+        1048576,
+        65536
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 17116,
+      "name_ru": "Природная стремительность",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        16777825,
+        100663296,
+        33554432,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 18708,
+      "name_ru": "Господство Скверны",
+      "modifier_operations": [
+        10,
+        14
+      ],
+      "family_mask_uint32": [
+        536870912,
+        0,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 53489,
+      "name_ru": "Искусство войны",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        1073741824,
+        2,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 400730,
+      "name_ru": "Огненный шар!",
+      "modifier_operations": [
+        10,
+        14
+      ],
+      "family_mask_uint32": [
+        1,
+        4096,
+        64,
+        16384
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 413399,
+      "name_ru": "Всплеск крови",
+      "modifier_operations": [
+        10,
+        14
+      ],
+      "family_mask_uint32": [
+        2097152,
+        0,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 415105,
+      "name_ru": "Волна силы",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        2,
+        4096,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 415414,
+      "name_ru": "На изготовку!",
+      "modifier_operations": [
+        11,
+        14
+      ],
+      "family_mask_uint32": [
+        137728,
+        2156003329,
+        2881,
+        524288
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 426979,
+      "name_ru": "Щит и меч",
+      "modifier_operations": [
+        14
+      ],
+      "family_mask_uint32": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 428912,
+      "name_ru": "Благоволение Света",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        2147483648,
+        0,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 431666,
+      "name_ru": "Пробуждение Света",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        6784,
+        4,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 437063,
+      "name_ru": "Прилив Света",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        2147483648,
+        0,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 449925,
+      "name_ru": "Могучие когти",
+      "modifier_operations": [
+        14
+      ],
+      "family_mask_uint32": [
+        3758096384,
+        65536,
+        0,
+        0
+      ],
+      "phase_in_sql": 0,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 449982,
+      "name_ru": "Манускрипт священного рвения",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        2147483648,
+        0,
+        0,
+        0
+      ],
+      "phase_in_sql": 0,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 457342,
+      "name_ru": "Ясность мысли",
+      "modifier_operations": [
+        14
+      ],
+      "family_mask_uint32": [
+        759043998,
+        2099464,
+        133122,
+        8421636
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 467204,
+      "name_ru": "Исцеляющая благодать",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        96,
+        33554432,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 467543,
+      "name_ru": "Спасение",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        1326736,
+        67109888,
+        65536,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 467735,
+      "name_ru": "Ясность мысли",
+      "modifier_operations": [
+        14
+      ],
+      "family_mask_uint32": [
+        759043998,
+        2099464,
+        133122,
+        8421636
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 468526,
+      "name_ru": "Волна силы",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        256,
+        0,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 1213415,
+      "name_ru": "Защита праведности",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        0,
+        0,
+        1024,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 1226035,
+      "name_ru": "Быстроцвет",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        96,
+        33554432,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 1226500,
+      "name_ru": "Отпущение",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        269824,
+        4,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 1227088,
+      "name_ru": "Стремительность земли",
+      "modifier_operations": [
+        10
+      ],
+      "family_mask_uint32": [
+        448,
+        0,
+        0,
+        0
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    },
+    {
+      "spell_id": 1300140,
+      "name_ru": "Грань сознания",
+      "modifier_operations": [
+        14
+      ],
+      "family_mask_uint32": [
+        549591799,
+        167936,
+        268697664,
+        540672
+      ],
+      "phase_in_sql": 1,
+      "require_applied_spellmod": true
+    }
+  ],
+  "excluded": {
+    "21091": "flat power-cost modifier needs separate zero-cost handling",
+    "21887": "flat power-cost modifier needs separate zero-cost handling",
+    "457643": "not a pure untriggered spell modifier",
+    "464241": "flat power-cost modifier needs separate zero-cost handling",
+    "468388": "not a pure untriggered spell modifier",
+    "1328826": "flat power-cost modifier needs separate zero-cost handling",
+    "1328827": "flat power-cost modifier needs separate zero-cost handling"
+  },
+  "audit_directory": "D:\\Projects\\WoW Forever-audit\\proc-repair-2809-70938-20261116",
+  "combat_tested": false,
+  "installed_worldserver_sha256": "5246eea78e18181ba69b90446dd6faf356f1056d6bb4fb52dfc89f603bccf575",
+  "rows_verified_after_restart": 27
+}
