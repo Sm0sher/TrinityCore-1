@@ -1,0 +1,53 @@
+{
+  "verification": {
+    "block": 164,
+    "before": 2704,
+    "after": 2702,
+    "new": {},
+    "messages_removed": 2,
+    "quarantined_records": 0,
+    "audit": "D:\\Projects\\WoW Forever-audit\\holiday-mount-2704-70938-20261116",
+    "binary_sha256": "1f05b0ae88e56d5cdd1a57e89b7c9a1f7979f0fab359f53ece1f994444e9d592"
+  },
+  "upstream_core_commit": "5b6ef0ec409b693bf9c546321f9e5e11f2698ebf",
+  "mount_source": "https://github.com/azerothcore/azerothcore-wotlk/blob/17f9f9d5003708136c798ab4ef8c1b9762251bad/data/sql/base/db_world/player_factionchange_spells.sql",
+  "native_mounts": [
+    {
+      "ID": 55,
+      "Name": "Ледопард Зимних Ключей",
+      "SourceText": "",
+      "Description": "",
+      "MountTypeID": 487,
+      "Flags": 4,
+      "SourceTypeEnum": -1,
+      "SourceSpellID": 17229,
+      "PlayerConditionID": 0,
+      "MountFlyRideHeight": 0.0,
+      "UiModelSceneID": 4,
+      "MountSpecialRiderAnimKitID": 0,
+      "MountSpecialSpellVisualKitID": 0
+    },
+    {
+      "ID": 311,
+      "Name": "Ядовитый равазавр",
+      "SourceText": "",
+      "Description": "",
+      "MountTypeID": 488,
+      "Flags": 4,
+      "SourceTypeEnum": -1,
+      "SourceSpellID": 64659,
+      "PlayerConditionID": 0,
+      "MountFlyRideHeight": 0.0,
+      "UiModelSceneID": 4,
+      "MountSpecialRiderAnimKitID": 0,
+      "MountSpecialSpellVisualKitID": 0
+    }
+  ],
+  "expected_rows_per_application": [
+    2,
+    2
+  ],
+  "unit_assertions": 1713,
+  "unit_cases": 77,
+  "retained_event_28": "Edge of Madness, Hazza'rah"
+}
