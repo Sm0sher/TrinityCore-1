@@ -55,23 +55,53 @@ that checkbox populated the list and its 3D preview. **Unusable** additionally
 allows browsing mounts the current character cannot use. The owned counter can
 remain zero while the uncollected catalogue is visible.
 
-The toy list remained empty with Collected and Not collected enabled, Usable
-only disabled and the World of Warcraft expansion enabled. Selecting all
-sources and toggling Not collected off/on did not resolve it. Do not describe
-the toy catalogue as fixed merely because its tab is visible.
+The toy list was subsequently verified in-game with 17 uncollected entries
+after the flag-2 visibility hotfix in
+`2026_11_15_04_hotfixes_collection_visibility_70938.sql`. The owned counter
+remains zero, which is correct for this account. Mount browsing and its 3D
+preview were also verified with no owned mounts.
 
-All 22 native Toy rows have Flags=2; that observation alone does not establish
-the flag's meaning. Eight referenced items are absent from decoded ItemSparse,
-but three of those are supplied by server hotfixes. The remaining five require
-checking client-effective item data: 279471, 279519, 284164, 286203 and 286573.
-Missing items alone do not explain why every toy is hidden.
+Five toy references still lack usable ItemSparse records: 279471, 279519,
+284164, 286203 and 286573. Their Item and ItemXItemEffect records alone are not
+enough to construct full item definitions. They retain their native hidden
+flags; no placeholder item records or ownership grants are introduced.
 
 All 122 native BattlePetSpecies entries have empty Description and SourceText;
 the Wago 70938 export has the same empty fields. The native Classic pet card's
 OnEnter only opens its source tooltip when sourceText is nonempty. This explains
 the missing source tooltip without an account-ownership or Lua runtime failure.
-Restoring descriptions requires a separately verified content source; exporting
-the same empty table again cannot supply them.
+The preceding journal migration restored 64 descriptions and 61 summon-item
+sources. The crimson snake's localized description and item-source tooltip
+were verified in-game. Exporting the empty native text fields again cannot
+supply the missing information.
+
+## Additional collection sources
+
+`2026_11_16_00_hotfixes_collection_sources_70938.sql` adds source text for
+61 more native pet species and 139 native mounts, using hotfix push 4050002.
+For 36 pets and 115 mounts, an existing item must link through ItemXItemEffect
+and ItemEffect to exactly the native summon spell. The remaining 25 pets and
+24 mounts show a named summon-spell link. A spell link is explicitly labelled
+as such; it is not presented as a vendor, quest or drop location.
+
+All 122 native pet species consequently have source text in the effective
+database. Only the previously verified 64 flavour descriptions are supplied;
+unverified descriptions are left empty. Five mounts have neither a verified
+summon-item source nor a usable spell-name record and are deferred: Mount IDs
+2971, 2978, 3112, 3113 and 3114. Native visibility restrictions remain in place.
+
+The migration provides ruRU source text in locale tables. Existing nonempty
+sources, descriptions, gameplay fields and account ownership are preserved.
+New hotfix rows use the native 70938 record fields. Applying the migration twice
+in an isolated schema produced identical results: 200 unique hotfix records
+and 200 localized sources, with preexisting gameplay fields unchanged.
+
+Production deployment preserved account ownership and restarted worldserver.
+The fresh startup retained 3112 database-error messages, with no new collection
+locale errors. The final UI check after deployment was interrupted by the
+user's physical Escape key. New-source rendering and filter persistence after
+relogin/reload therefore remain unverified; do not describe those checks as
+passed. Client files and the Adventure Guide were not changed by this update.
 
 ## Separate wardrobe limitation
 
