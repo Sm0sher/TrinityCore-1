@@ -1,0 +1,53 @@
+{
+  "block": 166,
+  "client_build": 70959,
+  "active_root_build_key": "ad887adcf63b8746155dd40e1930b80f",
+  "result": {
+    "block": 166,
+    "before": 2702,
+    "after": 2183,
+    "removed": 519,
+    "new": {},
+    "restored_templates": 519,
+    "remaining_models_without_display": 896,
+    "verified_rows": 3207,
+    "quarantined": 0,
+    "protected_checksums_unchanged": true,
+    "client_files_modified": false,
+    "visual_streaming_tested": false
+  },
+  "model_data_records": 279,
+  "display_records": 503,
+  "bindings": 588,
+  "geoset_records": 184,
+  "hotfix_registrations": 966,
+  "audio_deferred_by_field": {
+    "NPCSoundID": 59,
+    "ObjectEffectPackageID": 109,
+    "SoundID": 313
+  },
+  "source_tables_build": "12.1.0.69497",
+  "official_source": "https://wago.tools/db2/ObjectEffect/csv?build=12.1.0.69497",
+  "object_effect_source_sha256": "13fcd78add934ad74425fef31ebe6977f955fe7a1355f73c231ec3438ad407ce",
+  "object_effect_types": {
+    "1": 7043
+  },
+  "verified_cdn_files": 724,
+  "verified_decoded_bytes": 1862969528,
+  "verification": [
+    "EKey BLTE header hash",
+    "each BLTE frame MD5",
+    "decoded CKey MD5 and size",
+    "original combat geometry",
+    "all required probability variants",
+    "direct M2 dependencies and material textures",
+    "fixture applied twice, one boot",
+    "production one restart, exact 519-message removal"
+  ],
+  "limitations": [
+    "Native client streaming and in-game appearance rendering were not exercised.",
+    "Missing audio references are retained for future restoration; no unknown visual reference was zeroed.",
+    "896 templates remain without complete verified dependencies."
+  ],
+  "user_policy": "Preserve records and restore dependencies; no additional quarantine."
+}

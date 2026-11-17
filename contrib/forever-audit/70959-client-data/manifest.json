@@ -1,0 +1,496 @@
+{
+  "build": 70959,
+  "build_config": "ad887adcf63b8746155dd40e1930b80f",
+  "db2_files": 1133,
+  "layout_changes": [],
+  "changed_files": [
+    {
+      "file": "AnimKit.db2",
+      "old_sha256": "d860cf4908dca20f17d8cc5e5e1521e0a95958d535c708bc22e752b15424fbba",
+      "new_sha256": "6818bbc8f310d4525013201945921cdfdd69f68eaf54acb05e2de3f2fa9d1234",
+      "new_bytes": 6946
+    },
+    {
+      "file": "AnimKitSegment.db2",
+      "old_sha256": "b1b01658fdb0222a7fa473c4eabd2796e053576f3d8386db866ddeeadb45633c",
+      "new_sha256": "4093bf700d0191a996038e98147e5f345114fc49581a555071a48f2fd69dfcf8",
+      "new_bytes": 37101
+    },
+    {
+      "file": "ClientSettings.db2",
+      "old_sha256": "3330446310b545a31bf4800a528a8e5c549d39201c24ba0f95347a31a7c31bb3",
+      "new_sha256": "b53f120201395044c6a68a81b7814a9f105e01518bbced8725d301d311273d17",
+      "new_bytes": 572
+    },
+    {
+      "file": "CombatCondition.db2",
+      "old_sha256": "1986ae4a89cb3d28667b06a127bdc0f6e7cd82a3ade6d2bee586bca93000ca7a",
+      "new_sha256": "fed4e48846cf3a1c15ceaf444d2846d1f163580d9f7627c60fa51034922b02c3",
+      "new_bytes": 7482
+    },
+    {
+      "file": "CreatureDifficultyTreasure.db2",
+      "old_sha256": "4874f49fa43065d44444f862c5933896bc215e00e4ba6e544c58477f7a7e844a",
+      "new_sha256": "27e5eb56a93f14d1c58fd18b86f210ece7664492bd976261a00586257e10ccbc",
+      "new_bytes": 194105
+    },
+    {
+      "file": "Criteria.db2",
+      "old_sha256": "2f6f674203e37a4dfc8351dbd9e00ceae507b90b9096d3028170574220177963",
+      "new_sha256": "4f86b40fe96e0ab77d37d15151bdd05dc8b98f0d76d9686feb54c224febc80b0",
+      "new_bytes": 34542
+    },
+    {
+      "file": "CriteriaTree.db2",
+      "old_sha256": "5814d91acc672fdfdd17bf7480c4c6858267c41a1914fcdde04b0dda1bc59a4f",
+      "new_sha256": "693ceb9096a9bb83c206f32c2e69e2db767184d0b8360bb458eac24d978f01da",
+      "new_bytes": 260132
+    },
+    {
+      "file": "Curve.db2",
+      "old_sha256": "cb7dd249b682dc2cd4014d69c82bf24110aa2987720967d8f2e4a0012d82a105",
+      "new_sha256": "8e39d8b973d1c9619042902ea208af1e438230e1036a9f4e5cff610cd9b27049",
+      "new_bytes": 60638
+    },
+    {
+      "file": "CurvePoint.db2",
+      "old_sha256": "c9d527f73c3f8f500c0496caacce036165f4e5a24708cd181beae5d1c9a75a00",
+      "new_sha256": "c50866bd9e8c044f254d742d7335419f1eefa2afb3597018b70e31a041869eb5",
+      "new_bytes": 1366314
+    },
+    {
+      "file": "GameObjectDisplayInfo.db2",
+      "old_sha256": "8ccdcee31f047a050b1ccbcb3b54327bf2624c46750df519d39737f179fafdbf",
+      "new_sha256": "1564f53d7df6f6efbb902436b016a81196e88f6175020a1544276859451d9a73",
+      "new_bytes": 118046
+    },
+    {
+      "file": "Hotfixes.db2",
+      "old_sha256": "11887251452c913ae79f2f5f09af0981235e88333df5f28d661301a3ce6de249",
+      "new_sha256": "bea5b99fc1c5a8fdb76d8f14ac2368bf3b567ba0f96738a4576e49c7969df365",
+      "new_bytes": 1098076
+    },
+    {
+      "file": "ItemAppearance.db2",
+      "old_sha256": "f0e5a10c5e35a9298ee641d6575691c6953b1bb3ca8e13343273030d86007b9d",
+      "new_sha256": "7ab0c4cfbf5fa6cf4c62f467fdf1f15c8639f15b2ad9fc53df87ad4059f0a802",
+      "new_bytes": 137799
+    },
+    {
+      "file": "ItemDisplayInfo.db2",
+      "old_sha256": "3238622529bfd6d979b9f5c2b91fbad8a58fb4e42ce30680afc6cab8382a4370",
+      "new_sha256": "cf1684fd34bd58c2ad017202e06a121bfd383be753cb7fd2a80920069e3f2671",
+      "new_bytes": 428991
+    },
+    {
+      "file": "ItemDisplayInfoModelMatRes.db2",
+      "old_sha256": "ba067a4ef4c323d31dd326dd4b49ca09158bcf7bfbf36ecf83f804c7e33d52fe",
+      "new_sha256": "8a2792e9ff1ae00cf685ca8bb3cb17507fa8839f3864904625b48c7cdfb3df6b",
+      "new_bytes": 180442
+    },
+    {
+      "file": "ItemEffect.db2",
+      "old_sha256": "0d90bd4efdaa8faa369862ad416056eafa01206193a1cc50f382885773a9daa8",
+      "new_sha256": "287a646a85b8f29dbdefaf4b65f66c1214cbaaf426e07444962a35558c433631",
+      "new_bytes": 126678
+    },
+    {
+      "file": "ItemExtendedCost.db2",
+      "old_sha256": "cfda09a0a3fb8052275395a70be4f389283b5a4910e618c24318bfa9d39b61ec",
+      "new_sha256": "fadf1f69b12c8b7fbb60c57a8935ec8443005c39004d21cc18b9f8386b02883d",
+      "new_bytes": 41126
+    },
+    {
+      "file": "ItemModifiedAppearance.db2",
+      "old_sha256": "8457c7697ff914e32d7a823a0e6f62c593cafbe5d8b41a950b64b434f4ce266f",
+      "new_sha256": "535652106a4f908364545636c7e6b40c786acf1c97590ae4de4c3b72eccd590d",
+      "new_bytes": 271882
+    },
+    {
+      "file": "ItemSparse.db2",
+      "old_sha256": "b5ecab0bde1338bb1ecf236870a09686e4e13c7c15b7b90f3e3f153b3e2ca88a",
+      "new_sha256": "0585a72098f0e6c045199fff5326d3d5d5c5aa415e8e3bc74e557967c2f04824",
+      "new_bytes": 7592058
+    },
+    {
+      "file": "ModifierTree.db2",
+      "old_sha256": "a6adbe5baceca7d5cbb64088fc93c47b11bffdf6a0802b2426dd9f8d772809ab",
+      "new_sha256": "d948275e7e3c5866b6a783de77bdce68b334a2278cb23c92aac7d125262e7f02",
+      "new_bytes": 32662
+    },
+    {
+      "file": "PlayerCondition.db2",
+      "old_sha256": "7bc505e575de5ab40536b6e9292cd5f141e7192859dc00bf59545cddf003ef12",
+      "new_sha256": "7942f261b46f8879f8ab4c877a1f249375584042e587102b840271b500939ecc",
+      "new_bytes": 140359
+    },
+    {
+      "file": "SkillRaceClassInfo.db2",
+      "old_sha256": "534920746218d153bc2eee6a96731de9c2d7baa1ef8a7412b58d5ad1e859f5a0",
+      "new_sha256": "67f532a2b6edce76f27e836c588c7039b510a0ee1de8df55449df0ddab3ae583",
+      "new_bytes": 4428
+    },
+    {
+      "file": "Spell.db2",
+      "old_sha256": "2085bc12a7392842fd8b3bf134ba50038d59f6aebfc223b5378854707c579714",
+      "new_sha256": "a05c4e50a4e61ba2edba6820af6304560725e758b49af92c831abddf6eb96038",
+      "new_bytes": 3469238
+    },
+    {
+      "file": "SpellAuraOptions.db2",
+      "old_sha256": "612f54d63cdc353ca5e2b43fc63bd37fc301a4b271f8b3f1b15cba4d533b56ab",
+      "new_sha256": "28bd3a327e96e251a052a3ff384856a185f85a255b231cafe1ce7413e7ca985e",
+      "new_bytes": 207970
+    },
+    {
+      "file": "SpellCategories.db2",
+      "old_sha256": "83d7d52d3367947bf85972f6a358fda268977fcf9abf56f49880c0b3998c6ab0",
+      "new_sha256": "2cbcb43a9baa14ed6ff75943d496f72bbaf095feb7b07e3be57801c61f4b22f5",
+      "new_bytes": 191629
+    },
+    {
+      "file": "SpellCooldowns.db2",
+      "old_sha256": "52f8adda3127ae156491dc8e9adde7fcffe149dd8dd7d80b10277afb366885b6",
+      "new_sha256": "6a356c935dc9285a3f892b8bff476545b925b01f6141a35766c90edb92718ad6",
+      "new_bytes": 70459
+    },
+    {
+      "file": "SpellDiminish.db2",
+      "old_sha256": "a38cf89769b1ee3671cf4a554831cb40bc962efc53ddc78051273a75416b6977",
+      "new_sha256": "1241090c0505ef1fa5b30884c4844abe589db7c7efd5a57a569840b72500ab7d",
+      "new_bytes": 690
+    },
+    {
+      "file": "SpellEffect.db2",
+      "old_sha256": "cd6cd7df23a5e648736cc994b159e6e56dac74da72dffa646768c4e2899c4766",
+      "new_sha256": "cfd918803ea5219bddaf1dd15d33719990cd83094862f84e68d9b77601e22662",
+      "new_bytes": 1778660
+    },
+    {
+      "file": "SpellMisc.db2",
+      "old_sha256": "cafd0cf6e07305ba80ce6a9e5a6efb30ba210c73bba5a2fd5311169d38603fab",
+      "new_sha256": "042f6eb01a2ea72a7762129578a54ce42b7af15ea91eed47285b569e26601a4e",
+      "new_bytes": 3191982
+    },
+    {
+      "file": "SpellName.db2",
+      "old_sha256": "cfa45c61ecb5ebf9dd0bd2173a741f94937724c9395aed916c5dcce80202a15b",
+      "new_sha256": "74875ed8aaeba5fc3e1e5968c1b82dd9feedb4a95b3cabc80b49c8d81ea09ac3",
+      "new_bytes": 1016987
+    },
+    {
+      "file": "SpellProceduralEffect.db2",
+      "old_sha256": "dd3d7940f1d72c805458f41a58c386096fc96d81b3eb3e63bce68f2d0c252b20",
+      "new_sha256": "07a6e1f78762cf53de2c631e99c001e9bafe16b6adc0dec5da2718fda7398e3f",
+      "new_bytes": 16622
+    },
+    {
+      "file": "SpellShapeshift.db2",
+      "old_sha256": "acdcbff6d8b5b9f8aa9f5519accb5901c68a06165dcb07d940d6f7e45a17b623",
+      "new_sha256": "53cb6b3a673b768fa2d7c561765cf06f1e5778a80767aac42243b02144934560",
+      "new_bytes": 31954
+    },
+    {
+      "file": "SpellVisual.db2",
+      "old_sha256": "4575b0a4993c53b5560ca1aa4ae3239b3abf3c00a3d5acba3de503a8380536d1",
+      "new_sha256": "1eb1cc98e25e1cc35d2e5d98bd9481d65c8018830c671dbf66e9e719d991bfa0",
+      "new_bytes": 128790
+    },
+    {
+      "file": "SpellVisualEffectName.db2",
+      "old_sha256": "2aa8c1c121d1657dba07c039f49ceca7fcf3c5ccb635245f966b4ef26388f84a",
+      "new_sha256": "2cb2b5a460b9dbfb820b6fef889939b4fb2c191c5927af1a9a2c51c71a7e3bfe",
+      "new_bytes": 50778
+    },
+    {
+      "file": "SpellVisualEvent.db2",
+      "old_sha256": "65ee08a780db586cb377927fd1ca122954c05c287f66b477a90b8bcdc40dac3b",
+      "new_sha256": "b4933d0122b2adb20a55f68e264bbc96adc816ab4f7b7fcf0b6cae705a2c2d2e",
+      "new_bytes": 303412
+    },
+    {
+      "file": "SpellVisualKit.db2",
+      "old_sha256": "e528622e53c3d5a4bf9f8c3d0ac24233f662cba07d51e5af461a1eac0623b40c",
+      "new_sha256": "f5e9fc85d5516cacd30408c7e5c28b2ee24be2d8329dc76bc1f34df828cf6898",
+      "new_bytes": 66372
+    },
+    {
+      "file": "SpellVisualKitEffect.db2",
+      "old_sha256": "fd324cb358c21d496a9c151ff0858b94bf8d6eaf4b9f4dfe9ac270456fa1d0ec",
+      "new_sha256": "aa6ecd97f2ff3289fe2d9eb3e49dccc559c426ef2db61a8a0acb465444067ee7",
+      "new_bytes": 372606
+    },
+    {
+      "file": "SpellVisualKitModelAttach.db2",
+      "old_sha256": "685fa21b4f2dcc36384ea2860900c31a2c90430e72c88ba969a859914b0fbbf3",
+      "new_sha256": "ade5df9f4302267f8eecbc0587e07cc95a93bcb54b7eb443634443fa80d3d898",
+      "new_bytes": 478618
+    },
+    {
+      "file": "TraitDefinitionEffectPoints.db2",
+      "old_sha256": "7d6a6cb9ca4926071948b7a078f0fbe7ba61a51af3d2401af4ccffa8f96d70cf",
+      "new_sha256": "14bc2cf70cccd0df0c0331152fd882d191ce3f9500c248c06d4d5d5c5e938325",
+      "new_bytes": 11022
+    },
+    {
+      "file": "UnitCondition.db2",
+      "old_sha256": "0632c5b554a2d225095a4c7ea52eab83b999f31238caa9839b2820d95ae1ffb7",
+      "new_sha256": "8b44073b85c97457b50da494f87f2f95950d05a960945b24d9f414c6701cc3df",
+      "new_bytes": 15718
+    },
+    {
+      "file": "WorldEffect.db2",
+      "old_sha256": "e82a1aaf64a2fd2ca9b4296929e4fd80a853df13cf0b527dab192c6857ea54aa",
+      "new_sha256": "acbc17c5144763af4295b4ac03a849b96bff2bb02af4ed5ee3e38a9cbb524164",
+      "new_bytes": 2667
+    },
+    {
+      "file": "WorldStateExpression.db2",
+      "old_sha256": "65c807413f5a60a9f502ee651def5d8a2aab331da4a907dbd840754286492c23",
+      "new_sha256": "6ee197c00cbd5a983a4b1e17976af0fb46f716cf480fad7553234bab8ecf4653",
+      "new_bytes": 192937
+    }
+  ],
+  "overlapping_hotfixes": [],
+  "recent_proc_rule_impacts": [],
+  "test": {
+    "before": 2702,
+    "after": 2702,
+    "new": {},
+    "verified_rows_per_application": [
+      5,
+      5
+    ],
+    "accepted": {
+      "trinity strings": 1051,
+      "GameObject models": 1962,
+      "hotfix blob records": 10015,
+      "hotfix records": 48820,
+      "hotfix optional data records": 17752,
+      "cinematic waypoint sets": 10,
+      "SkillLineAbility MultiMap Data": 7860,
+      "spell custom attributes from DB": 22,
+      "spell totem model records": 10,
+      "languages": 25,
+      "word groups from 1592 words": 193,
+      "instance templates": 29,
+      "creature locale strings": 49211,
+      "gameobject_template_locale strings": 48773,
+      "Quest Template locale strings": 9080,
+      "Quest Offer Reward locale strings": 7103,
+      "Quest Request Items locale strings": 5114,
+      "Quest Objectives locale strings": 4609,
+      "PageText locale strings": 1889,
+      "gossip_menu_option locale strings": 408,
+      "points_of_interest locale strings": 585,
+      "permission definitions, 680 linked permissions and 4 default permissions": 696,
+      "page texts": 2929,
+      "destructible_hitpoint records": 40,
+      "game object templates": 72061,
+      "game object template addons": 38392,
+      "transport templates": 14,
+      "spell rank records": 616,
+      "spell required records": 13,
+      "spell group definitions": 90,
+      "Spell Learn Skills from DBC": 111,
+      "spell proc conditions and data": 175,
+      "SpellThreatEntries": 10,
+      "spell group stack rules": 7,
+      "npc texts": 15723,
+      "enchant proc data definitions": 12,
+      "Random item bonus list definitions": 9756,
+      "disables": 2117,
+      "item templates": 25824,
+      "item addon templates": 2076,
+      "item script names": 1,
+      "creature model based info": 12251,
+      "creature template resistances": 3795,
+      "creature template spells": 5111,
+      "creature template models": 65434,
+      "creature definitions": 53047,
+      "classic creature levels": 11025,
+      "classic creature class level stats and 10372 vanilla creature stats": 189,
+      "classic shield block values": 368,
+      "shop tabs and 8 shop products": 3,
+      "equipment templates": 8918,
+      "creature template addons": 6756,
+      "creature template difficulty data": 65145,
+      "creature template sparring rows": 15,
+      "reputation_reward_rate": 3,
+      "creature award reputation definitions": 642,
+      "reputation_spillover_template": 12,
+      "Points of Interest definitions": 942,
+      "creature base stats": 460,
+      "spawn group templates": 910,
+      "creatures": 79362,
+      "temp summons": 529,
+      "pet levelup and default spells for 7 families": 8,
+      "summonable creature templates": 154,
+      "creature addons": 6701,
+      "gameobjects": 48714,
+      "spawn group members": 2383,
+      "gameobject quest items": 391,
+      "creature quest items": 2940,
+      "linked respawns": 391,
+      "weather definitions": 35,
+      "quests definitions": 9167,
+      "quest POI definitions": 8333,
+      "quest relations from gameobject_queststarter": 266,
+      "quest relations from gameobject_questender": 210,
+      "quest relations from creature_queststarter": 4168,
+      "quest relations from creature_questender": 4349,
+      "quest_greeting": 171,
+      "Quest Greeting locale strings": 412,
+      "objects pools": 16697,
+      "creatures in pools": 23265,
+      "gameobject in pools": 31585,
+      "pools in mother pools": 5580,
+      "daily, 4 weekly and 0 monthly quest pools": 24,
+      "game events": 89,
+      "quests additions in game events": 435,
+      "creature summoned data definitions": 18,
+      "spellclick definitions": 80,
+      "Vehicle Template Accessories": 112,
+      "area trigger teleport definitions": 115,
+      "access requirement definitions": 22,
+      "quest trigger points": 48,
+      "tavern triggers": 43,
+      "areatrigger scripts": 51,
+      "graveyard-zone links": 185,
+      "spell pet auras": 1,
+      "spell teleport coordinates": 266,
+      "linked spells": 12,
+      "scene templates": 574,
+      "player create definitions": 95,
+      "custom player create spells": 40,
+      "player create cast spells": 22,
+      "player create actions": 1793,
+      "level stats definitions": 540,
+      "xp for level definition(s) from database": 0,
+      "BaseXP definitions": 80,
+      "pet name parts": 313,
+      "spell areatrigger templates": 925,
+      "areatrigger spawns": 8,
+      "player choices, 11 responses, 6 rewards, 0 item rewards, 0 currency rewards, 0 faction rewards, 0 item choice rewards and 0 maw powers": 4,
+      "Player Choice locale strings": 34,
+      "level pet stats definitions": 2694,
+      "creature loot templates": 230659,
+      "fishing loot templates": 2484,
+      "gameobject loot templates": 13915,
+      "item loot templates": 2661,
+      "mail loot templates": 102,
+      "pickpocketing loot templates": 6908,
+      "skinning loot templates": 3135,
+      "disenchanting loot templates": 94,
+      "spell loot templates": 3,
+      "areas for fishing base skill level": 66,
+      "skill max values": 59,
+      "criteria modifiers": 3340,
+      "criteria, 0 guild criteria, 0 scenario criteria and 57 quest objective criteria": 1717,
+      "achievement references": 0,
+      "achievement rewards": 1,
+      "auction items": 0,
+      "auction bidders": 0,
+      "auctions": 0,
+      "GameObjects for quests": 2682,
+      "battlemaster entries": 37,
+      "GameTeleports": 1068,
+      "Trainers": 716,
+      "gossip_menu IDs": 13536,
+      "gossip_menu_option entries": 10783,
+      "gossip_menu_addon IDs": 11,
+      "creature template gossip menus": 2970,
+      "default trainers": 600,
+      "Vendors": 14703,
+      "waypoint paths": 13172,
+      "waypoint path nodes": 251962,
+      "creatures in formations": 6419,
+      "world variables": 0,
+      "phase areas": 2,
+      "conditions": 10725,
+      "faction change spell pairs": 41,
+      "faction change quest pairs": 225,
+      "faction change item pairs": 11,
+      "faction change reputation pairs": 7,
+      "mount definitions": 3,
+      "script definitions": 211,
+      "event scripts": 26,
+      "spell script names": 797,
+      "creature texts for 2360 creatures": 9981,
+      "creature localized texts": 156,
+      "C++ scripts": 5771,
+      "SmartAI scripts": 9796,
+      "calendar events": 0,
+      "calendar invites": 0,
+      "battlegrounds": 5,
+      "battleground scripts": 3,
+      "outdoor PvP definitions": 5,
+      "battlefields": 2,
+      "class expansion requirements": 234,
+      "race expansion requirements": 19,
+      "phase names": 4276
+    }
+  },
+  "production": {
+    "before": 2702,
+    "after": 2702,
+    "new": {},
+    "removed": {},
+    "active_build": 70959,
+    "realms": [
+      {
+        "id": 70,
+        "name": "MoshPit",
+        "gamebuild": 70959,
+        "flag": 0
+      },
+      {
+        "id": 71,
+        "name": "Forever PvP",
+        "gamebuild": 70959,
+        "flag": 2
+      },
+      {
+        "id": 72,
+        "name": "Forever RP",
+        "gamebuild": 70959,
+        "flag": 2
+      },
+      {
+        "id": 73,
+        "name": "Forever Hardcore",
+        "gamebuild": 70959,
+        "flag": 2
+      }
+    ],
+    "quarantined_records": 0
+  },
+  "mass_model_survey": {
+    "templates": 1415,
+    "required_displays": 1852,
+    "all_zero_probability_templates": 419,
+    "restorable_complete_templates": 0,
+    "reason_counts_per_npc": {
+      "extended appearance requires original outfit metadata": 742,
+      "dependent model files unavailable": 312,
+      "model file unavailable": 45,
+      "texture files unavailable": 187,
+      "no original display or combat geometry": 34,
+      "client display dependency missing: ObjectEffectPackageID": 73,
+      "client display dependency missing: StateSpellVisualKitID": 17,
+      "conditional model requires original dependency": 6,
+      "display ID occupied": 1,
+      "client display dependency missing: AnimReplacementSetID": 9,
+      "available variant; other required variant blocked": 2
+    },
+    "client_build": 70959,
+    "new_quarantine_records": 0,
+    "source": "original model bindings and Wago 12.1.0.69497 metadata; native 70959 resource verification"
+  },
+  "pending_exclusion_choice": {
+    "candidates_above60_without_spawns": 681,
+    "conservatively_referenced": 663,
+    "no_direct_reference_found": 18,
+    "note": "Review proposal only. Absence of direct references is not full proof of runtime unreachability. No records moved or deleted."
+  }
+}
