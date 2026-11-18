@@ -1,0 +1,106 @@
+{
+  "FileDataID": 234519,
+  "record_stride": 64,
+  "sequences": [
+    {
+      "id": 4,
+      "variant": 0,
+      "duration": 667,
+      "move_speed": 2.5,
+      "flags": 32
+    },
+    {
+      "id": 5,
+      "variant": 0,
+      "duration": 400,
+      "move_speed": 8.333333015441895,
+      "flags": 32
+    },
+    {
+      "id": 0,
+      "variant": 0,
+      "duration": 1667,
+      "move_speed": 0.0,
+      "flags": 32
+    },
+    {
+      "id": 16,
+      "variant": 0,
+      "duration": 1500,
+      "move_speed": 0.0,
+      "flags": 161
+    },
+    {
+      "id": 16,
+      "variant": 1,
+      "duration": 1000,
+      "move_speed": 0.0,
+      "flags": 161
+    },
+    {
+      "id": 9,
+      "variant": 0,
+      "duration": 667,
+      "move_speed": 0.0,
+      "flags": 161
+    },
+    {
+      "id": 1,
+      "variant": 0,
+      "duration": 1167,
+      "move_speed": 0.0,
+      "flags": 163
+    },
+    {
+      "id": 32,
+      "variant": 0,
+      "duration": 1000,
+      "move_speed": 0.0,
+      "flags": 161
+    },
+    {
+      "id": 0,
+      "variant": 1,
+      "duration": 3333,
+      "move_speed": 0.0,
+      "flags": 32
+    },
+    {
+      "id": 0,
+      "variant": 2,
+      "duration": 3333,
+      "move_speed": 0.0,
+      "flags": 32
+    },
+    {
+      "id": 41,
+      "variant": 0,
+      "duration": 2000,
+      "move_speed": 0.0,
+      "flags": 32
+    },
+    {
+      "id": 42,
+      "variant": 0,
+      "duration": 1000,
+      "move_speed": 0.0,
+      "flags": 32
+    },
+    {
+      "id": 131,
+      "variant": 0,
+      "duration": 2367,
+      "move_speed": 0.0,
+      "flags": 161
+    },
+    {
+      "id": 132,
+      "variant": 0,
+      "duration": 3000,
+      "move_speed": 0.0,
+      "flags": 32
+    }
+  ],
+  "WalkSpeed": 2.5,
+  "RunSpeed": 8.333333015441895
+}

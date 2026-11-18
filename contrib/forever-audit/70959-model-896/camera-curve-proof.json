@@ -1,0 +1,27 @@
+{
+  "Curve": {
+    "ID": 1397,
+    "Type": 0,
+    "Flags": 1
+  },
+  "CurvePoint": {
+    "4993": {
+      "ID": 4993,
+      "Pos_0": 0.0,
+      "Pos_1": 1.0,
+      "PosPreSquish_0": 0.0,
+      "PosPreSquish_1": 1.0,
+      "CurveID": 1397,
+      "OrderIndex": 0
+    },
+    "4994": {
+      "ID": 4994,
+      "Pos_0": 1.0,
+      "Pos_1": 0.4981343150138855,
+      "PosPreSquish_0": 1.0,
+      "PosPreSquish_1": 0.4981343150138855,
+      "CurveID": 1397,
+      "OrderIndex": 1
+    }
+  }
+}

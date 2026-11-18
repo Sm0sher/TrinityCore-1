@@ -1,0 +1,63 @@
+{
+  "AnimReplacementSet": [
+    {
+      "original": {
+        "ID": 337,
+        "ExecOrder": 128
+      },
+      "canonical_payload_values": {
+        "ID": 337,
+        "ExecOrder": 128
+      },
+      "record_id": 337,
+      "payload": "80",
+      "native_layout": "7C047695",
+      "native_hash": 3916479355,
+      "native_sha256": "64da6c153eec77d2271d7075f50de3e9c9008e4bbce993198a3656ebfaaa38f0"
+    }
+  ],
+  "AnimReplacement": [
+    {
+      "original": {
+        "ID": 5078,
+        "SrcAnimID": 1,
+        "DstAnimID": 201,
+        "ConditionalFlags": 0,
+        "ParentAnimReplacementSetID": 337
+      },
+      "canonical_payload_values": {
+        "ID": 5078,
+        "SrcAnimID": 1,
+        "DstAnimID": 201,
+        "ConditionalFlags": 0,
+        "ParentAnimReplacementSetID": 337
+      },
+      "record_id": 5078,
+      "payload": "d61300000100c9000000000051010000",
+      "native_layout": "6D1FB51C",
+      "native_hash": 1399499241,
+      "native_sha256": "196d193515ff15ba3ec2b61562c0e00d83fae440021d8af252e29fac74f2de44"
+    },
+    {
+      "original": {
+        "ID": 5079,
+        "SrcAnimID": 6,
+        "DstAnimID": 202,
+        "ConditionalFlags": 0,
+        "ParentAnimReplacementSetID": 337
+      },
+      "canonical_payload_values": {
+        "ID": 5079,
+        "SrcAnimID": 6,
+        "DstAnimID": 202,
+        "ConditionalFlags": 0,
+        "ParentAnimReplacementSetID": 337
+      },
+      "record_id": 5079,
+      "payload": "d71300000600ca000000000051010000",
+      "native_layout": "6D1FB51C",
+      "native_hash": 1399499241,
+      "native_sha256": "196d193515ff15ba3ec2b61562c0e00d83fae440021d8af252e29fac74f2de44"
+    }
+  ]
+}

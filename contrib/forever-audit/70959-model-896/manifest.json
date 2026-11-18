@@ -1,0 +1,61 @@
+{
+  "initial_templates": 896,
+  "verified_package": 19,
+  "remaining_after_package": 877,
+  "mutually_exclusive_primary_groups": {
+    "classic_assets_absent_from_active_client_root": 607,
+    "outfit_metadata_needs_reconstruction": 6,
+    "confirmed_combat_dimensions_missing": 34,
+    "verified_restoration": 19,
+    "no_complete_classic_record_set": 230
+  },
+  "classic_source_full_variant_sets": 631,
+  "classic_direct_assets_in_active_root": 21,
+  "classic_direct_assets_with_exact_content_aliases": 24,
+  "exact_content_alias_source_file_ids": 9,
+  "classic_missing_direct_source_file_ids": 1253,
+  "dynamic_composite_candidates_remaining_unverified": 568,
+  "source_classic_build": "5.5.4.70960",
+  "server_build": 70959,
+  "quarantined": 0,
+  "client_files_modified": false,
+  "production_result": {
+    "block": 168,
+    "before": 2140,
+    "after": 2121,
+    "removed": 19,
+    "new": {},
+    "restored_templates": 19,
+    "remaining_models_without_display": 877,
+    "verified_rows": 113,
+    "quarantined": 0,
+    "protected_checksums_unchanged": true,
+    "client_files_modified": false,
+    "in_game_rendering_tested": false
+  },
+  "initial_startup_messages": 2140,
+  "final_startup_messages": 2121,
+  "scope": "All 896 initial templates analyzed; 19 restored; 877 unresolved, no quarantine.",
+  "reference_classic_build_config": "842ac1506d73d75b9a016b70a7d1b3a9",
+  "active_forever_build_config": "ad887adcf63b8746155dd40e1930b80f",
+  "sources": [
+    "https://us.version.battle.net/wow_classic/versions",
+    "https://github.com/wowdev/WoWDBDefs",
+    "https://wago.tools/db2/CreatureDisplayInfo/csv?build=12.1.0.69497",
+    "https://github.com/Kruithne/wow.export/blob/81cc25e4c500d2153c503b381eba82a906f52ba8/src/js/db/caches/DBComponentModelFileData.js"
+  ],
+  "native_composite_rendering": {
+    "status": "research candidate, not implemented or counted as a repair",
+    "remaining_candidates": 568,
+    "packet": "SMSG_MIRROR_IMAGE_COMPONENTED_DATA",
+    "existing_handler": "src/server/game/Handlers/SpellHandler.cpp:476",
+    "current_gate": "ordinary creatures without SPELL_AURA_CLONE_CASTER receive no mirror-image reply",
+    "required_validation": [
+      "prototype on a regular NPC with canonical race/sex/customizations/equipment",
+      "native ChrModel must match the original body model",
+      "all equipment metadata and actual race/gender assets must be valid",
+      "check nameplates, interaction, transforms, corpse and loot behavior"
+    ],
+    "no_bake_references_cleared": true
+  }
+}

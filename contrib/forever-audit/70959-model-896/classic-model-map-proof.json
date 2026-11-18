@@ -1,0 +1,377 @@
+{
+  "40321": {
+    "source_model_id": 30,
+    "file_data_id": 124903,
+    "model_scale": "1.0",
+    "model_metadata_mode": "native model at original Classic ID, exact FileDataID and ModelScale",
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "25729": {
+    "source_model_id": 2713,
+    "file_data_id": 125131,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2713,
+        "2.5",
+        "8"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "20611": {
+    "source_model_id": 2488,
+    "file_data_id": 124957,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2488,
+        "2.5",
+        "8"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "19074": {
+    "source_model_id": 2459,
+    "file_data_id": 126006,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2459,
+        "0",
+        "0"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "23941": {
+    "source_model_id": 2728,
+    "file_data_id": 123980,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2728,
+        "2.5",
+        "8"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "19073": {
+    "source_model_id": 2458,
+    "file_data_id": 126005,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2458,
+        "0",
+        "0"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "26882": {
+    "source_model_id": 2932,
+    "file_data_id": 234798,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2932,
+        "2.5",
+        "8"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "34194": {
+    "source_model_id": 2934,
+    "file_data_id": 234519,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        "M2 animation ground speeds",
+        "2.5",
+        "8.333333015441895"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "20628": {
+    "source_model_id": 2529,
+    "file_data_id": 124898,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2529,
+        "2.5",
+        "8"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "20261": {
+    "source_model_id": 2488,
+    "file_data_id": 124957,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2488,
+        "2.5",
+        "8"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "23102": {
+    "source_model_id": 250,
+    "file_data_id": 123329,
+    "model_scale": "1.0",
+    "model_metadata_mode": "native model at original Classic ID, exact FileDataID and ModelScale",
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "26945": {
+    "source_model_id": 2713,
+    "file_data_id": 125131,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2713,
+        "2.5",
+        "8"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "21349": {
+    "source_model_id": 2529,
+    "file_data_id": 124898,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2529,
+        "2.5",
+        "8"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "23916": {
+    "source_model_id": 2728,
+    "file_data_id": 123980,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2728,
+        "2.5",
+        "8"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "23917": {
+    "source_model_id": 2728,
+    "file_data_id": 123980,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2728,
+        "2.5",
+        "8"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "29934": {
+    "source_model_id": 531,
+    "file_data_id": 125069,
+    "model_scale": "1.0",
+    "model_metadata_mode": "native model at original Classic ID, exact FileDataID and ModelScale",
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "34168": {
+    "source_model_id": 2934,
+    "file_data_id": 234519,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        "M2 animation ground speeds",
+        "2.5",
+        "8.333333015441895"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "18043": {
+    "source_model_id": 2243,
+    "file_data_id": 124166,
+    "model_scale": "1.0",
+    "model_metadata_mode": "native model at original Classic ID, exact FileDataID and ModelScale",
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  },
+  "19325": {
+    "source_model_id": 2488,
+    "file_data_id": 124957,
+    "model_scale": "1.0",
+    "model_metadata_mode": {
+      "classic_model_with_confirmed_modern_speeds": [
+        2488,
+        "2.5",
+        "8"
+      ]
+    },
+    "geometry_source": "original AzerothCore/CMaNGOS display combat data; no defaults",
+    "source_fields_not_in_modern_layout": {
+      "Field_1_15_4_56400_024": 0
+    },
+    "modern_fields_unavailable_in_Classic": [
+      "ConditionalCreatureModelID",
+      "Field_11_0_0_54210_026",
+      "MountMaxBankingAngle"
+    ]
+  }
+}

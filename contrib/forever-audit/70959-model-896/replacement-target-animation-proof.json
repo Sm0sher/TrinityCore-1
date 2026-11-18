@@ -1,0 +1,22 @@
+{
+  "animation_ids": [
+    16,
+    25,
+    16,
+    55,
+    124,
+    51,
+    52,
+    53,
+    54,
+    0,
+    213,
+    224,
+    201,
+    202
+  ],
+  "all_replacement_destinations_in_model": {
+    "201": true,
+    "202": true
+  }
+}
