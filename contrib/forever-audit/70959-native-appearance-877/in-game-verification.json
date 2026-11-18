@@ -1,0 +1,15 @@
+{
+  "client_build": 70959,
+  "method": "GM morph on stationary creature; body, face, equipment and portrait visually inspected; demorph restored target",
+  "displays": [
+    24544,
+    17557,
+    28350
+  ],
+  "all_three_rendered_with_textures": true,
+  "all_three_portraits_rendered": true,
+  "original_target_restored": true,
+  "production_experimental_code": false,
+  "quest_ai_or_loot_tested": false,
+  "server_binary_sha256": "1f05b0ae88e56d5cdd1a57e89b7c9a1f7979f0fab359f53ece1f994444e9d592"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "npc": 1293,
+    "original_display": 24544,
+    "native_visual_alias": 1428,
+    "native_model": 7661,
+    "native_extra": 182,
+    "original_npc_sounds": 50,
+    "render_fields_equal": true,
+    "confirmed_geometry": [
+      0.306,
+      1.5,
+      0,
+      -44730
+    ]
+  },
+  {
+    "npc": 18180,
+    "original_display": 17557,
+    "native_visual_alias": 1410,
+    "native_model": 5408,
+    "native_extra": 157,
+    "original_npc_sounds": 37,
+    "render_fields_equal": true,
+    "confirmed_geometry": [
+      0.347,
+      1.5,
+      0,
+      63305
+    ]
+  },
+  {
+    "npc": 33439,
+    "original_display": 28350,
+    "native_visual_alias": 3167,
+    "native_model": 7661,
+    "native_extra": 346,
+    "original_npc_sounds": 0,
+    "render_fields_equal": true,
+    "confirmed_geometry": [
+      0.306,
+      1.5,
+      0,
+      63305
+    ]
+  }
+]

@@ -1,0 +1,875 @@
+﻿npc_id,name,required_original_displays,previous_primary_blocker,confirmed_geometry_missing,source_asset_ids_not_in_native_root,source_asset_ids_in_root_but_not_readable_locally,resource_inventory_includes_alternatives,quarantined
+29,Kanrethad,[25275],classic_assets_absent_from_active_client_root,[],[178005],"[142348, 144283, 151068, 152618, 153734, 154711, 157284, 157286, 159976, 159978, 162534, 165228]",True,False
+229,Unknown Evil Transform (do not translate),[36452],classic_assets_absent_from_active_client_root,[],[405891],[],True,False
+262,[DND] Wounded Lion's Footman,"[16422, 18899, 18900]",classic_assets_absent_from_active_client_root,[],"[773998, 773999, 1050573]","[137466, 137991, 148777, 151199, 154806, 154807, 156162, 157423, 158752, 158753, 160142, 162795]",True,False
+583,Ambusher,[32831],classic_assets_absent_from_active_client_root,[],[387557],"[137595, 151464, 152828, 155155, 155156, 157755, 157756, 160567, 163232]",True,False
+1410,Firewing Bloodwarder,"[18200, 18202, 18201, 18203]",classic_assets_absent_from_active_client_root,[],"[1106067, 1106069, 1106267, 1106273]","[144018, 148795, 150147, 151215, 152019, 153312, 154370, 156206, 156207, 158796, 158797, 161052, 161053, 161471, 161472, 163729, 163730, 164151, 164152]",True,False
+1649,Bolgor,[48989],classic_assets_absent_from_active_client_root,[],"[320378, 320394, 875271]","[320332, 320347, 320364, 320396, 320420, 320438, 320456]",True,False
+5355,Firewing Defender,"[18196, 18198, 18197, 18199]",classic_assets_absent_from_active_client_root,[],"[1105033, 1105036, 1105416, 1106072]","[143701, 149114, 151765, 151766, 152837, 155176, 155731, 158304, 158309, 161054, 161055, 163731, 163732]",True,False
+6866,Bodyguard,"[32828, 32829]",classic_assets_absent_from_active_client_root,[],"[387554, 387555]","[137601, 137992, 149093, 149094, 151378, 152828, 153910, 155155, 155156, 157755, 157756, 160567, 163232]",True,False
+7624,Slim's Test Death Knight,[24591],classic_assets_absent_from_active_client_root,[],[177713],"[140813, 144042, 150056, 150451, 152179, 153461, 154520, 156543, 156544, 159129, 159130, 161761, 162604, 164446, 165298]",True,False
+11120,Risen Hammersmith,[34497],classic_assets_absent_from_active_client_root,[],[423738],"[137602, 149140, 149152, 151497, 152852, 153934, 155213, 155226, 157812, 157822, 162600, 163286, 165294]",True,False
+14744,Frost Wolf Howler,[92901],confirmed_combat_dimensions_missing,[92901],[],[],True,False
+15284,Matron Arena,[15518],classic_assets_absent_from_active_client_root,[],[1107007],"[150667, 152362, 152753, 156758, 157420, 159418, 162082, 164767]",True,False
+15352,Greater Earth Elemental,[116379],confirmed_combat_dimensions_missing,[116379],[],[],True,False
+15405,Ley-Keeper Caidanis,[15909],classic_assets_absent_from_active_client_root,[],[1106671],"[150642, 152331, 152829, 156756, 159413, 159414, 162032, 164716]",True,False
+15418,Magister Jaronis,[15912],classic_assets_absent_from_active_client_root,[],[1106659],"[150666, 152361, 153553, 156788, 159457, 162081, 164766]",True,False
+15420,Prospector Anvilward,[15426],classic_assets_absent_from_active_client_root,[],[938719],"[140166, 151280, 152807, 155115, 155116, 157723, 158320, 160295, 162978]",True,False
+15777,Winter Veil War Master Voone,[28281],classic_assets_absent_from_active_client_root,[],[242122],"[143762, 150339, 150340, 151574, 152107, 154461, 155392, 156398, 158983, 158993, 161629, 164309]",True,False
+15941,Apprentice Ralen,[17289],classic_assets_absent_from_active_client_root,[],[1106251],"[150643, 152332, 153553, 156788, 159457, 162034, 164718]",True,False
+15945,Apprentice Meledor,[17290],classic_assets_absent_from_active_client_root,[],[1106253],"[150643, 152332, 153553, 156788, 159457, 162034, 164718]",True,False
+16519,Shadowy Executioner,"[18111, 18112, 18113, 17981]",classic_assets_absent_from_active_client_root,[],"[964047, 1009817, 1050345, 1061618]","[137602, 143765, 150398, 152139, 153433, 154492, 156481, 156482, 156483, 156505, 159067, 159068, 159069, 161693, 164376, 164377]",True,False
+16769,Firewing Warlock,"[18205, 18207, 18206, 18208]",classic_assets_absent_from_active_client_root,[],"[1106061, 1106063, 1106255, 1106261]","[144218, 150654, 152343, 152713, 154580, 156772, 156773, 159436, 159437, 159438, 162054, 162055, 164739, 164740]",True,False
+16805,Broken Skeleton,"[18824, 18825, 18826]",classic_assets_absent_from_active_client_root,[],"[175486, 175487, 175488]","[143736, 143742, 144155, 155286, 155840, 156867, 157876, 158421, 159540, 159541]",True,False
+16810,Bonechewer Backbreaker,[18215],classic_assets_absent_from_active_client_root,[],[3942938],"[144218, 152558, 157131, 159808, 159985, 162423, 165116]",True,False
+16878,Shattered Hand Berserker,[18859],classic_assets_absent_from_active_client_root,[],[3942972],"[144016, 150300, 153382, 156363, 156365, 158950]",True,False
+16904,Unyielding Footman,"[16502, 16503, 16504, 16505]",classic_assets_absent_from_active_client_root,[],"[938784, 1009674, 1050540, 1050542]","[140234, 150052, 150055, 151964, 153267, 154325, 156097, 156100, 158685, 158686, 161383, 161384, 162620, 162621, 164063, 164064, 165314, 165315]",True,False
+16905,Unyielding Sorcerer,"[16506, 16507]",classic_assets_absent_from_active_client_root,[],"[1009676, 1050538]","[150674, 152370, 153267, 156097, 156808, 159471, 159472, 162096, 162097, 162620, 162621, 164781, 164782, 165314, 165315]",True,False
+16977,Arch Mage Xintor,[16522],classic_assets_absent_from_active_client_root,[],[1050518],"[144223, 150913, 152553, 153672, 157120, 157121, 159797, 159798, 162413, 162621, 165106, 165315]",True,False
+16978,Lieutenant Commander Thalvos,[16523],classic_assets_absent_from_active_client_root,[],[938786],"[143987, 150240, 150241, 152067, 153353, 154412, 156305, 156306, 158890, 158891, 161542, 162621, 164223, 165315]",True,False
+17015,Taleris Dawngazer,[16648],classic_assets_absent_from_active_client_root,[],[1106606],"[150643, 152332, 153563, 156757, 159416, 162034, 164718]",True,False
+17046,Pilgrim Gal'ressa,[16725],classic_assets_absent_from_active_client_root,[],[1106760],"[148834, 151244, 152668, 154822, 157436, 157473, 160233, 162894]",True,False
+17076,Lady Liadrin,[16820],classic_assets_absent_from_active_client_root,[],[175437],"[144317, 148998, 150492, 151392, 152202, 153479, 154538, 156579, 156580, 159165, 159166, 161795, 162595, 163114, 164480, 165289]",True,False
+17088,Shadowy Summoner,"[18130, 18133, 17988, 18132]",classic_assets_absent_from_active_client_root,[],"[928732, 938888, 1106106, 1106315]","[137602, 144148, 150806, 153564, 153565, 156988, 159667, 162266, 162267, 164963, 164964]",True,False
+17242,Archaeologist Adamant Ironheart,[16933],classic_assets_absent_from_active_client_root,[],[938792],"[143947, 148762, 150067, 151187, 151973, 153274, 154332, 156114, 156115, 158701, 160130, 161394, 162781, 164074]",True,False
+17243,"Engineer ""Spark"" Overgrind",[16934],classic_assets_absent_from_active_client_root,[],[928716],"[148784, 151204, 152658, 154784, 154785, 157403, 157414, 160154, 162805]",True,False
+17290,Captain Alina,[16963],classic_assets_absent_from_active_client_root,[],[1009757],"[143956, 150112, 150113, 151995, 153295, 154353, 156159, 156165, 158756, 158757, 161435, 162636, 164115, 165330]",True,False
+17296,Captain Boneshatter,[16967],classic_assets_absent_from_active_client_root,[],[925229],"[143983, 150216, 150217, 152059, 153345, 154404, 156285, 156286, 158870, 158871, 161526, 162639, 164207, 165333]",True,False
+17309,Hellfire Watcher,[17051],classic_assets_absent_from_active_client_root,[],[3942886],"[144164, 150806, 152499, 153612, 156807, 156808, 159471, 159472, 162097, 164782]",True,False
+17359,Tel'athion the Impure,[16983],classic_assets_absent_from_active_client_root,[],[1106307],"[150650, 152339, 153522, 156765, 159424, 159426, 162047, 164732]",True,False
+17377,Keli'dan the Breaker,[17153],classic_assets_absent_from_active_client_root,[],[3942896],"[144142, 150580, 150807, 152257, 152470, 153621, 154616, 156990, 159668, 159669, 160594, 162269, 163261, 164966]",True,False
+17397,Shadowmoon Adept,[17148],classic_assets_absent_from_active_client_root,[],[3942892],"[152724, 154950, 154951, 157557, 159660, 162273, 164970]",True,False
+17537,Vazruden,[18407],classic_assets_absent_from_active_client_root,[],[3942946],"[143899, 149944, 149945, 151913, 153217, 154275, 155978, 155979, 158564, 158565, 161286, 163965]",True,False
+17607,Sunhawk Defender,"[17364, 17365, 17366]",classic_assets_absent_from_active_client_root,[],"[1106216, 1106220, 1106538]","[140530, 150216, 150217, 152059, 153345, 154404, 156285, 156286, 158870, 158871, 161523, 161524, 161526, 164204, 164205, 164207]",True,False
+17608,Sunhawk Pyromancer,"[17367, 17368]",classic_assets_absent_from_active_client_root,[],"[1106214, 1106447]","[137993, 139317, 149660, 149661, 151761, 153099, 154165, 155724, 155725, 158302, 158303, 161048, 161049, 163725, 163726]",True,False
+17609,Sunhawk Saboteur,"[17352, 17353, 17354, 17355]",classic_assets_absent_from_active_client_root,[],"[1106232, 1106236, 1106561, 1106567]","[143353, 149670, 149671, 151767, 151768, 153103, 154169, 155732, 155733, 158310, 158311, 161056, 161057, 163733, 163734]",True,False
+17610,Sunhawk Agent,"[17348, 17349, 17350, 17351]",classic_assets_absent_from_active_client_root,[],"[1106238, 1106242, 1106573, 1106579]","[138218, 138333, 143734, 149190, 149191, 151510, 152871, 153953, 155251, 155252, 157817, 157843, 160641, 163308]",True,False
+17681,Expedition Researcher,"[17176, 17177, 17178, 17179]",classic_assets_absent_from_active_client_root,[],"[1008064, 1008066, 1025369, 1025371]","[148882, 151287, 151288, 154820, 154821, 157435, 157508, 160298, 160299, 162961, 162962]",True,False
+17716,Sangrias Stillblade,[17198],classic_assets_absent_from_active_client_root,[],[1106293],"[138333, 143353, 149010, 151768, 153103, 155732, 155733, 158310, 158311, 161057, 162596, 163734, 165290]",True,False
+17798,Warlord Kalithresh,[20235],classic_assets_absent_from_active_client_root,[],[443652],"[143901, 149950, 151641, 154277, 158568, 161290, 163554, 163969]",True,False
+17809,Champion Bloodwrath,[17258],classic_assets_absent_from_active_client_root,[],[1106277],"[143980, 150191, 150213, 152045, 153343, 154402, 156260, 156281, 158847, 158866, 161511, 162596, 164192, 165290]",True,False
+17810,Champion Lightrend,[17259],classic_assets_absent_from_active_client_root,[],[1106275],"[143980, 150191, 150213, 152045, 153343, 154402, 156260, 156281, 158847, 158866, 161511, 162596, 164192, 165290]",True,False
+17811,Champion Swiftblade,[17260],classic_assets_absent_from_active_client_root,[],[1106614],"[143980, 150191, 150213, 152045, 153343, 154402, 156260, 156281, 158847, 158866, 161511, 162595, 164192, 165289]",True,False
+17812,Champion Sunstriker,[17261],classic_assets_absent_from_active_client_root,[],[1106271],"[143980, 150191, 150213, 152045, 153343, 154402, 156260, 156281, 158847, 158866, 161511, 162596, 164192, 165290]",True,False
+17841,Ysiel Windsinger,[17275],classic_assets_absent_from_active_client_root,[],[1015141],"[137316, 143781, 149177, 151506, 152867, 155243, 155244, 157836, 157885, 160634, 162666, 163301, 165360]",True,False
+17894,Windcaller Claw,[17309],classic_assets_absent_from_active_client_root,[],[981148],"[137297, 143762, 149299, 151543, 155295, 157889, 157986, 160685, 163353]",True,False
+17910,Gregor the Justiciar,[17314],classic_assets_absent_from_active_client_root,[],[1050409],"[137519, 144057, 149714, 150484, 150673, 152076, 152369, 153475, 154534, 156572, 158758, 159158, 161088, 161788, 163764, 164473]",True,False
+17911,Cathela the Seeker,[17315],classic_assets_absent_from_active_client_root,[],[1009787],"[137519, 144057, 149714, 150484, 150673, 151510, 152369, 152871, 154534, 155251, 156572, 158758, 159158, 161788, 164473]",True,False
+17912,Nemas the Arbiter,[17316],classic_assets_absent_from_active_client_root,[],[1050407],"[137519, 144057, 149714, 150484, 150673, 152076, 152369, 153475, 154534, 156572, 158758, 159158, 161088, 161788, 163764, 164473]",True,False
+17913,Aelmar the Vanquisher,[17317],classic_assets_absent_from_active_client_root,[],[512266],"[137519, 144057, 149714, 150484, 150673, 152076, 152369, 153475, 154534, 156572, 158758, 159158, 161088, 161788, 163764, 164473]",True,False
+17914,Vicar Hieronymus,[17318],classic_assets_absent_from_active_client_root,[],[1050405],"[137519, 144057, 149714, 150484, 150673, 152076, 152369, 153475, 154534, 156572, 158758, 159158, 161088, 161788, 163764, 164473]",True,False
+17975,High Botanist Freywinn,[19045],classic_assets_absent_from_active_client_root,[],[1105916],"[137543, 143781, 150681, 152388, 153568, 156849, 159513, 159516, 162140, 164825]",True,False
+18088,Bloodscale Enchantress,[17953],classic_assets_absent_from_active_client_root,[],[371547],"[159469, 162021, 164705]",True,False
+18089,Bloodscale Slavedriver,[17954],classic_assets_absent_from_active_client_root,[],[443675],"[143971, 149334, 151582, 157823, 160764, 163442]",True,False
+18154,Ssslith,[17605],classic_assets_absent_from_active_client_root,[],[443678],"[143980, 150135, 152034, 158385, 161500, 164181]",True,False
+18187,Cheneta,[17564],classic_assets_absent_from_active_client_root,[],[964073],"[137283, 149827, 151853, 153167, 155867, 158448, 161170, 163846]",True,False
+18192,Horde Halaani Guard,"[18253, 18258, 18259, 18260]",classic_assets_absent_from_active_client_root,[],"[1106047, 1106049, 1106228, 1106234]","[137264, 140386, 143964, 148859, 150147, 151264, 152019, 153312, 154370, 156206, 156207, 158796, 158797, 160255, 160256, 161471, 161472, 162595, 162596, 162917, 162918, 164151, 164152, 165289, 165290]",True,False
+18200,Shado 'Fitz' Farstrider,[17580],classic_assets_absent_from_active_client_root,[],[981154],"[139342, 149299, 151571, 155361, 155850, 157951, 158431]",True,False
+18218,Harold Lane,[17597],classic_assets_absent_from_active_client_root,[],[1050397],"[148786, 151206, 155193, 157789, 158260, 160158, 162809]",True,False
+18256,Alliance Halaani Guard,"[18254, 18255, 18256, 18257]",classic_assets_absent_from_active_client_root,[],"[175458, 1007841, 1007843, 1025623]","[137416, 140837, 150454, 152181, 153462, 154521, 156545, 156546, 159131, 159132, 161762, 161763, 162644, 162645, 164447, 164448, 165338, 165339]",True,False
+18294,Kristen Dipswitch,[17660],classic_assets_absent_from_active_client_root,[],[938889],"[137391, 150174, 151487, 152031, 153326, 154385, 156234, 156340, 158825, 158925, 160603, 161493, 163270, 164174]",True,False
+18297,Gankly Rottenfist,[17662],classic_assets_absent_from_active_client_root,[],[175446],"[137337, 143778, 149413, 151614, 152979, 154051, 155460, 155461, 158047, 158048, 160824, 163502]",True,False
+18373,Exarch Maladaar,[17715],classic_assets_absent_from_active_client_root,[],[1007706],"[137264, 143963, 148864, 150151, 150157, 151269, 152024, 153314, 154372, 156210, 156211, 158800, 158801, 160265, 161476, 162928, 164156]",True,False
+18391,Giselda the Crone,[17742],classic_assets_absent_from_active_client_root,[],[964055],"[144201, 150775, 150776, 152444, 153591, 154603, 156928, 156930, 159611, 159613, 162219, 164905]",True,False
+18399,Murkblood Twin,"[17831, 18046]",classic_assets_absent_from_active_client_root,[],"[3941840, 3941857]","[149782, 149784, 153151, 153152, 154214, 154215, 155833, 155834, 155835, 155836, 158414, 158415, 158416, 158417, 162843, 162846]",True,False
+18402,Warmaul Champion,"[17747, 17748, 17750, 17749]",classic_assets_absent_from_active_client_root,[],"[2247872, 3941816, 3942932]","[123793, 125295, 125298, 143392, 144016, 150231, 150232, 150526, 152064, 152220, 153350, 153497, 154409, 154556, 156299, 156300, 156615, 156617, 158884, 158885, 159205, 159206, 161536, 161829, 164217, 164515]",True,False
+18471,Gurgthock,[17836],classic_assets_absent_from_active_client_root,[],[328723],"[150221, 150223, 152061, 153347, 154406, 156290, 156292, 158875, 158877, 161530, 164211]",True,False
+18583,Lisaile Fireweaver,[18003],classic_assets_absent_from_active_client_root,[],[1106334],"[150643, 152332, 152829, 156757, 159413, 159416, 162033, 164717]",True,False
+18595,Warped Peon,[18216],classic_assets_absent_from_active_client_root,[],[3942940],"[155328, 157921, 157966, 160751, 163422]",True,False
+18720,Shadowmaster Grieve,[18127],classic_assets_absent_from_active_client_root,[],[926943],"[143944, 150134, 150135, 152008, 153306, 154364, 154783, 156188, 158780, 159666, 161454, 162267, 164134, 164964]",True,False
+18744,Aurosalia,[18145],classic_assets_absent_from_active_client_root,[],[1106311],"[150653, 152342, 153562, 156770, 159434, 162052, 164737]",True,False
+18805,High Astromancer Solarian,[18239],classic_assets_absent_from_active_client_root,[],[1106020],"[142397, 143426, 151078, 151079, 152623, 153739, 154716, 157297, 159988, 159990, 162543, 165237]",True,False
+18806,Solarium Priest,"[19050, 19051, 19052]",classic_assets_absent_from_active_client_root,[],"[1105906, 1105910, 1106008]","[142152, 144224, 150916, 152554, 153673, 157123, 159800, 162414, 162415, 165107, 165108]",True,False
+18852,Sunfury Warp-Engineer,"[19121, 19122, 19123, 19124]",classic_assets_absent_from_active_client_root,[],"[1105886, 1105890, 1105958, 1105964]","[138026, 138102, 149664, 151269, 152837, 155176, 155733, 158310, 158311, 160264, 160265, 162927, 162928]",True,False
+18857,Sunfury Warp-Master,"[19125, 19126]",classic_assets_absent_from_active_client_root,[],"[1105947, 1105953]","[138101, 150491, 152202, 153479, 156579, 156580, 159165, 159166, 161795, 164480]",True,False
+18925,Solarium Agent,"[19048, 19049]",classic_assets_absent_from_active_client_root,[],"[1105912, 1106014]","[137616, 148857, 149107, 151262, 151472, 152833, 153915, 155168, 155169, 157769, 159427, 160578, 160579, 163245, 163246]",True,False
+18927,Human Commoner,"[19178, 19177]",classic_assets_absent_from_active_client_root,[],"[241151, 305537]","[148874, 151281, 151385, 152701, 152752, 154885, 154886, 155005, 157502, 157503, 157614, 160289, 160437, 162952, 163100]",True,False
+18949,Stormwind Mage,"[18452, 18453]",classic_assets_absent_from_active_client_root,[],"[1009853, 1050303]","[144235, 150952, 152572, 153688, 154665, 157157, 159832, 159834, 162444, 162445, 165137, 165138]",True,False
+18986,Ironforge Paladin,"[18457, 18458]",classic_assets_absent_from_active_client_root,[],"[938805, 967371]","[143993, 150260, 152076, 153362, 154421, 156323, 156324, 158908, 158909, 161558, 161559, 164240, 164241]",True,False
+19004,Vodesiin,[18445],classic_assets_absent_from_active_client_root,[],[1007817],"[150712, 152416, 156868, 159542, 159543, 162179, 164860]",True,False
+19006,Silvermoon Magister,[19792],classic_assets_absent_from_active_client_root,[],[1104708],"[137544, 144183, 150727, 152421, 153573, 156882, 156883, 159557, 159558, 162188, 164869]",True,False
+19011,Osrok the Immovable,[18459],classic_assets_absent_from_active_client_root,[],[926967],"[150421, 153449, 154508, 156515, 156516, 159101, 159102]",True,False
+19012,Sparik,[18460],classic_assets_absent_from_active_client_root,[],[3941882],"[150306, 153385, 154444, 156370, 156371, 158948, 158956, 162851]",True,False
+19013,Vanteg,[18461],classic_assets_absent_from_active_client_root,[],[926969],"[150809, 152471, 153623, 156993, 156994, 159672, 159673, 162273, 164970]",True,False
+19132,"[PH] Gossip NPC Troll Male, Lunar Festival",[18874],classic_assets_absent_from_active_client_root,[],[1040311],"[150789, 152456, 153603, 156953, 156954, 159633, 162243, 164930]",True,False
+19133,Ohlorn Farstrider,[18532],classic_assets_absent_from_active_client_root,[],[981170],"[149299, 151571, 155361, 155850, 157951, 158431]",True,False
+19148,Dwarf Commoner,"[19174, 19173]",classic_assets_absent_from_active_client_root,[],"[305539, 305542]","[148744, 150566, 151154, 151155, 152243, 152651, 152753, 154749, 154751, 154752, 156660, 157367, 157368, 159250, 159251, 160062, 161875, 162713, 164560]",True,False
+19169,Blood Elf Commoner,"[19170, 19169]",classic_assets_absent_from_active_client_root,[],"[305550, 305551]","[150654, 152343, 152646, 152647, 156772, 156773, 159436, 159437, 159438, 162054, 162055, 164739, 164740]",True,False
+19171,Draenei Commoner,"[19171, 19172]",classic_assets_absent_from_active_client_root,[],"[305552, 305553]","[150692, 150693, 152398, 152399, 156857, 159522, 159524, 162156, 162157, 162165, 164837, 164838]",True,False
+19172,Gnome Commoner,"[19176, 19175]",classic_assets_absent_from_active_client_root,[],"[305541, 305543]","[148830, 151169, 151240, 152691, 152801, 154768, 154865, 155102, 155104, 157380, 157487, 157711, 157713, 160084, 160085, 160225, 162735, 162736, 162886]",True,False
+19173,Night Elf Commoner,"[19180, 19179]",classic_assets_absent_from_active_client_root,[],"[305540, 1002530]","[150589, 150592, 152266, 152269, 152702, 152703, 154887, 156693, 156696, 159304, 159305, 159310, 161922, 161927, 164607, 164612]",True,False
+19175,Orc Commoner,"[19181, 19182]",classic_assets_absent_from_active_client_root,[],"[175489, 305538]","[149304, 150802, 151572, 152928, 153616, 155368, 155369, 156980, 157960, 157961, 159658, 159659, 160745, 162258, 163416, 164955]",True,False
+19176,Tauren Commoner,[19184],classic_assets_absent_from_active_client_root,[],[305546],"[151347, 152742, 154985, 154986, 157594, 157595, 160390, 163053]",True,False
+19177,Troll Commoner,"[19186, 19185]",classic_assets_absent_from_active_client_root,[],"[305544, 305545]","[148945, 150814, 151336, 152476, 153606, 154973, 157003, 157580, 157582, 159682, 159683, 160378, 162282, 163041, 164979]",True,False
+19178,Forsaken Commoner,"[19188, 19187]",classic_assets_absent_from_active_client_root,[],"[175490, 175491]","[148876, 148877, 151283, 152462, 152703, 153609, 154889, 154890, 156966, 157506, 157507, 159644, 159645, 160293, 162244, 162956, 164941]",True,False
+19312,Drillmaster Zurok,[18725],classic_assets_absent_from_active_client_root,[],[3942958],"[137337, 143981, 150138, 150139, 152012, 153308, 154366, 156196, 158691, 158786, 161458, 164138]",True,False
+19457,"Grillok ""Darkeye""",[19346],classic_assets_absent_from_active_client_root,[],[927090],"[137993, 143879, 149829, 152469, 153168, 155870, 158449, 158451, 162267, 164964]",True,False
+19505,Sunseeker Channeler,"[21341, 21340]",classic_assets_absent_from_active_client_root,[],"[1104674, 1105174]","[150653, 152342, 153552, 156770, 156771, 159424, 159434, 159435, 162052, 162053, 164737, 164738]",True,False
+19546,Abjurist Belmara,[18978],classic_assets_absent_from_active_client_root,[],[1009886],"[144239, 150961, 152576, 153538, 157163, 159841, 159843, 162450, 165143]",True,False
+19606,Grek,[19028],classic_assets_absent_from_active_client_root,[],[927086],"[138669, 143651, 149010, 152148, 152770, 153857, 155030, 156502, 158562, 159088, 161708, 164393]",True,False
+19695,Peasant (Wood) 1.50,[88885],no_complete_classic_record_set,[],[],[],True,False
+19705,Master Daellis Dawnstrike,[19150],classic_assets_absent_from_active_client_root,[],[1105872],"[137264, 150158, 151269, 152023, 153318, 154376, 156217, 156218, 158808, 158809, 160265, 161483, 162596, 162928, 164164, 165290]",True,False
+19707,Sunfury Archer,"[19439, 19440, 19441, 19442]",classic_assets_absent_from_active_client_root,[],"[1105172, 1105178, 1105491, 1105493]","[149099, 151468, 152829, 153911, 155160, 155161, 157761, 157762, 160570, 160571, 163237, 163238]",True,False
+19779,Sunfury Geologist,"[19493, 19494, 19495, 19496]",classic_assets_absent_from_active_client_root,[],"[1105115, 1105465, 1105686, 1105702]","[137489, 149041, 152800, 152801, 155076, 155101, 155102, 157687, 160518, 160519, 163184, 163185]",True,False
+19797,Illidari Highlord,"[20773, 20774]",classic_assets_absent_from_active_client_root,[],"[1105274, 1105278]","[137421, 137596, 144218, 148866, 150926, 151274, 152558, 153677, 154654, 157131, 159807, 159808, 160277, 162423, 162673, 162940, 165116, 165367]",True,False
+19862,Urtrak,[19353],classic_assets_absent_from_active_client_root,[],[925202],"[143765, 150461, 150462, 152186, 153466, 154525, 156553, 156554, 159139, 159140, 161771, 164456]",True,False
+19881,Severed Spirit,"[19237, 19238, 19664]",classic_assets_absent_from_active_client_root,[],"[525161, 525206, 525207]","[137267, 137357, 150581, 150665, 150672, 152258, 152359, 152368, 152647, 152700, 152793, 154784, 154874, 156679, 157506, 159294, 159387, 159454, 161905, 162079, 162093, 162630, 162631, 164590, 164764, 164778, 165324, 165325]",True,False
+19938,Image of Commander Sarannis,[19271],classic_assets_absent_from_active_client_root,[],[1106084],"[143353, 149671, 149931, 151767, 153103, 154269, 155732, 155733, 158310, 158311, 161056, 163733]",True,False
+20060,Lord Sanguinar,[20178],classic_assets_absent_from_active_client_root,[],[1105390],"[137264, 140385, 143963, 150157, 150158, 152023, 153318, 154376, 156217, 156218, 158808, 158809, 161483, 164164]",True,False
+20062,Grand Astromancer Capernian,[20237],classic_assets_absent_from_active_client_root,[],[1105195],"[144245, 150969, 150970, 152579, 153740, 154672, 157172, 157298, 159850, 159852, 162455, 165149]",True,False
+20063,Master Engineer Telonicus,[20177],classic_assets_absent_from_active_client_root,[],[1105510],"[137376, 139717, 143910, 149972, 149973, 151925, 153229, 154287, 156002, 156003, 158588, 158589, 161310, 163989]",True,False
+20064,Thaladred the Darkener,[20236],classic_assets_absent_from_active_client_root,[],[1105512],"[137421, 141140, 144075, 150531, 152223, 153500, 154559, 156622, 156623, 159211, 159212, 161836, 164521]",True,False
+20139,Sunfury Conjurer,"[19463, 19464, 19465]",classic_assets_absent_from_active_client_root,[],"[1105137, 1105142, 1105640]","[141531, 150727, 152421, 153573, 156883, 159558, 162188, 162189, 164869, 164870]",True,False
+20140,Sunfury Centurion,"[19459, 19460]",classic_assets_absent_from_active_client_root,[],"[1105475, 1105477]","[137405, 139186, 143951, 150461, 150462, 152186, 153466, 154525, 156553, 156554, 158808, 159140, 161771, 164456]",True,False
+20154,Shrouded Figure,[19381],classic_assets_absent_from_active_client_root,[],[525160],"[137377, 148837, 151246, 152711, 154914, 154917, 157527, 160237, 162898]",True,False
+20163,Ambassador Solannas,[19402],classic_assets_absent_from_active_client_root,[],[1105502],"[137346, 144185, 150733, 152423, 153575, 154587, 156889, 159562, 159564, 162193, 164874]",True,False
+20183,Swamplord Musel'ek (1),[18570],classic_assets_absent_from_active_client_root,[],[3941906],"[143653, 149011, 152467, 152771, 153858, 155032, 157571, 157939, 162255, 164952]",True,False
+20201,Sa'at,[19411],classic_assets_absent_from_active_client_root,[],[525184],"[137396, 137600, 143970, 150493, 152203, 153480, 154539, 156581, 156582, 159167, 159168, 161798, 164483]",True,False
+20207,Sunfury Bowman,"[19443, 19444, 19445, 19446]",classic_assets_absent_from_active_client_root,[],"[1105162, 1105168, 1105487, 1105489]","[149653, 151757, 153095, 154161, 155716, 155717, 158294, 158295, 161040, 161041, 163717, 163718]",True,False
+20218,Sunfury Technician,"[19517, 19518, 19515, 19516]",classic_assets_absent_from_active_client_root,[],"[1105095, 1105101, 1105457, 1105459]","[138026, 138102, 149664, 151264, 152837, 155176, 155177, 157773, 158310, 160255, 160256, 162917, 162918]",True,False
+20227,Apprentice Tedon,[19509],classic_assets_absent_from_active_client_root,[],[1007694],"[150600, 152277, 156704, 159322, 161940, 164625]",True,False
+20231,Supply Officer Pestle,[16370],classic_assets_absent_from_active_client_root,[],[1050603],"[140454, 148742, 150139, 151148, 152012, 153308, 154366, 156194, 156196, 158784, 158786, 160056, 161458, 162637, 162707, 164138, 165331]",True,False
+20284,Dr. Boom,[19524],classic_assets_absent_from_active_client_root,[],[328736],"[137376, 143681, 150193, 150231, 152047, 153350, 154409, 156262, 156299, 158849, 158884, 161513, 164194]",True,False
+20300,Auchenai Necromancer (1),"[18077, 18078, 18079, 18080]",classic_assets_absent_from_active_client_root,[],"[1007859, 1007861, 1025611, 1025613]","[144197, 150864, 152525, 157082, 159761, 159762, 162368, 162369, 165065, 165066]",True,False
+20301,Auchenai Soulpriest (1),"[17924, 17925, 17926, 17927]",classic_assets_absent_from_active_client_root,[],"[577254, 1007867, 1025517, 1025519]","[137305, 144155, 150696, 150697, 150708, 150709, 150710, 152415, 153850, 156867, 159540, 159541, 162176, 162177, 164857, 164858]",True,False
+20302,Auchenai Vindicator (1),"[17942, 17943, 17944, 17945]",classic_assets_absent_from_active_client_root,[],"[1007873, 1007903, 1025509, 1025511]","[149195, 156859, 159524, 159525, 162160, 162161, 164841, 164842]",True,False
+20303,Avatar of the Martyred (1),[18142],classic_assets_absent_from_active_client_root,[],[1007855],"[144022, 150421, 152155, 153449, 154508, 156515, 156516, 159101, 159102, 161721, 164406]",True,False
+20306,Exarch Maladaar (1),[17715],classic_assets_absent_from_active_client_root,[],[1007706],"[137264, 143963, 148864, 150151, 150157, 151269, 152024, 153314, 154372, 156210, 156211, 158800, 158801, 160265, 161476, 162928, 164156]",True,False
+20342,Hal McAllister,[19541],classic_assets_absent_from_active_client_root,[],[1050159],"[137695, 151206, 153776, 154801, 157418, 157419, 160082, 160158, 162733, 162809]",True,False
+20345,Commander Mograine,[19543],classic_assets_absent_from_active_client_root,[],[1050193],"[143976, 150205, 152053, 153339, 154398, 156273, 156274, 158858, 158859, 161519, 162611, 164200, 165305]",True,False
+20346,Isillien,[19544],classic_assets_absent_from_active_client_root,[],[1050191],"[143976, 150663, 152355, 153550, 156785, 159450, 159451, 162611, 164760, 165305]",True,False
+20347,Abbendis,[19545],classic_assets_absent_from_active_client_root,[],[1009905],"[143976, 150125, 150204, 152001, 152053, 153301, 154359, 156176, 156177, 157823, 158768, 161514, 162611, 164195, 164200, 165305]",True,False
+20348,Fairbanks,[19546],classic_assets_absent_from_active_client_root,[],[1050189],"[148827, 150670, 152366, 153558, 156798, 157455, 159465, 162611, 165305]",True,False
+20349,Tirion Fordring,[19547],classic_assets_absent_from_active_client_root,[],[1050187],"[143953, 150136, 150137, 150627, 152010, 152304, 153307, 154365, 156191, 156193, 158781, 158783, 161456, 162014, 164136, 164700]",True,False
+20416,Overseer Theredis,[20096],classic_assets_absent_from_active_client_root,[],[1105410],"[137263, 143964, 149664, 151476, 152837, 155176, 156773, 158310, 159438, 162055, 164740]",True,False
+20422,Kirin Tor Mage,"[19612, 19613, 19614, 19615]",outfit_metadata_needs_reconstruction,[],"[928764, 1009907, 1009909, 1050147]","[144137, 144151, 150624, 150626, 150661, 152301, 152303, 152351, 152703, 153536, 153538, 156728, 156730, 156783, 157830, 159376, 159377, 159380, 159381, 159447, 161983, 161988, 161999, 162000, 162630, 162631, 164669, 164674, 164685, 164686, 165324, 165325]",True,False
+20423,Kel'Thuzad,[19617],classic_assets_absent_from_active_client_root,[],[1050185],"[144206, 150672, 152368, 153561, 156802, 159467, 159468, 162631, 164760, 165325]",True,False
+20436,Sunfury Protector,"[19448, 19449, 19450, 19451]",classic_assets_absent_from_active_client_root,[],"[1105155, 1105159, 1105483, 1105485]","[140386, 143964, 148859, 150147, 151264, 152019, 153312, 154370, 156206, 156207, 158796, 158797, 160255, 160256, 161471, 161472, 162917, 162918, 164151, 164152]",True,False
+20790,Malevus the Mad,[21167],classic_assets_absent_from_active_client_root,[],[1104695],"[144058, 150485, 150486, 152199, 153476, 154535, 156573, 156574, 159159, 159160, 161789, 162654, 164474, 165348]",True,False
+20872,Deathforge Summoner,[20234],classic_assets_absent_from_active_client_root,[],[926925],"[144197, 150767, 150768, 152440, 153620, 154599, 156918, 159599, 159601, 162212, 164898]",True,False
+20878,Deathforge Guardian,[20233],classic_assets_absent_from_active_client_root,[],[926917],"[143981, 150214, 153344, 154403, 156196, 156283, 158765, 158786, 160734, 163402]",True,False
+20904,Warden Mellichar,[19965],classic_assets_absent_from_active_client_root,[],[1105562],"[144185, 149683, 150733, 152423, 153109, 154174, 155742, 156888, 159562, 159563, 162193, 164874]",True,False
+20920,Magister Theledorn,[19903],classic_assets_absent_from_active_client_root,[],[1105418],"[137256, 144218, 150654, 152343, 152713, 154580, 156773, 159436, 159438, 162055, 164740]",True,False
+20977,Millhouse Manastorm,[19942],classic_assets_absent_from_active_client_root,[],[928788],"[150715, 152417, 153569, 156871, 159544, 159546, 162181, 164862]",True,False
+21044,Coilskar Assassin,[19364],classic_assets_absent_from_active_client_root,[],[443669],"[143863, 149726, 154194, 161098, 163774]",True,False
+21084,Braagor,[20056],classic_assets_absent_from_active_client_root,[],[927120],"[148935, 152733, 154964, 157569]",True,False
+21178,Varedis,[20130],classic_assets_absent_from_active_client_root,[],[1105406],"[137596, 149193, 151308, 152847, 155533, 155534, 158121, 159207, 160321, 162984]",True,False
+21183,Oronok Torn-heart,[20136],classic_assets_absent_from_active_client_root,[],[924604],"[148948, 151337, 152737, 154965, 154967, 157576, 157583, 160380, 163043]",True,False
+21214,Fathom-Lord Karathress,[20662],classic_assets_absent_from_active_client_root,[],[443654],"[144319, 150529, 152222, 154558, 161834, 164519]",True,False
+21215,Leotheras the Blind,[20514],classic_assets_absent_from_active_client_root,[],[1105226],"[137596, 149190, 151308, 152847, 155533, 155534, 158121, 159205, 160321, 162984]",True,False
+21242,Auchenai Death-Speaker,"[20165, 20744]",classic_assets_absent_from_active_client_root,[],"[1007608, 1007879]","[137603, 150927, 152559, 157133, 159810, 162425, 165118]",True,False
+21276,Kil'sorrow Agent,"[17957, 17963]",classic_assets_absent_from_active_client_root,[],"[926915, 964041]","[137602, 150806, 152469, 153620, 156988, 159667, 162266, 162267, 164963, 164964]",True,False
+21277,Vindicator Vuuleen,[20181],classic_assets_absent_from_active_client_root,[],[1025750],"[148805, 151222, 154820, 154821, 157435, 160189, 162840]",True,False
+21332,Spirit Hunter,[20219],classic_assets_absent_from_active_client_root,[],[924596],"[137407, 139368, 143874, 149816, 149817, 151849, 153163, 154226, 155858, 158438, 158439, 161163, 163839]",True,False
+21493,Kablamm Farflinger,[20326],classic_assets_absent_from_active_client_root,[],[328877],"[143958, 148831, 151241, 152684, 153792, 154851, 154875, 157495, 158765, 160228, 160718, 161023, 162889, 163386, 163700]",True,False
+21494,Smiles O'Byron,[20325],classic_assets_absent_from_active_client_root,[],[928790],"[150676, 152379, 152793, 154869, 157491, 159378, 162139, 164824]",True,False
+21636,Vengeful Draenei,"[20289, 20288, 20288, 20289]",classic_assets_absent_from_active_client_root,[],"[1007901, 1025493]","[137519, 143990, 150194, 150195, 150249, 152070, 154393, 154415, 156311, 156312, 158896, 158897, 161148, 161149, 161547, 161548, 162652, 162653, 163824, 163825, 164228, 164229, 165346, 165347]",True,False
+21661,Cabal Skirmisher,"[20393, 20394, 20563]",classic_assets_absent_from_active_client_root,[],"[927158, 927160, 963862]","[140531, 143964, 149874, 151872, 151873, 153189, 154250, 155915, 155916, 158503, 158504, 161212, 161213, 163892, 163893]",True,False
+21795,Shadowmoon Harbinger,"[20020, 20022]",classic_assets_absent_from_active_client_root,[],"[924612, 963926]","[137596, 150629, 152306, 156733, 159386, 161993, 161994, 164679, 164680]",True,False
+21797,Ancient Shadowmoon Spirit,[20475],classic_assets_absent_from_active_client_root,[],[924594],"[137387, 138323, 150616, 152293, 153541, 156720, 159360, 159361, 161968, 164654]",True,False
+21806,Greyheart Spellbinder,[20638],classic_assets_absent_from_active_client_root,[],[3941986],"[144179, 150713, 156871, 159546, 162181, 164862]",True,False
+21877,Karsius the Ancient Watcher,[20569],classic_assets_absent_from_active_client_root,[],[1007622],"[137406, 144062, 150496, 152203, 154540, 156583, 156584, 159169, 159170, 161800, 164485]",True,False
+21902,Cabal Spell-Weaver,"[20692, 20693, 20694]",classic_assets_absent_from_active_client_root,[],"[927181, 963852, 3941996]","[137489, 144129, 150834, 152495, 153639, 157049, 159727, 159728, 162328, 162329, 165025, 165026]",True,False
+21907,Cabal Initiate,"[20695, 20696]",classic_assets_absent_from_active_client_root,[],"[927183, 963850]","[138216, 143777, 149410, 151612, 151613, 152978, 155458, 155459, 158045, 158046, 160711, 163379]",True,False
+21964,Fathom-Guard Caribdis,[20672],classic_assets_absent_from_active_client_root,[],[371551],"[151023, 152600, 162497, 165191]",True,False
+21965,Fathom-Guard Tidalvess,[20670],classic_assets_absent_from_active_client_root,[],[3941992],"[143931, 150017, 150018, 151946, 153250, 154308, 156051, 158635, 158637, 162850]",True,False
+21966,Fathom-Guard Sharkkis,[20671],classic_assets_absent_from_active_client_root,[],[443653],"[143909, 149969, 149970, 151924, 154286, 161308, 163987]",True,False
+22055,Coilfang Elite,[20772],classic_assets_absent_from_active_client_root,[],[443669],"[143863, 149726, 154194, 161098, 163774]",True,False
+22076,Torloth the Magnificent,[20780],classic_assets_absent_from_active_client_root,[],[1105268],"[144056, 150480, 152197, 153474, 154533, 156569, 156570, 159155, 159156, 161787, 162673, 164472, 165367]",True,False
+22197,Dragonmaw Orc,"[20493, 20494]",classic_assets_absent_from_active_client_root,[],"[3942992, 3942994]","[143906, 149961, 151920, 153224, 154282, 155992, 155993, 158578, 158579, 161300, 162673, 163979, 165367]",True,False
+22273,Fel Warden,[17189],classic_assets_absent_from_active_client_root,[],[3942904],"[144160, 148817, 152678, 153792, 156795, 157451, 159463, 162087, 164772]",True,False
+22331,Dragonmaw Elite,"[20892, 20893]",classic_assets_absent_from_active_client_root,[],"[3943040, 3943042]","[143908, 149965, 151922, 153226, 154284, 155996, 155997, 158582, 158583, 161304, 162673, 163983, 165367]",True,False
+22334,Shattered Hand Orc,[18857],classic_assets_absent_from_active_client_root,[],[3942976],"[144152, 149855, 153181, 156784, 158486, 159449, 161195, 163875]",True,False
+22374,Hand of Kargath,[20958],classic_assets_absent_from_active_client_root,[],[3942928],"[144016, 150061, 151968, 153271, 154329, 156105, 156107, 158691, 158693, 161388, 164068]",True,False
+22452,Reanimated Exarch,[21024],classic_assets_absent_from_active_client_root,[],[1007668],"[137407, 144008, 150291, 152090, 156351, 156352, 158936, 158937, 161590, 164269]",True,False
+22459,Freed Sha'tar Warrior,"[20752, 20755, 20752, 20753]",classic_assets_absent_from_active_client_root,[],"[1007604, 1007606, 1025844]","[143991, 150251, 152071, 153357, 154416, 156313, 156314, 158898, 158899, 161549, 161550, 162650, 162651, 164230, 164231, 165344, 165345]",True,False
+22473,Baron Sablemane,[20807],classic_assets_absent_from_active_client_root,[],[1050105],"[137421, 144286, 151075, 152621, 153737, 154714, 157292, 159983, 159984, 162540, 165234]",True,False
+22810,Rescued Cenarion Expedition Druid,"[21088, 21089, 21090, 21091]",classic_assets_absent_from_active_client_root,[],"[981206, 1012662, 1015081, 1059609]","[143789, 149441, 151624, 152989, 154060, 155488, 155489, 158075, 158076, 160842, 162666, 162667, 163520, 163521, 165360, 165361]",True,False
+22811,Rescued Lower City Brute,"[21092, 21093]",classic_assets_absent_from_active_client_root,[],"[3942002, 3942004]","[144069, 150513, 150514, 152214, 153491, 154550, 156603, 156604, 159193, 159194, 161820, 162671, 164505, 165365]",True,False
+22812,Rescued Sha'tar Vindicator,"[21094, 21095]",classic_assets_absent_from_active_client_root,[],"[1007579, 1025854]","[137422, 143991, 150251, 152071, 154416, 156313, 156314, 158898, 158899, 161549, 161550, 162650, 162651, 164230, 164231, 165344, 165345]",True,False
+22815,Rescued Keepers of Time Custodian,"[19278, 19282]",classic_assets_absent_from_active_client_root,[],"[525071, 1009895]","[156828, 159492, 162124, 164809]",True,False
+22820,Seer Olum,[21101],classic_assets_absent_from_active_client_root,[],[3942006],"[143931, 150212, 156045, 158631, 158866]",True,False
+22949,Gathios the Shatterer,[21416],classic_assets_absent_from_active_client_root,[],[1105170],"[137414, 141038, 143283, 150505, 152210, 153487, 154546, 156595, 156596, 159181, 159182, 161812, 164497]",True,False
+22950,High Nethermancer Zerevor,[21417],classic_assets_absent_from_active_client_root,[],[1105166],"[142099, 144253, 150988, 152586, 153702, 157191, 157193, 159871, 159873, 162470, 165164]",True,False
+22951,Lady Malande,"[21419, 21420]",classic_assets_absent_from_active_client_root,[],"[1104668, 1104670]","[142271, 144273, 151041, 152607, 153723, 157251, 157253, 159939, 159941, 162511, 165205]",True,False
+22952,Veras Darkshadow,[21418],classic_assets_absent_from_active_client_root,[],[1105164],"[144293, 151093, 151311, 153744, 154721, 157310, 157312, 160003, 160005, 160327, 162990]",True,False
+23000,Draenei Male Winter Reveler,[18795],classic_assets_absent_from_active_client_root,[],[1007769],"[137804, 148901, 151313, 152717, 154928, 154930, 157536, 160329, 162992]",True,False
+23002,Rizzle Sprysprocket,[21181],classic_assets_absent_from_active_client_root,[],[328922],"[143659, 148960, 152743, 153847, 154987, 155348, 157940, 158959, 163429]",True,False
+23131,Blood Knight Honor Guard,[23003],classic_assets_absent_from_active_client_root,[],[176619],"[137264, 140386, 143964, 150155, 150676, 152019, 152377, 153315, 154374, 156213, 156214, 158803, 158866, 160152, 161480, 162596, 164152, 164160, 165290]",True,False
+23226,Illidari Elite,"[20778, 20779, 18196, 18197]",classic_assets_absent_from_active_client_root,[],"[1105033, 1105036, 1105258, 1105272]","[143701, 143964, 148859, 149114, 150156, 151264, 151765, 152022, 152837, 153317, 154375, 155176, 155731, 156216, 158304, 158309, 158806, 158807, 160256, 161054, 162669, 162918, 163731, 164162, 165363]",True,False
+23311,Disobedient Dragonmaw Peon,"[20890, 20891]",classic_assets_absent_from_active_client_root,[],"[3943036, 3943038]","[149333, 152940, 155328, 155392, 157921, 157966, 160763, 163440]",True,False
+23319,Ashtongue Broken,"[20422, 21117, 21115]",classic_assets_absent_from_active_client_root,[],"[666620, 3941958, 3942008]","[143356, 143875, 144069, 149818, 149837, 150513, 151850, 152214, 155860, 155882, 155919, 156604, 158440, 158441, 158463, 158870, 158884, 159194, 161165, 161820, 162669, 163841, 164505, 165363]",True,False
+23410,Spirit of Udalo,[21476],classic_assets_absent_from_active_client_root,[],[3941980],"[150210, 156048, 158634, 158862, 162847]",True,False
+23411,Spirit of Olum,[21475],classic_assets_absent_from_active_client_root,[],[3942006],"[143931, 150212, 156045, 158631, 158866]",True,False
+23421,Ashtongue Channeler,[21594],classic_assets_absent_from_active_client_root,[],[3942053],"[150884, 157084, 159765, 159766, 162849]",True,False
+23552,Valgarde Yeoman,"[88841, 88847]",no_complete_classic_record_set,[],[],[],True,False
+23602,Deserter Agitator,"[21639, 21640]",classic_assets_absent_from_active_client_root,[],"[175550, 175551]","[137619, 143956, 150112, 150113, 151197, 151995, 153295, 154353, 156165, 158756, 158757, 161436, 162629, 164116, 165323]",True,False
+23768,Lynn Hyal,[21743],classic_assets_absent_from_active_client_root,[],[175641],"[148795, 151215, 152762, 156660, 157410, 159251, 160063, 160175, 162714, 162826]",True,False
+23778,Dark Ranger Lyana,[21746],classic_assets_absent_from_active_client_root,[],[175646],"[137346, 137596, 143722, 149154, 152859, 153941, 155227, 155228, 157747, 157824, 160620, 163287]",True,False
+23818,Amani'shi Hatcher,"[22303, 22304]",classic_assets_absent_from_active_client_root,[],"[175971, 176109]","[143818, 149542, 151673, 154107, 155587, 158178, 160927, 163602]",True,False
+23863,Daakara,[38118],classic_assets_absent_from_active_client_root,[],[515052],"[144079, 150539, 152226, 153503, 154562, 156628, 156629, 159217, 159218, 161842, 164527]",True,False
+23904,Sir Thomas,[18338],classic_assets_absent_from_active_client_root,[],[1050313],"[150657, 152347, 153550, 156779, 159443, 159464, 162063, 164748]",True,False
+23931,Oluf the Violent,[21919],classic_assets_absent_from_active_client_root,[],[175769],"[137322, 143771, 148866, 149368, 151593, 152960, 154032, 155422, 155423, 158009, 158010, 160786, 163464]",True,False
+23970,Vrykul Skeleton,[27651],classic_assets_absent_from_active_client_root,[],[242177],"[143847, 149694, 151730, 153115, 154180, 155675, 155754, 158257, 158266, 162611, 163678, 165305]",True,False
+23983,North Fleet Marine,"[22440, 22441, 22442]",classic_assets_absent_from_active_client_root,[],"[176184, 176186, 176187]","[137990, 143825, 151168, 152775, 153759, 153762, 155040, 155156, 157756, 157787, 160080, 160941, 162731, 163616]",True,False
+23998,Deathstalker Razael ,[21968],classic_assets_absent_from_active_client_root,[],[175844],"[143805, 149325, 151579, 152935, 154015, 155218, 155383, 157818, 157982, 160758, 163430]",True,False
+24035,Gjalerbron Prisoner,"[22016, 22017, 22018, 22024]",classic_assets_absent_from_active_client_root,[],"[175872, 175873, 175874, 175883]","[148781, 148907, 148915, 151174, 151329, 151332, 154941, 154949, 155126, 157398, 157547, 157555, 157654, 157670, 157728, 160099, 160353, 160360, 162750, 162799, 163016, 163023]",True,False
+24051,Dragonflayer Invader,"[22048, 22049, 22050]",classic_assets_absent_from_active_client_root,[],"[175900, 175901, 175902]","[148991, 151378, 160434, 163097, 239008, 239281, 239405, 239406, 239526, 239678, 239679, 239680, 239681, 239683, 239949, 239950, 239952, 239954, 240239, 240564]",True,False
+24132,Winterhoof Wind Rider,"[22136, 22140, 22141, 22142]",classic_assets_absent_from_active_client_root,[],"[175983, 175984, 175985, 175986]","[143653, 149308, 155372, 155373, 157711, 157965, 160756, 160757, 163427, 163428]",True,False
+24144,Halazzi,[22348],classic_assets_absent_from_active_client_root,[],[176133],"[143931, 150017, 151946, 156050, 158635, 158636, 161350, 164030]",True,False
+24211,Freed Winterhoof Longrunner,"[22186, 22187, 22189, 22188]",classic_assets_absent_from_active_client_root,[],"[176012, 176013, 176042, 176043]","[143853, 143854, 150825, 150832, 154623, 154628, 155371, 155373, 155756, 155758, 157963, 157965, 158487, 158488, 158491, 158492, 161200, 161201, 161208, 161209, 163880, 163881, 163888, 163889]",True,False
+24214,Yorus the Flesh Harvester,[22216],classic_assets_absent_from_active_client_root,[],[176030],"[148987, 151370, 153497, 156615, 156616, 159205, 159206, 160434, 163097]",True,False
+24215,Jlarborn the Strategist,[22215],classic_assets_absent_from_active_client_root,[],[176029],"[148986, 150538, 151368, 153503, 156628, 156629, 159217, 159218, 160424, 163087]",True,False
+24231,Baleheim Bodycount,"[22143, 22144]",classic_assets_absent_from_active_client_root,[],"[175989, 176017]","[148985, 148992, 149016, 151366, 151380, 152770, 155030, 155530, 158117, 158681, 160428, 163091]",True,False
+24239,Hex Lord Malacrass,[22332],classic_assets_absent_from_active_client_root,[],[176125],"[144294, 151096, 151097, 152629, 154722, 157315, 160006, 160008, 162555, 165249]",True,False
+24275,Bjorn Kill Credit,[22232],classic_assets_absent_from_active_client_root,[],[175858],"[137291, 143097, 149010, 151378, 152770, 155030, 155411, 158006, 158320, 160434, 163097]",True,False
+24276,Bjorn Insult Credit,[22232],classic_assets_absent_from_active_client_root,[],[175858],"[137291, 143097, 149010, 151378, 152770, 155030, 155411, 158006, 158320, 160434, 163097]",True,False
+24281,Plagued Dragonflayer Spray Credit,[22193],classic_assets_absent_from_active_client_root,[],[176006],"[149648, 152770, 155030, 155713, 157954, 158291]",True,False
+24504,Amani'shi Hatcher,"[22303, 22304]",classic_assets_absent_from_active_client_root,[],"[175971, 176109]","[143818, 149542, 151673, 154107, 155587, 158178, 160927, 163602]",True,False
+24658,[PH] BLB Blue Blood Elf Male,[22554],classic_assets_absent_from_active_client_root,[],[176263],"[140455, 143675, 148823, 151236, 152681, 153795, 154843, 154844, 157459, 160218, 162879]",True,False
+24788,Jack Adams,[22638],classic_assets_absent_from_active_client_root,[],[176316],"[137669, 148831, 151241, 152811, 155123, 155124, 157393, 157727, 160228, 162889]",True,False
+24976,Dawnblade Blood Knight,"[22783, 22782, 22785, 22784]",classic_assets_absent_from_active_client_root,[],"[176425, 176426, 176427, 176428]","[137264, 144018, 150153, 150160, 152024, 153315, 154377, 156212, 156220, 158800, 158811, 161477, 161478, 164157, 164158]",True,False
+24978,Dawnblade Summoner,"[22786, 22787, 22789, 22788]",classic_assets_absent_from_active_client_root,[],"[176453, 176454, 176455, 176456]","[137389, 144200, 150773, 152443, 153590, 156927, 159608, 159610, 162217, 162218, 164903, 164904]",True,False
+24979,Dawnblade Marksman,"[22792, 22793, 22794, 22795]",classic_assets_absent_from_active_client_root,[],"[176426, 176429, 176431, 176432]","[137264, 137310, 143904, 144018, 149804, 149805, 150153, 150160, 151845, 152024, 153159, 153315, 154222, 154377, 155849, 155850, 156212, 156220, 158430, 158431, 158800, 158811, 161154, 161155, 161478, 163830, 163831, 164158]",True,False
+25167,General Tiras'alan,[22968],classic_assets_absent_from_active_client_root,[],[176596],"[143283, 150505, 152210, 153487, 154546, 156595, 156596, 159181, 159182, 161812, 162679, 164497, 165373]",True,False
+25339,Spirit Talker Snarlfang,[23163],classic_assets_absent_from_active_client_root,[],[176740],"[143879, 150313, 151854, 153529, 154448, 155870, 158451, 161172, 163848]",True,False
+25353,Beryl Treasure Hunter,"[23145, 23205]",classic_assets_absent_from_active_client_root,[],"[176747, 176789]","[144215, 150238, 150904, 152066, 152550, 153124, 154638, 157115, 159791, 159792, 161539, 161540, 162406, 162407, 164220, 164221, 165099, 165100]",True,False
+25397,Elder Kesuk,[25978],classic_assets_absent_from_active_client_root,[],[241269],"[149539, 151668, 155581, 158164, 160910, 160916, 163591]",True,False
+25398,Elder Sagani,[25979],classic_assets_absent_from_active_client_root,[],[241271],"[149538, 151665, 155580, 158165, 160911, 160913, 163588]",True,False
+25399,Elder Takret,[25980],classic_assets_absent_from_active_client_root,[],[241272],"[149538, 151669, 155580, 158165, 160911, 160917, 163592]",True,False
+25424,Vision of Farseer Grimwalker,[23187],classic_assets_absent_from_active_client_root,[],[176779],"[143356, 149838, 151858, 154235, 155882, 158463, 161180, 163857]",True,False
+25458,Vision of Farseer Grimwalker's Spirit,[23215],classic_assets_absent_from_active_client_root,[],[176779],"[143356, 149838, 151858, 154235, 155882, 158463, 161180, 163857]",True,False
+25478,Imprisoned Beryl Sorcerer,[23221],classic_assets_absent_from_active_client_root,[],[176794],"[144215, 150238, 150904, 152066, 152550, 153124, 154638, 157115, 159791, 159792, 161540, 162407, 164221, 165100]",True,False
+25610,Scourge Prisoner,"[23283, 23284, 23285, 23286]",classic_assets_absent_from_active_client_root,[],"[176628, 176634, 176685, 176782]","[138522, 143095, 143769, 144315, 149359, 149360, 149395, 149929, 149930, 150313, 151590, 151603, 151904, 152957, 152970, 153210, 153389, 154029, 154042, 154268, 155416, 155417, 155442, 155443, 155964, 155965, 156378, 156379, 158003, 158004, 158029, 158030, 158550, 158551, 158964, 160780, 160806, 161272, 162703, 163458, 163484, 163951, 165397]",True,False
+25661,Shattered Sun Soldier,"[23587, 23588, 23589, 23590]",classic_assets_absent_from_active_client_root,[],"[176534, 176543, 176547, 176549]","[137288, 137346, 140662, 144009, 144069, 149668, 149770, 149771, 150290, 150294, 151732, 151765, 151821, 152042, 152091, 153102, 153375, 154168, 154209, 154434, 154436, 155730, 155731, 155823, 155824, 156257, 156349, 156353, 156354, 158308, 158309, 158404, 158405, 158844, 158934, 158938, 158939, 161003, 161054, 161129, 161508, 161591, 162678, 162679, 163731, 163805, 164189, 164270, 165372, 165373]",True,False
+25729,Shadowstalker Getry,[23335],classic_assets_absent_from_active_client_root,[],[176845],"[138495, 143757, 149269, 151553, 152903, 153986, 155318, 155319, 157912, 157913, 160705, 163373]",True,False
+25730,En'kilah Necrolord,[23359],classic_assets_absent_from_active_client_root,[],[176847],"[137603, 144207, 150863, 150864, 152524, 152525, 153506, 156634, 157082, 159223, 159762, 162367, 162369, 165064, 165066]",True,False
+25737,Airman Skyhopper,[23342],classic_assets_absent_from_active_client_root,[],[176852],"[143846, 149190, 150134, 151510, 152057, 152871, 153953, 155251, 155252, 157841, 157843, 160641, 161439, 163308, 164132]",True,False
+25751,High Overlord Saurfang,[23360],classic_assets_absent_from_active_client_root,[],[176854],"[144207, 150863, 150864, 152524, 152525, 153506, 156634, 157082, 159223, 159762, 162367, 162369, 165064, 165066]",True,False
+25801,"Nedar, Lord of Rhinos",[23386],classic_assets_absent_from_active_client_root,[],[176867],"[137427, 140810, 144039, 150445, 152173, 153459, 154518, 156539, 156540, 159125, 159126, 161757, 164442]",True,False
+25804,Harold Lane,[23389],classic_assets_absent_from_active_client_root,[],[176935],"[137416, 143769, 148786, 149395, 151206, 152970, 154042, 155193, 155442, 157789, 158260, 160158, 162809]",True,False
+25868,Midsummer Celebrant Costume: Blood Elf,"[21085, 21086]",classic_assets_absent_from_active_client_root,[],"[1104697, 1105224]","[148835, 150619, 151245, 152296, 152707, 152824, 154859, 154896, 155147, 157440, 157478, 157747, 157803, 160235, 161974, 162896, 164660]",True,False
+25869,Midsummer Celebrant Costume: Draenei,"[21084, 21083]",classic_assets_absent_from_active_client_root,[],"[1007581, 1025852]","[148893, 151296, 152486, 152708, 154910, 154911, 157031, 157506, 157523, 159710, 160308, 162311, 162971, 165008]",True,False
+25903,Nagrand Flame Warden,[23439],classic_assets_absent_from_active_client_root,[],[176910],"[144320, 149958, 150393, 152328, 153539, 154896, 156754, 159070, 159411, 162028, 164712]",True,False
+25912,Zangarmarsh Flame Warden,[23439],classic_assets_absent_from_active_client_root,[],[176910],"[144320, 149958, 150393, 152328, 153539, 154896, 156754, 159070, 159411, 162028, 164712]",True,False
+25913,Netherstorm Flame Warden,[23438],classic_assets_absent_from_active_client_root,[],[176911],"[144320, 149958, 150393, 152327, 153539, 154896, 156754, 159070, 159411, 162027, 164711]",True,False
+25914,Silithus Flame Warden,[23438],classic_assets_absent_from_active_client_root,[],[176911],"[144320, 149958, 150393, 152327, 153539, 154896, 156754, 159070, 159411, 162027, 164711]",True,False
+26280,Dragonblight Mage Hunter,"[23833, 23832]",classic_assets_absent_from_active_client_root,[],"[177160, 177161]","[144241, 150713, 151799, 153124, 154581, 156871, 159544, 159546, 159791, 160151, 161104, 161105, 163780, 163781, 164761, 164762]",True,False
+26299,Corpse of Saragosa,[25462],classic_assets_absent_from_active_client_root,[],[177073],"[144160, 148785, 152690, 153803, 154864, 155005, 157475, 157614, 160237, 162898]",True,False
+26484,Hugh Glass,[23857],classic_assets_absent_from_active_client_root,[],[177176],"[151357, 152844, 154037, 154772, 155191, 157386, 157696, 160406, 163069]",True,False
+26528,Uther the Lightbringer,[23889],classic_assets_absent_from_active_client_root,[],[1050441],"[137404, 143976, 150454, 152180, 153462, 154521, 156545, 156546, 159131, 159132, 160156, 161763, 164448]",True,False
+26780,7th Legion Cleric,"[24864, 24865]",classic_assets_absent_from_active_client_root,[],"[177846, 177847]","[144268, 150249, 152070, 153356, 154415, 156311, 156312, 158896, 158897, 161547, 162700, 164228, 165394]",True,False
+26885,Mountaineer Kilian,[24098],classic_assets_absent_from_active_client_root,[],[177352],"[137266, 137613, 149608, 151446, 153077, 154143, 155672, 155673, 157732, 158255, 160544, 163209]",True,False
+27000,Trapper Jack,[24297],classic_assets_absent_from_active_client_root,[],[177463],"[148978, 151358, 152848, 155078, 155205, 157492, 157689, 160408, 163071]",True,False
+27037,Hidetrader Jun'ik,[24241],classic_assets_absent_from_active_client_root,[],[177415],"[151403, 155154, 157754, 158330, 160470, 163136]",True,False
+27109,Injured Warsong Proxy,"[23179, 23186]",classic_assets_absent_from_active_client_root,[],"[176771, 176777]","[138522, 143095, 149359, 149360, 151590, 152957, 154029, 155416, 155417, 158003, 158004, 160779, 160780, 162702, 162703, 163457, 163458, 165396, 165397]",True,False
+27163,7th Legion Siege Engineer,"[24364, 24549, 24550, 24551]",classic_assets_absent_from_active_client_root,[],"[177530, 177680, 177681, 177682]","[137873, 137896, 137997, 138023, 148830, 151240, 152659, 154786, 154787, 157404, 157405, 160123, 160124, 162774, 162775]",True,False
+27341,Helpless Villager Proxy,"[24560, 24561, 24562, 24563]",classic_assets_absent_from_active_client_root,[],"[177689, 177690, 177691, 177692]","[138050, 148853, 148896, 148904, 148977, 151259, 151301, 151316, 151357, 152691, 152695, 152696, 152715, 154865, 154869, 154873, 154875, 154912, 157483, 157487, 157491, 157494, 157495, 157510, 157524, 160250, 160313, 160340, 160406, 162911, 162976, 163003, 163069]",True,False
+27359,Trapped Wintergarde Villager,"[24610, 24611, 24612, 24613]",classic_assets_absent_from_active_client_root,[],"[177730, 177731, 177732, 177733]","[148980, 148982, 148993, 151360, 151362, 151385, 151387, 152776, 154785, 155005, 155007, 155044, 157403, 157614, 157616, 160412, 160416, 160437, 160441, 163075, 163079, 163100, 163104]",True,False
+27377,Thane Torvald Eriksson,[24596],classic_assets_absent_from_active_client_root,[],"[238032, 242471]","[150443, 238030, 239081, 239167, 239350, 239473, 239595, 239744, 239820, 240095, 240096, 240415, 240694]",True,False
+27493,Sergeant Bonesnap,[24679],classic_assets_absent_from_active_client_root,[],[177777],"[137421, 140763, 143387, 151575, 152971, 155446, 156532, 158486, 159118, 160726, 160738, 163394, 163406]",True,False
+27539,Frigid Necromancer,"[24692, 24694]",classic_assets_absent_from_active_client_root,[],"[177783, 177784]","[141347, 144117, 150604, 150662, 152352, 152353, 152800, 152801, 154578, 156720, 159360, 159361, 160310, 160311, 160320, 160321, 162973, 162974, 162983, 162984]",True,False
+27588,7th Legion Elite,"[24361, 24541, 24542, 24543]",classic_assets_absent_from_active_client_root,[],"[177527, 177673, 177674, 177675]","[140736, 144030, 150555, 151264, 151721, 151722, 153511, 154570, 155667, 156644, 158249, 158250, 160992, 160993, 162700, 162701, 162802, 163669, 163670, 165394, 165395]",True,False
+27683,Remnant of Dahlia Suntouch,[24744],classic_assets_absent_from_active_client_root,[],[177809],"[152079, 154424, 156329, 156330, 158914, 158915, 161564, 164246]",True,False
+27713,7th Legion Elite,"[24361, 24541, 24542, 24543]",classic_assets_absent_from_active_client_root,[],"[177527, 177673, 177674, 177675]","[140736, 144030, 150555, 151264, 151721, 151722, 153511, 154570, 155667, 156644, 158249, 158250, 160992, 160993, 162700, 162701, 162802, 163669, 163670, 165394, 165395]",True,False
+27857,Legion Commander Yorik,[24878],classic_assets_absent_from_active_client_root,[],[177851],"[137418, 144035, 149923, 151902, 153209, 154266, 155960, 155961, 158376, 158547, 161268, 162701, 163947, 165395]",True,False
+27858,Highlord Bolvar Fordragon,[24879],classic_assets_absent_from_active_client_root,[],[177852],"[137404, 150136, 150454, 152180, 152371, 153462, 154521, 156545, 156546, 159132, 159133, 161763, 162099, 162701, 164448, 164784, 165395]",True,False
+27990,Krasus,[24976],classic_assets_absent_from_active_client_root,[],[177896],"[137423, 144246, 150731, 152543, 153662, 157100, 159776, 159777, 162390, 165086]",True,False
+28040,Mardan Thunderhoof,[25058],classic_assets_absent_from_active_client_root,[],[177943],"[151570, 155358, 155359, 157950, 157951, 160738, 163406]",True,False
+28042,Captain Brandon,[25063],classic_assets_absent_from_active_client_root,[],[177944],"[137265, 143968, 150168, 151992, 152353, 153323, 154381, 156160, 156227, 158751, 158818, 164110, 240503, 240764]",True,False
+28043,Captain Grondel,[25064],classic_assets_absent_from_active_client_root,[],[177945],"[137265, 143968, 150168, 151992, 152353, 153323, 154381, 156160, 156227, 158751, 158818, 164110, 240503, 240764]",True,False
+28044,Captain Rupert,[25065],classic_assets_absent_from_active_client_root,[],[177946],"[137265, 143968, 150168, 151992, 152353, 153323, 154381, 156160, 156227, 158751, 158818, 164110, 240503, 240764]",True,False
+28090,Crusade Recruit,"[25097, 25098, 25099, 25100]",classic_assets_absent_from_active_client_root,[],"[177960, 177961, 177962, 177963]","[143968, 150168, 151992, 152352, 152353, 153323, 154381, 156160, 156227, 158751, 158754, 164109, 164110, 240502, 240503, 240763, 240764]",True,False
+28175,Crusade Commander Korfax,[28105],classic_assets_absent_from_active_client_root,[],[242490],"[144070, 150515, 150516, 152215, 153492, 154551, 156605, 156606, 159195, 159196, 161821, 164506, 240503, 240764]",True,False
+28178,Avenger Metz,[28104],classic_assets_absent_from_active_client_root,[],[242489],"[138050, 150453, 150454, 152180, 152353, 153462, 154521, 156545, 156546, 159131, 159132, 161763, 164448, 240503, 240764]",True,False
+28205,Alchemist Finklestein,[25934],classic_assets_absent_from_active_client_root,[],[241402],"[150616, 152293, 152658, 153805, 156720, 158884, 159361, 161968, 164654, 240503, 240764]",True,False
+28209,Mizli Crankwheel,[25210],classic_assets_absent_from_active_client_root,[],[177984],"[148937, 151561, 154966, 157575, 157925, 160373, 163036]",True,False
+28228,Crusader Valus,[25222],classic_assets_absent_from_active_client_root,[],[177986],"[137430, 144065, 150499, 152207, 153484, 154543, 156589, 156590, 159175, 159176, 161806, 164491, 240503, 240764]",True,False
+28355,Wright Williams,[25336],classic_assets_absent_from_active_client_root,[],[178038],"[153522, 156657, 159243, 161870, 164555]",True,False
+28374,Zootfizzle,[25344],classic_assets_absent_from_active_client_root,[],[178039],"[137997, 148981, 149548, 151361, 152692, 154174, 154867, 154871, 157493, 160414, 163077]",True,False
+28376,Dorian Drakestalker,[25345],classic_assets_absent_from_active_client_root,[],[178040],"[137282, 139213, 149626, 151207, 151685, 153080, 153764, 155678, 155685, 158266, 158267, 161011, 162811, 163688]",True,False
+28415,Captive Footman,"[25077, 25023, 25024, 25025]",classic_assets_absent_from_active_client_root,[],"[140563, 241367, 241369, 241370]","[140489, 140585, 143953, 144000, 150103, 150270, 150272, 151730, 152080, 153292, 153366, 154350, 154425, 156159, 156199, 156331, 156332, 158750, 158789, 158916, 158917, 162594, 163688, 164248, 164249, 165288, 240502, 240503, 240763, 240764]",True,False
+28451,Hemet Nesingwary,[24969],classic_assets_absent_from_active_client_root,[],[177887],"[140164, 148830, 151240, 151416, 152801, 153894, 154912, 155102, 157524, 158332, 160253, 162805, 162914]",True,False
+28912,Koltira Deathweaver,[25844],classic_assets_absent_from_active_client_root,[],[241339],"[151309, 154751, 154752, 157367, 157368, 160323, 162986]",True,False
+28984,[Chapter II] Scarlet Crusader Proxy,"[25503, 25504, 25505, 25506]",classic_assets_absent_from_active_client_root,[],"[241157, 241158, 241159, 241160]","[139213, 143823, 149547, 151681, 151682, 153045, 153046, 154112, 155602, 155603, 155604, 155605, 158189, 158190, 158191, 160936, 160937, 162601, 162602, 163611, 163612, 165295, 165296]",True,False
+28986,Citizen of New Avalon Proxy,"[25503, 25504, 25505, 25506]",classic_assets_absent_from_active_client_root,[],"[241157, 241158, 241159, 241160]","[139213, 143823, 149547, 151681, 151682, 153045, 153046, 154112, 155602, 155603, 155604, 155605, 158189, 158190, 158191, 160936, 160937, 162601, 162602, 163611, 163612, 165295, 165296]",True,False
+29000,Scarlet Commander Rodrick,[25841],classic_assets_absent_from_active_client_root,[],[241337],"[140918, 144057, 150484, 152198, 153475, 154534, 156571, 156572, 159157, 159158, 161788, 162600, 164473, 165294]",True,False
+29001,High Inquisitor Valroth,[25842],classic_assets_absent_from_active_client_root,[],[241338],"[141432, 144154, 150673, 152369, 153563, 156804, 156805, 159469, 159470, 162095, 164780]",True,False
+29025,[609] Ebon Hold Duel Credit,"[25503, 25504, 25505, 25506]",classic_assets_absent_from_active_client_root,[],"[241157, 241158, 241159, 241160]","[139213, 143823, 149547, 151681, 151682, 153045, 153046, 154112, 155602, 155603, 155604, 155605, 158189, 158190, 158191, 160936, 160937, 162601, 162602, 163611, 163612, 165295, 165296]",True,False
+29032,Malar Bravehorn,[25863],classic_assets_absent_from_active_client_root,[],[241362],"[157401, 162594, 165288]",True,False
+29053,Knight Commander Plaguefist,[25885],classic_assets_absent_from_active_client_root,[],[241352],"[137360, 238161, 238520, 239111]",True,False
+29061,Ellen Stanbridge,[25887],classic_assets_absent_from_active_client_root,[],[241353],"[157396, 162594, 162760, 165288]",True,False
+29065,Yazmina Oakenthorn,[25888],classic_assets_absent_from_active_client_root,[],[241354],"[157396, 162594, 162760, 165288]",True,False
+29067,Donovan Pulfrost,[25890],classic_assets_absent_from_active_client_root,[],[241355],"[157396, 162594, 165288]",True,False
+29068,Goby Blastenheimer,[25891],classic_assets_absent_from_active_client_root,[],[241356],"[157396, 162594, 165288]",True,False
+29070,Valok the Righteous,[25892],classic_assets_absent_from_active_client_root,[],[241357],"[157396, 162594, 165288]",True,False
+29071,Antoine Brack,[25893],classic_assets_absent_from_active_client_root,[],[241358],"[157401, 162594, 165288]",True,False
+29072,Kug Ironjaw,[25894],classic_assets_absent_from_active_client_root,[],[241359],"[157401, 162594, 165288]",True,False
+29073,Iggy Darktusk,[25895],classic_assets_absent_from_active_client_root,[],[241360],"[157401, 162594, 165288]",True,False
+29074,Lady Eonys,[25896],classic_assets_absent_from_active_client_root,[],[241361],"[157401, 162594, 162770, 165288]",True,False
+29150,Scarlet Soldier Proxy,"[25911, 25913]",classic_assets_absent_from_active_client_root,[],"[241406, 241407]","[148795, 151215, 151740, 151741, 153268, 156100, 158686, 162601, 162602, 165295, 165296]",True,False
+29302,Deathguard Hemil,[21968],classic_assets_absent_from_active_client_root,[],[175844],"[143805, 149325, 151579, 152935, 154015, 155218, 155383, 157818, 157982, 160758, 163430]",True,False
+29306,Gal'darah,[27061],classic_assets_absent_from_active_client_root,[],[241895],"[143401, 150559, 151575, 152941, 154574, 156652, 156653, 159238, 161866, 164551]",True,False
+29422,Forsaken Recruit,"[21748, 21751, 21749, 21750]",classic_assets_absent_from_active_client_root,[],"[175627, 175628, 175629, 175630]","[138023, 140431, 143805, 149325, 151579, 152935, 154015, 155218, 155383, 157818, 157982, 160758, 163429, 163430]",True,False
+29519,Unworthy Initiate,"[25373, 25357, 25358, 25364]",classic_assets_absent_from_active_client_root,[],"[178045, 178051, 178053, 178055]","[157396, 157401]",True,False
+29520,Unworthy Initiate,"[25355, 25371, 25372, 25361]",classic_assets_absent_from_active_client_root,[],"[178044, 178048, 178058, 178062]","[157396, 157401, 162760, 162770]",True,False
+29533,"Schembari ""Uncle Sal"" Shearbolt",[26362],classic_assets_absent_from_active_client_root,[],[241576],"[137725, 148793, 151148, 151213, 152647, 154740, 154741, 154742, 157361, 157362, 157735, 160056, 160172, 162707, 162823]",True,False
+29565,Unworthy Initiate,"[25369, 25363, 25362, 25360]",classic_assets_absent_from_active_client_root,[],"[178046, 178050, 178052, 178056]","[157396, 157401, 162760, 162770]",True,False
+29566,Unworthy Initiate,"[25356, 25367, 25365, 25366]",classic_assets_absent_from_active_client_root,[],"[178047, 178057, 178059, 178061]","[157396, 157401]",True,False
+29567,Unworthy Initiate,"[25370, 25368, 25359, 25354]",classic_assets_absent_from_active_client_root,[],"[178043, 178049, 178054, 178060]","[157396, 157401, 162770]",True,False
+29579,Brann Bronzebeard,[26356],classic_assets_absent_from_active_client_root,[],[241569],"[137695, 149076, 151499, 152775, 155040, 155114, 157722, 158195, 160623, 163290]",True,False
+29851,General Lightsbane,[26591],classic_assets_absent_from_active_client_root,[],[241667],"[137403, 141116, 144042, 150469, 150470, 152190, 153470, 154529, 156561, 156562, 159147, 159148, 161779, 164464]",True,False
+29880,Jotunheim Warrior,"[26901, 26902, 26903, 26904]",classic_assets_absent_from_active_client_root,[],"[241799, 241800, 241801, 241802]","[143387, 143890, 144032, 144312, 149914, 149915, 149920, 149921, 150433, 150434, 151898, 151901, 152168, 153204, 153207, 153454, 154262, 154265, 154513, 155952, 155953, 155958, 155959, 156529, 156530, 158538, 158539, 158544, 158545, 159115, 159116, 160788, 161266, 161747, 163466, 163939, 163945, 164432, 239075, 239076, 239310, 239433, 239555, 239737, 239738, 240011, 240012, 240307, 240616, 252785]",True,False
+29886,Exhausted Vrykul Credit,[26242],classic_assets_absent_from_active_client_root,[],[241520],"[148987, 149308, 151370, 152963, 155430, 155447, 158034]",True,False
+30007,Gurgthock,[17836],classic_assets_absent_from_active_client_root,[],[328723],"[150221, 150223, 152061, 153347, 154406, 156290, 156292, 158875, 158877, 161530, 164211]",True,False
+30020,Orinoko Tuskbreaker,[26695],classic_assets_absent_from_active_client_root,[],[241714],"[137435, 143390, 150440, 151669, 152171, 153033, 154516, 155580, 158165, 158175, 160912, 161753, 164438]",True,False
+30022,Vladof the Butcher,[26696],classic_assets_absent_from_active_client_root,[],"[238252, 241715]","[238250, 239166, 239349, 239472, 239594, 239819, 240093, 240094, 240414, 240693]",True,False
+30081,Efrem the Faithful,[26827],classic_assets_absent_from_active_client_root,[],[241743],"[137408, 150497, 152205, 153482, 154541, 156585, 156586, 159171, 159172, 161802, 162600, 164487, 165294, 238566]",True,False
+30162,Tinky Wickwhistle,[26825],classic_assets_absent_from_active_client_root,[],[241741],"[137409, 138134, 144077, 150537, 152225, 153502, 154561, 156626, 156627, 159215, 159216, 161839, 164524]",True,False
+30180,Onu'zun,[26830],classic_assets_absent_from_active_client_root,[],[241744],"[144305, 151137, 151138, 152643, 154736, 157355, 160048, 162585, 162587, 165279, 165281]",True,False
+30186,Ebon Blade Prisoner,[26834],classic_assets_absent_from_active_client_root,[],"[240007, 241756]","[239069, 239070, 239071, 239308, 239431, 239553, 239734, 240008, 240302, 240505, 240612, 240766]",True,False
+30200,Ebon Blade Knight,[26837],classic_assets_absent_from_active_client_root,[],"[240007, 241759]","[239069, 239070, 239071, 239308, 239431, 239553, 239734, 240008, 240301, 240504, 240611, 240765]",True,False
+30224,Crusader Lord Dalfors,[26864],classic_assets_absent_from_active_client_root,[],[241771],"[137352, 238515, 239094, 239319, 239442, 239564, 239755, 239756, 240029, 240030, 240332, 240503, 240634, 240764]",True,False
+30225,Crusader Sunborn,[26865],classic_assets_absent_from_active_client_root,[],[241772],"[137290, 238516, 239095, 239096, 239320, 239443, 239565, 239757, 239758, 240031, 240032, 240334, 240503, 240636, 240764]",True,False
+30274,Freed Crusader,"[26838, 26845, 26842, 26841]",classic_assets_absent_from_active_client_root,[],"[241739, 241751, 241752, 241755]","[137424, 238137, 238518, 238519, 239100, 239102, 239322, 239323, 239445, 239446, 239567, 239568, 239761, 239762, 239763, 239764, 240035, 240036, 240037, 240038, 240338, 240339, 240340, 240502, 240503, 240640, 240641, 240642, 240763, 240764]",True,False
+30332,Jotunheim Proto-Drake Rider,"[26901, 26902, 26903, 26904]",classic_assets_absent_from_active_client_root,[],"[241799, 241800, 241801, 241802]","[143387, 143890, 144032, 144312, 149914, 149915, 149920, 149921, 150433, 150434, 151898, 151901, 152168, 153204, 153207, 153454, 154262, 154265, 154513, 155952, 155953, 155958, 155959, 156529, 156530, 158538, 158539, 158544, 158545, 159115, 159116, 160788, 161266, 161747, 163466, 163939, 163945, 164432, 239075, 239076, 239310, 239433, 239555, 239737, 239738, 240011, 240012, 240307, 240616, 252785]",True,False
+30381,Xarantaur,[26972],classic_assets_absent_from_active_client_root,[],[241820],"[138191, 143729, 148890, 151630, 155505, 158090, 158091, 158092, 160854, 163533]",True,False
+30407,Captured Crusader,"[26838, 26839, 26840, 26841]",classic_assets_absent_from_active_client_root,[],"[241739, 241740, 241750, 241751]","[238138, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240339, 240340, 240502, 240503, 240641, 240642, 240763, 240764]",True,False
+30479,Stormhoof's Spirit,[26979],classic_assets_absent_from_active_client_root,[],[241824],"[143768, 148988, 151602, 155441, 158027, 158028, 160804, 163482]",True,False
+30499,Gnomish Engineer,"[27938, 27939, 27940, 27941]",classic_assets_absent_from_active_client_root,[],"[242412, 242413, 242414, 242415]","[138077, 138135, 143675, 149041, 149042, 152800, 152801, 153883, 155101, 155102, 155103, 155104, 157711, 157712, 157713, 160518, 160519, 163184, 163185]",True,False
+30665,Veteran Mage Hunter,"[27792, 27793, 27794, 27793]",classic_assets_absent_from_active_client_root,[],"[242304, 242305, 242306]","[137347, 141527, 144179, 150713, 150714, 150715, 152417, 153569, 154581, 156869, 156870, 159544, 159545, 162180, 162181, 164861, 164862]",True,False
+30739,Warsong Champion,"[24073, 24074, 24075, 24076]",classic_assets_absent_from_active_client_root,[],"[177331, 177332, 177333, 177334]","[143387, 150531, 152223, 153500, 154559, 156622, 156623, 159211, 159212, 161835, 161836, 162702, 162703, 164520, 164521, 165396, 165397]",True,False
+30740,Valiance Expedition Champion,"[25948, 25949, 25950, 25951]",classic_assets_absent_from_active_client_root,[],"[177063, 177064, 177065, 177066]","[137404, 140314, 140583, 143954, 150106, 150107, 151993, 153293, 154351, 156161, 156162, 158752, 158753, 161431, 161432, 162700, 162701, 164111, 164112, 165394, 165395]",True,False
+30884,Iskalder,[27397],classic_assets_absent_from_active_client_root,[],[242089],"[137407, 144042, 150450, 150451, 150452, 152179, 153461, 154520, 156543, 156544, 159129, 159130, 161761, 164446]",True,False
+30924,Possessed Iskalder,[27397],classic_assets_absent_from_active_client_root,[],[242089],"[137407, 144042, 150450, 150451, 150452, 152179, 153461, 154520, 156543, 156544, 159129, 159130, 161761, 164446]",True,False
+30986,Reanimated Captain,[27423],classic_assets_absent_from_active_client_root,[],[242104],"[137424, 143582, 150504, 150505, 152210, 153487, 154546, 156595, 156596, 159181, 159182, 161812, 164497]",True,False
+31134,Cyanigosa,[27508],classic_assets_absent_from_active_client_root,[],[242161],"[137427, 144250, 150980, 150981, 150982, 152584, 153700, 154677, 157185, 157186, 159865, 159866, 162465, 165159]",True,False
+31145,Shadow Adept,"[24584, 24582]",classic_assets_absent_from_active_client_root,[],"[177703, 177704]","[137542, 144142, 150662, 152352, 152353, 152800, 152801, 156720, 159360, 159361, 160310, 160311, 160320, 160321, 162973, 162974, 162983, 162984]",True,False
+31191,Father Jhadras,[27584],classic_assets_absent_from_active_client_root,[],[242203],"[137358, 151027, 151028, 152602, 153718, 154695, 157236, 157237, 159924, 159925, 162502, 162701, 165196, 165395, 238553]",True,False
+31192,Masud,[27582],classic_assets_absent_from_active_client_root,[],"[238251, 242200]","[144077, 150532, 150536, 150537, 152225, 153502, 154561, 156626, 156627, 159215, 159216, 161840, 162701, 164525, 165395, 238254]",True,False
+31193,Geness Half-Soul,[27580],classic_assets_absent_from_active_client_root,[],[242199],"[162701, 165395, 239041, 239042, 239294, 239418, 239539, 239708, 239709, 239979, 239980, 240270, 240588]",True,False
+31194,Talla,[27906],classic_assets_absent_from_active_client_root,[],[242202],"[137313, 149504, 149505, 151651, 153016, 154086, 155549, 155550, 158136, 158137, 160896, 162701, 163574, 165395, 238505]",True,False
+31195,Eldreth,[27579],classic_assets_absent_from_active_client_root,[],[242198],"[137330, 143792, 149450, 149451, 151629, 152994, 154065, 155500, 155501, 158087, 158088, 160852, 162701, 163531, 165395]",True,False
+31196,Rith,[27583],classic_assets_absent_from_active_client_root,[],[242201],"[150532, 162701, 165395, 238519, 239101, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642]",True,False
+31277,Thane Banahogg,[27551],classic_assets_absent_from_active_client_root,[],[242178],"[148990, 150531, 151376, 153500, 156622, 156623, 159211, 159212, 160432, 163095]",True,False
+31306,Margrave Dhakar,[27558],classic_assets_absent_from_active_client_root,[],[242187],"[137376, 144049, 150444, 150445, 150446, 152175, 153459, 154518, 156539, 156540, 159125, 159126, 161757, 164442]",True,False
+31314,Ebon Blade Veteran,"[25783, 25779, 25907, 25433]",classic_assets_absent_from_active_client_root,[],"[178108, 240003, 240005, 241323, 241327, 241390]","[137343, 137430, 144038, 148859, 150442, 151264, 152173, 153455, 153458, 154517, 156531, 156537, 156538, 159123, 159124, 161755, 164440, 238082, 238511, 238512, 239064, 239067, 239306, 239307, 239430, 239551, 239552, 239730, 239731, 239732, 240004, 240006, 240297, 240299, 240300, 240607, 240609, 240610]",True,False
+31428,Crusader Olakin Sainrith,[27249],classic_assets_absent_from_active_client_root,[],[241990],"[144000, 150270, 150272, 152080, 154425, 156331, 156332, 158916, 158917, 162594, 164249, 165288]",True,False
+31725,Sky-Captain LaFontaine,[27687],classic_assets_absent_from_active_client_root,[],[242257],"[137671, 143660, 148839, 148841, 151249, 152686, 153799, 154859, 154902, 157477, 157478, 160240, 162901]",True,False
+31731,Wyrm Reanimator,"[24584, 24582]",classic_assets_absent_from_active_client_root,[],"[177703, 177704]","[137542, 144142, 150662, 152352, 152353, 152800, 152801, 156720, 159360, 159361, 160310, 160311, 160320, 160321, 162973, 162974, 162983, 162984]",True,False
+31738,Cultist Corrupter,[27671],outfit_metadata_needs_reconstruction,[],[176830],"[138329, 144207, 150864, 152525, 152801, 157082, 159761, 159762, 162369, 165066]",True,False
+31815,Bone Giant,[27736],classic_assets_absent_from_active_client_root,[],"[238031, 242281]","[144314, 148991, 149926, 151378, 151903, 153209, 154267, 155962, 155963, 158548, 158549, 161270, 163949, 238034]",True,False
+31842,Dwarven Spirit Guide,"[27757, 27758]",classic_assets_absent_from_active_client_root,[],"[242297, 242298]","[144266, 151020, 152599, 153715, 154692, 157229, 159914, 159916, 159917, 162495, 162496, 165189, 165190]",True,False
+32236,Dark Subjugator,"[27832, 27834]",classic_assets_absent_from_active_client_root,[],"[242324, 242326]","[137542, 144202, 150560, 152239, 152800, 152801, 156720, 159360, 159361, 160320, 160321, 161867, 161868, 162983, 162984, 164552, 164553]",True,False
+32372,Warmage Ilsudria,[27946],outfit_metadata_needs_reconstruction,[],[242435],"[144137, 150626, 152303, 153538, 153809, 156730, 159381, 159467, 161987, 164673, 164765, 240510, 240771]",True,False
+32600,Dalaran Visitor,"[26847, 22152, 23167, 17476]",classic_assets_absent_from_active_client_root,[],"[175954, 176762, 241760, 1106431]","[137602, 143964, 144148, 148777, 148987, 150658, 150839, 151199, 151370, 152293, 152348, 152501, 152658, 153433, 153562, 154629, 156481, 156483, 156720, 156780, 156806, 157059, 158957, 159069, 159361, 159444, 159458, 159676, 159738, 161607, 161967, 162064, 162277, 162339, 162703, 164286, 164653, 164749, 164974, 165036, 165397]",True,False
+32692,Arcanist Alec,[28162],classic_assets_absent_from_active_client_root,[],[242530],"[144137, 150626, 152303, 153538, 156730, 159381, 159467, 161988, 164674, 165158, 240511, 240772]",True,False
+32893,Missy Flamecuffs,[28362],classic_assets_absent_from_active_client_root,[],[242617],"[237805, 238402, 239187, 239188, 239189, 239358, 239480, 239603, 239833, 239835, 240116, 240118, 240433, 240708]",True,False
+32897,Field Medic Penny,[28366],classic_assets_absent_from_active_client_root,[],[242621],"[237832, 238407, 239201, 239202, 239203, 239363, 239485, 239608, 239847, 239849, 240131, 240133, 240445, 240718]",True,False
+32900,Elementalist Avuun,[28368],classic_assets_absent_from_active_client_root,[],"[238003, 242625]","[238339, 238450, 239035, 239036, 239037, 239292, 239416, 239537, 239702, 239703, 239973, 239974, 240266, 240584]",True,False
+32901,Ellie Nightfeather,[28369],classic_assets_absent_from_active_client_root,[],[242613],"[237905, 238493, 238975, 238976, 239264, 239388, 239509, 239640, 239642, 239910, 239912, 240205, 240532]",True,False
+32941,Tor Greycloud,[28399],classic_assets_absent_from_active_client_root,[],[242614],"[237905, 238493, 238975, 238976, 239264, 239388, 239509, 239640, 239642, 239910, 239912, 240206, 240533]",True,False
+32946,Veesha Blazeweaver,[28403],classic_assets_absent_from_active_client_root,[],[242618],"[237805, 238402, 239187, 239188, 239189, 239358, 239480, 239603, 239833, 239835, 240116, 240118, 240433, 240708]",True,False
+32948,Battle-Priest Eliza,[28406],classic_assets_absent_from_active_client_root,[],[242622],"[237832, 238407, 239201, 239202, 239203, 239363, 239485, 239608, 239847, 239849, 240131, 240133, 240445, 240718]",True,False
+32950,Spiritwalker Yona,[28408],classic_assets_absent_from_active_client_root,[],[242626],"[238339, 238450, 239035, 239036, 239037, 239292, 239416, 239537, 239702, 239703, 239973, 239974, 240265, 240583]",True,False
+33220,Maiden of Ashwood Lake,[28503],classic_assets_absent_from_active_client_root,[],[250802],"[150916, 152554, 153675, 157123, 159799, 159800, 162414, 165107]",True,False
+33325,Eivi Nightfeather,[28369],classic_assets_absent_from_active_client_root,[],[242613],"[237905, 238493, 238975, 238976, 239264, 239388, 239509, 239640, 239642, 239910, 239912, 240205, 240532]",True,False
+33326,Field Medic Jessi,[28366],classic_assets_absent_from_active_client_root,[],[242621],"[237832, 238407, 239201, 239202, 239203, 239363, 239485, 239608, 239847, 239849, 240131, 240133, 240445, 240718]",True,False
+33327,Sissy Flamecuffs,[28362],classic_assets_absent_from_active_client_root,[],[242617],"[237805, 238402, 239187, 239188, 239189, 239358, 239480, 239603, 239833, 239835, 240116, 240118, 240433, 240708]",True,False
+33328,Elementalist Mahfuun,[28368],classic_assets_absent_from_active_client_root,[],"[238003, 242625]","[238339, 238450, 239035, 239036, 239037, 239292, 239416, 239537, 239702, 239703, 239973, 239974, 240266, 240584]",True,False
+33330,Battle-Priest Gina,[28406],classic_assets_absent_from_active_client_root,[],[242622],"[237832, 238407, 239201, 239202, 239203, 239363, 239485, 239608, 239847, 239849, 240131, 240133, 240445, 240718]",True,False
+33331,Amira Blazeweaver,[28403],classic_assets_absent_from_active_client_root,[],[242618],"[237805, 238402, 239187, 239188, 239189, 239358, 239480, 239603, 239833, 239835, 240116, 240118, 240433, 240708]",True,False
+33332,Spiritwalker Tara,[28408],classic_assets_absent_from_active_client_root,[],[242626],"[238339, 238450, 239035, 239036, 239037, 239292, 239416, 239537, 239702, 239703, 239973, 239974, 240265, 240583]",True,False
+33333,Kar Greycloud,[28399],classic_assets_absent_from_active_client_root,[],[242614],"[237905, 238493, 238975, 238976, 239264, 239388, 239509, 239640, 239642, 239910, 239912, 240206, 240533]",True,False
+33455,Lorien Sunblaze,[26878],classic_assets_absent_from_active_client_root,[],[241780],"[137258, 143701, 149114, 149115, 150666, 151476, 152361, 152837, 153919, 155176, 155177, 157773, 160587, 163254, 164764]",True,False
+33457,Conall Irongrip,[26225],classic_assets_absent_from_active_client_root,[],[241505],"[140610, 143379, 150276, 152082, 153368, 154427, 156335, 156336, 158920, 158921, 161571, 161573, 164253, 240503, 240764]",True,False
+33961,Draaka,[28825],classic_assets_absent_from_active_client_root,[],[253797],"[143763, 149319, 151577, 152933, 153835, 155380, 157568, 157974, 160367, 160754, 163030, 163425]",True,False
+33972,Rugan Steelbelly,[28995],classic_assets_absent_from_active_client_root,[],[259076],"[239011, 239012, 239013, 239284, 239408, 239529, 239684, 239685, 239955, 239956, 240242, 240244, 240503, 240568, 240764]",True,False
+33973,Jeran Lockwood,[28996],classic_assets_absent_from_active_client_root,[],[259037],"[144004, 150283, 150284, 152086, 153372, 154431, 156343, 156344, 158928, 158929, 161582, 164261, 240503, 240764]",True,False
+33974,Valis Windchaser,[28997],classic_assets_absent_from_active_client_root,[],[259054],"[149267, 149268, 151552, 152902, 153985, 155316, 155317, 157910, 157911, 160703, 163371, 240503, 240764]",True,False
+34044,Brann Bronzebeard,[26353],classic_assets_absent_from_active_client_root,[],[241569],"[137695, 149076, 151499, 152775, 155040, 155114, 157722, 158195, 160623, 163290]",True,False
+34127,Boneguard Commander,[29099],classic_assets_absent_from_active_client_root,[],[249576],"[140890, 144050, 150465, 150466, 152188, 153468, 154527, 156557, 156558, 159143, 159144, 161775, 164460]",True,False
+34293,Twilight Rider (Humanoid),"[28356, 28357]",classic_assets_absent_from_active_client_root,[],"[242604, 242605]","[148756, 152470, 152811, 154616, 155123, 156990, 159668, 159669, 160533, 162268, 162269, 163199, 164965, 164966]",True,False
+34471,Baelnor Lightbearer,[29774],classic_assets_absent_from_active_client_root,[],[314538],"[311715, 311763, 311768, 311774, 311775, 311780, 311783, 311786, 311790, 311791, 311796, 311797, 311805, 311812]",True,False
+34475,Shocuul,[29779],classic_assets_absent_from_active_client_root,[],"[311725, 314602]","[311715, 311764, 311769, 311777, 311778, 311781, 311784, 311787, 311792, 311793, 311798, 311799, 311808, 311814]",True,False
+34657,Jaelyne Evensong,[28735],classic_assets_absent_from_active_client_root,[],[313692],"[164765, 239025, 254119, 254167, 254177, 254178, 254182, 254184, 254186, 254188, 254189, 254193, 254194, 254198, 254210, 254230, 254242, 304106]",True,False
+34703,Lana Stouthammer,[28564],classic_assets_absent_from_active_client_root,[],[313616],"[137993, 254202, 254234, 254605, 254608, 254609, 254610, 254611, 254612, 254613, 254614, 254615, 254616, 254617, 254619, 304109]",True,False
+34816,Barrett Ramsey,[29888],classic_assets_absent_from_active_client_root,[],[313222],"[137274, 143380, 150278, 152083, 153369, 154428, 156337, 156338, 158922, 158923, 161574, 161576, 164255, 240503, 240764]",True,False
+34918,Kor'kron Guard,"[29900, 29901, 29902]",classic_assets_absent_from_active_client_root,[],"[313545, 313557, 313586]","[162702, 165396, 238163, 238522, 239107, 239108, 239326, 239449, 239571, 239769, 239770, 240043, 240044, 240345, 240346, 240647, 240648, 313444, 313446]",True,False
+34919,7th Legion Infantry,"[29895, 29896, 29897]",classic_assets_absent_from_active_client_root,[],"[313535, 313536, 313537]","[140736, 144030, 150555, 151264, 151721, 151722, 153511, 154570, 155667, 156644, 158249, 158250, 160992, 160993, 162802, 163669, 163670, 313419, 313421, 313443, 313445]",True,False
+34922,Overlord Agmar,[29899],classic_assets_absent_from_active_client_root,[],[313544],"[137412, 140787, 143389, 150438, 152170, 153456, 154515, 156533, 156534, 159119, 159120, 161751, 164436, 313444, 313446]",True,False
+34924,High Commander Halford Wyrmbane,[29898],classic_assets_absent_from_active_client_root,[],[313538],"[137405, 141218, 143397, 148861, 150555, 151266, 152234, 153511, 154570, 156644, 156645, 159233, 159234, 161858, 164543, 313443, 313445]",True,False
+35000,Mijiri,[29517],classic_assets_absent_from_active_client_root,[],[308804],"[137430, 144063, 150498, 152206, 153483, 154542, 156587, 156588, 159173, 159174, 161803, 162591, 164488, 165285]",True,False
+35118,Bloodfang Worgen,"[36772, 36771, 36770]",classic_assets_absent_from_active_client_root,[],"[461547, 461548, 461549]","[426536, 426537, 426552, 426556, 426560, 426561, 426568, 426569, 426576]",True,False
+35158,Krom'gar Berserker,[32519],classic_assets_absent_from_active_client_root,[],[378538],"[140863, 144048, 150459, 150460, 152185, 153465, 154524, 156551, 156552, 159137, 159138, 161769, 164454, 313444, 313446]",True,False
+35617,Deathstalker Visceri,[28589],classic_assets_absent_from_active_client_root,[],[313702],"[164762, 237931, 238497, 238983, 238984, 239268, 239392, 239513, 239651, 239652, 239921, 239922, 240214, 240541, 254219, 254251, 304114]",True,False
+35753,Krennan Aranas,[29906],classic_assets_absent_from_active_client_root,[],[313722],"[152647, 154740, 154848, 157465]",True,False
+35839,Sergeant Cleese,[29935],classic_assets_absent_from_active_client_root,[],[314533],"[329437, 330130, 422669, 422670, 422671, 422691, 422698, 422705, 422712, 422713, 422730, 422731, 422749, 422764]",True,False
+35871,Loren the Fence,[29957],classic_assets_absent_from_active_client_root,[],[314723],"[152696, 154874, 154879, 157497, 159393, 320342, 320359, 320433, 320451]",True,False
+35882,Orc Survivor,"[29942, 29943, 29944, 29945]",classic_assets_absent_from_active_client_root,[],"[314672, 314673, 314674, 314675]","[148937, 148938, 148939, 148949, 149277, 149278, 151334, 151338, 151558, 151570, 152734, 152911, 152924, 153838, 153991, 154003, 154965, 154967, 154978, 155334, 155335, 155359, 155360, 157574, 157576, 157587, 157925, 157927, 157951, 157952, 160374, 160381, 160714, 160738, 163037, 163044, 163382, 163406]",True,False
+35893,Kilag Gorefang,[29950],classic_assets_absent_from_active_client_root,[],[314707],"[149847, 153177, 155894, 155895, 158477, 158478, 161187, 163867]",True,False
+35894,Orc Scout,"[29951, 29952, 29953, 29954]",classic_assets_absent_from_active_client_root,[],"[314708, 314709, 314710, 314711]","[149304, 149307, 149309, 149313, 151572, 151573, 151574, 151576, 152928, 152929, 152930, 152932, 154010, 154012, 155368, 155369, 155370, 155371, 155372, 155373, 155376, 155377, 157960, 157961, 157962, 157963, 157964, 157965, 157968, 157969, 160745, 160749, 160753, 163416, 163420, 163424]",True,False
+35895,Barrett Ramsey,[29888],classic_assets_absent_from_active_client_root,[],[313222],"[137274, 143380, 150278, 152083, 153369, 154428, 156337, 156338, 158922, 158923, 161574, 161576, 164255, 240503, 240764]",True,False
+35906,Lord Godfrey,[29675],classic_assets_absent_from_active_client_root,[],"[310744, 320349, 320366, 320380, 320398, 320400, 320422, 320440, 320458]","[140165, 153947, 158260]",True,False
+35907,Krennan Aranas,[29906],classic_assets_absent_from_active_client_root,[],[313722],"[152647, 154740, 154848, 157465]",True,False
+35909,Barrett Ramsey,[29888],classic_assets_absent_from_active_client_root,[],[313222],"[137274, 143380, 150278, 152083, 153369, 154428, 156337, 156338, 158922, 158923, 161574, 161576, 164255, 240503, 240764]",True,False
+35910,Barrett Ramsey,[29888],classic_assets_absent_from_active_client_root,[],[313222],"[137274, 143380, 150278, 152083, 153369, 154428, 156337, 156338, 158922, 158923, 161574, 161576, 164255, 240503, 240764]",True,False
+35912,Injured Citizen,"[30217, 30218, 30214, 30215]",classic_assets_absent_from_active_client_root,[],"[320379, 320623, 320633, 320636, 320691]","[320326, 320335, 320342, 320353, 320356, 320357, 320359, 320370, 320373, 320374, 320382, 320383, 320386, 320388, 320404, 320406, 320409, 320410, 320411, 320412, 320415, 320426, 320429, 320430, 320433, 320444, 320447, 320448, 320451, 320462, 320465, 320466]",True,False
+35915,Gilneas City Guard,"[29466, 29467, 29826]",classic_assets_absent_from_active_client_root,[],"[308271, 308272, 312122]","[330127, 330128, 330129, 330130, 422625, 422669, 422670, 422671, 422691, 422698, 422705, 422712, 422713, 422730, 422731, 422748, 422749, 422763, 422764]",True,False
+35916,Bloodfang Ripper,"[36770, 36771, 36772]",classic_assets_absent_from_active_client_root,[],"[461547, 461548, 461549]","[426536, 426537, 426552, 426556, 426560, 426561, 426568, 426569, 426576]",True,False
+35917,Kilag Gorefang,[29950],classic_assets_absent_from_active_client_root,[],[314707],"[149847, 153177, 155894, 155895, 158477, 158478, 161187, 163867]",True,False
+35918,Orc Scout,"[29951, 29952, 29953, 29954]",classic_assets_absent_from_active_client_root,[],"[314708, 314709, 314710, 314711]","[149304, 149307, 149309, 149313, 151572, 151573, 151574, 151576, 152928, 152929, 152930, 152932, 154010, 154012, 155368, 155369, 155370, 155371, 155372, 155373, 155376, 155377, 157960, 157961, 157962, 157963, 157964, 157965, 157968, 157969, 160745, 160749, 160753, 163416, 163420, 163424]",True,False
+36176,Alliance Sailor,"[30031, 30032, 30033, 30034]",classic_assets_absent_from_active_client_root,[],"[315531, 315532, 315533, 315534]","[148830, 151240, 152800, 152801, 153862, 155101, 155102, 155192, 155193, 157680, 157788, 157789, 162628, 162629, 165322, 165323]",True,False
+36217,Mutilated Body,[30069],classic_assets_absent_from_active_client_root,[],[316682],"[143383, 150427, 150428, 152165, 153451, 154510, 156523, 156524, 159109, 159110, 161741, 164426, 254215, 254247, 254362]",True,False
+36497,Bronjahm,[30226],classic_assets_absent_from_active_client_root,[],[321155],"[144284, 151071, 152619, 153735, 154712, 157288, 159980, 162536, 165230]",True,False
+36658,Scourgelord Tyrannus,[30277],classic_assets_absent_from_active_client_root,[],[338698],"[337697, 337704, 337710, 337711, 337716, 337720, 337724, 337730, 337731, 337738, 337739, 337747, 337755]",True,False
+36770,Horde Slave,"[30380, 30381, 30382, 30383]",classic_assets_absent_from_active_client_root,[],"[326849, 326850, 326851, 326852]","[150104, 153529, 158485, 158486, 162702, 162703, 165396, 165397]",True,False
+36915,Erunak Stonespeaker,[30408],classic_assets_absent_from_active_client_root,[],[327182],"[144321, 151053, 152613, 153729, 157271, 159961, 159963, 162524, 165218]",True,False
+37102,Gwen Armstead,[29290],classic_assets_absent_from_active_client_root,[],"[306215, 320338, 320379]","[320346, 320363, 320395, 320419, 320437, 320455]",True,False
+37135,Nura Pathfinder,[30524],classic_assets_absent_from_active_client_root,[],[330743],"[137322, 143651, 149290, 151404, 151566, 153999, 155351, 155369, 157635, 157943, 157961, 160471, 160733, 163137, 163397]",True,False
+37159,High Road Scout,"[30546, 30548]",classic_assets_absent_from_active_client_root,[],"[330812, 330813]","[137597, 150111, 151190, 151191, 152009, 152010, 153295, 154353, 154858, 156159, 156165, 157476, 158756, 158757, 161435, 161436, 162628, 162629, 164115, 164116, 165322, 165323]",True,False
+37514,Grik'nir's Servant,[27501],classic_assets_absent_from_active_client_root,[],[242149],"[149289, 149290, 151571, 153999, 155351, 157572, 157926, 160371, 163034]",True,False
+37575,Freed Alliance Slave,"[30662, 30663]",classic_assets_absent_from_active_client_root,[],"[332703, 332704]","[143891, 149916, 149917, 151899, 153205, 154263, 155954, 155955, 158540, 158541, 161262, 162700, 162701, 163940, 163941, 165394, 165395, 252786]",True,False
+37576,Freed Alliance Slave,"[30667, 30666, 30665, 30664]",classic_assets_absent_from_active_client_root,[],"[332709, 332710, 332711, 332712]","[162700, 162701, 165394, 165395, 238462, 239175, 239176, 239177, 239354, 239476, 239599, 239825, 240104, 240105, 240423, 240424, 240700, 240701]",True,False
+37584,Coliseum Champion,"[30693, 30694, 30768, 30769]",classic_assets_absent_from_active_client_root,[],"[332304, 332305, 335410, 335411]","[254215, 254219, 254247, 254251, 304110, 304114, 315695, 315701, 315702, 315703, 315706, 315709, 315712, 315717, 315718, 315723, 315724, 315733, 315739]",True,False
+37763,Grand Magister Rommath,[19706],classic_assets_absent_from_active_client_root,[],[308796],"[138335, 149116, 151477, 152838, 153920, 155178, 157774, 157775, 160588, 163255]",True,False
+37765,Captain Auric Sunchaser,[18146],classic_assets_absent_from_active_client_root,[],[525214],"[137301, 143977, 150207, 152054, 153340, 154399, 155710, 156275, 158289, 161520, 164201]",True,False
+37781,Sunwell Honor Guard,"[89418, 89419, 89420, 89421, 89800, 89801, 89802, 89803]",no_complete_classic_record_set,[],[],[],True,False
+37917,Crown Thug,"[30576, 30577, 30578, 30579]",classic_assets_absent_from_active_client_root,[],"[329767, 329768, 329769, 329803]","[140073, 143732, 149183, 149185, 150616, 151508, 152293, 152869, 153946, 155247, 155248, 157840, 159360, 160637, 160638, 161967, 161968, 163304, 163305, 164653, 164654]",True,False
+37984,Crown Duster,"[30576, 30577, 30578, 30579]",classic_assets_absent_from_active_client_root,[],"[329767, 329768, 329769, 329803]","[140073, 143732, 149183, 149185, 150616, 151508, 152293, 152869, 153946, 155247, 155248, 157840, 159360, 160637, 160638, 161967, 161968, 163304, 163305, 164653, 164654]",True,False
+38000,Crok Scourgebane (1),[30911],classic_assets_absent_from_active_client_root,[],[338772],"[144052, 150452, 150469, 150470, 152190, 153470, 154529, 156561, 156562, 159147, 159148, 161779, 164464, 240505, 240766]",True,False
+38006,Crown Hoodlum,"[30576, 30577, 30578, 30579]",classic_assets_absent_from_active_client_root,[],"[329767, 329768, 329769, 329803]","[140073, 143732, 149183, 149185, 150616, 151508, 152293, 152869, 153946, 155247, 155248, 157840, 159360, 160637, 160638, 161967, 161968, 163304, 163305, 164653, 164654]",True,False
+38010,Reanimated Adherent,[30966],classic_assets_absent_from_active_client_root,[],[339382],"[150892, 150893, 152545, 153664, 154641, 157104, 159781, 159782, 162396, 165090, 239181]",True,False
+38023,Crown Sprinkler,"[30576, 30577, 30578, 30579]",classic_assets_absent_from_active_client_root,[],"[329767, 329768, 329769, 329803]","[140073, 143732, 149183, 149185, 150616, 151508, 152293, 152869, 153946, 155247, 155248, 157840, 159360, 160637, 160638, 161967, 161968, 163304, 163305, 164653, 164654]",True,False
+38037,Nortet,[30943],classic_assets_absent_from_active_client_root,[],[339365],"[150457, 150458, 152183, 153464, 154523, 156549, 156550, 159135, 159136, 161767, 164452]",True,False
+38242,Nekali,[30960],classic_assets_absent_from_active_client_root,[],[339363],"[143759, 150832, 153638, 154628, 157046, 157047, 159725, 159726, 162326, 165023]",True,False
+38243,Zen'tabra,[31734],classic_assets_absent_from_active_client_root,[],[366065],"[138192, 144307, 151142, 151143, 151144, 152645, 154738, 157359, 160052, 162588, 165282]",True,False
+38244,Legati,[30942],classic_assets_absent_from_active_client_root,[],[339366],"[143730, 149177, 149178, 149179, 151506, 152867, 153949, 155243, 155244, 157836, 157925, 160634, 163301]",True,False
+38245,Tunari,[30959],classic_assets_absent_from_active_client_root,[],[339376],"[144206, 150802, 150864, 152484, 153616, 156979, 157026, 159658, 159705, 162306, 165003]",True,False
+38246,Soratha,[30941],classic_assets_absent_from_active_client_root,[],[339377],"[144206, 150809, 152471, 153623, 154617, 156993, 156994, 159672, 159673, 162273, 164970]",True,False
+38247,Ortezza,[30958],classic_assets_absent_from_active_client_root,[],[339367],"[143842, 149561, 149562, 151691, 153055, 154120, 155622, 155623, 158207, 158208, 160952, 163627]",True,False
+38534,Megs Dreadshredder,[29472],classic_assets_absent_from_active_client_root,[],[418740],"[152034, 152754, 157554, 158834, 161499, 164180, 238965, 239259, 239900, 240191, 240522]",True,False
+38749,Captain Dreadbeard,[31321],classic_assets_absent_from_active_client_root,[],[355554],"[137669, 153806, 157468, 157680, 320353, 320370, 320382, 320404, 320406, 320426, 320444, 320462]",True,False
+38895,Lilian Voss,[31252],classic_assets_absent_from_active_client_root,[],[354016],"[137360, 148744, 151153, 151155, 151365, 152776, 155044, 155045, 155047, 157650, 157655, 157657, 160061, 160421, 162712, 163084]",True,False
+38913,Twilight Vanquisher,"[31208, 31209, 31210, 31211]",classic_assets_absent_from_active_client_root,[],"[352644, 352645, 352646, 352647]","[238161, 238520, 391152, 391153, 391154, 391159, 391163, 391167, 391173, 391174, 391181, 391182, 391191, 391192, 391193, 391201, 391202]",True,False
+38915,Hyjal Warden,"[31212, 31213]",classic_assets_absent_from_active_client_root,[],"[352703, 352704]","[144076, 150533, 150534, 150535, 152224, 153501, 154560, 156624, 156625, 159213, 159214, 161837, 161838, 162666, 162667, 164522, 164523, 165360, 165361, 240403]",True,False
+38926,Twilight Flamecaller,[31216],classic_assets_absent_from_active_client_root,[],[352813],"[143922, 150003, 151938, 153242, 156031, 158617, 161335, 164015, 391183, 391194]",True,False
+38967,Worgen Infiltrator,[31222],classic_assets_absent_from_active_client_root,[],[353011],"[350666, 350681, 350688, 350689, 350697, 350705, 415218, 424766, 424767]",True,False
+38999,Lilian Voss,[31252],classic_assets_absent_from_active_client_root,[],[354016],"[137360, 148744, 151153, 151155, 151365, 152776, 155044, 155045, 155047, 157650, 157655, 157657, 160061, 160421, 162712, 163084]",True,False
+39000,Reanimated Adherent (2),[30966],classic_assets_absent_from_active_client_root,[],[339382],"[150892, 150893, 152545, 153664, 154641, 157104, 159781, 159782, 162396, 165090, 239181]",True,False
+39002,Scarlet Lieutenant Gebler,[24556],classic_assets_absent_from_active_client_root,[],[177221],"[140479, 143971, 150196, 150197, 151215, 152049, 153335, 154394, 156265, 156266, 158717, 158853, 162604, 164064, 164196, 165298]",True,False
+39041,Gnomeregan Pilot,"[31307, 31309, 31308, 31310]",classic_assets_absent_from_active_client_root,[],"[355442, 355443, 355444, 355445]","[138050, 143686, 149061, 149062, 149063, 151441, 152812, 153894, 155125, 155126, 157728, 157732, 160534, 163200]",True,False
+39062,Darkspear Jailor,[31289],classic_assets_absent_from_active_client_root,[],[355132],"[143981, 149299, 150214, 153344, 154403, 156283, 156284, 158868, 158869, 161525, 164206]",True,False
+39082,Captured Goblin Bughunter,[31331],classic_assets_absent_from_active_client_root,[],[355389],"[140517, 151207, 152843, 153941, 160160, 161381, 162811, 164061, 251726, 251729]",True,False
+39091,Darnavan Kill Credit 10,[31135],classic_assets_absent_from_active_client_root,[],[347428],"[340717, 340724, 340725, 340726, 340729, 340732, 340735, 340742, 340749, 340750, 340757, 340763, 341248, 350713]",True,False
+39092,Darnavan Kill Credit 25,[31135],classic_assets_absent_from_active_client_root,[],[347428],"[340717, 340724, 340725, 340726, 340729, 340732, 340735, 340742, 340749, 340750, 340757, 340763, 341248, 350713]",True,False
+39215,Captured Northwatch Scout,"[31371, 31372]",classic_assets_absent_from_active_client_root,[],"[356446, 356447]","[149558, 150637, 151689, 152314, 153053, 154118, 154853, 155618, 157470, 158266, 162010, 162629, 163624, 164696, 165323]",True,False
+39313,Zin'jatar Raider,[32479],classic_assets_absent_from_active_client_root,[],[366820],"[150407, 152144, 161702, 164387]",True,False
+39640,Kristoff Manheim,[31520],classic_assets_absent_from_active_client_root,[],[360927],"[148813, 151229, 157443, 160204, 162865, 356532, 356543, 356555, 356562, 356563, 356571, 356579, 359650, 359661, 359665, 359670]",True,False
+39663,Drowning Soldier,"[31928, 31929, 31930, 31931]",classic_assets_absent_from_active_client_root,[],"[368614, 368617, 368618, 368619]","[150106, 150107, 151173, 151993, 153293, 154351, 156161, 156162, 158752, 158753, 160098, 161432, 162619, 162749, 164112, 165313]",True,False
+39883,Adarrah,[22403],classic_assets_absent_from_active_client_root,[],[176174],"[151436, 152807, 155115, 155188, 155190, 157745, 157785, 160529, 163195]",True,False
+39947,Grimtotem Pillager,"[31629, 31632, 31633, 31634]",classic_assets_absent_from_active_client_root,[],"[364528, 364529, 364530, 364531]","[143651, 149863, 155906, 158493, 158494, 161202, 163882]",True,False
+39949,Grimtotem Marauder,"[31629, 31632, 31633, 31634]",classic_assets_absent_from_active_client_root,[],"[364528, 364529, 364530, 364531]","[143651, 149863, 155906, 158493, 158494, 161202, 163882]",True,False
+40429,Sanctum Guardian Xerestrasza,[31962],classic_assets_absent_from_active_client_root,[],[242447],"[137411, 143394, 150037, 150038, 151956, 153260, 154318, 156079, 156080, 158665, 158666, 161369, 164049, 240514, 240775]",True,False
+40593,Southsea Taskmaster,[31946],classic_assets_absent_from_active_client_root,[],[368974],"[151374, 157979, 160378, 160430, 163041, 163093, 357567, 357597, 357604, 357605]",True,False
+40645,Jorlan Trueblade,[32846],classic_assets_absent_from_active_client_root,[],[387542],"[151199, 155049, 155050, 157660, 157661, 158752]",True,False
+41087,Stonetalon Horde Unit Proxy,"[32293, 32294, 32295]",classic_assets_absent_from_active_client_root,[],"[373015, 373016, 373017]","[149873, 149874, 153189, 154250, 155915, 155916, 158503, 158504, 161213, 163893, 313444, 313446]",True,False
+41258,Frostmane Warrior,"[32370, 32369, 32366]",classic_assets_absent_from_active_client_root,[],"[375199, 375445, 375446]","[143651, 149010, 151404, 155031, 155357, 157637, 158495, 161205, 163885]",True,False
+41284,Battok the Berserker,[32391],classic_assets_absent_from_active_client_root,[],[375530],"[143681, 149287, 149866, 151349, 154246, 155907, 155908, 157598, 157951, 158496, 160394, 161205, 163057, 163885]",True,False
+41409,Dark Iron Trapper,[32448],classic_assets_absent_from_active_client_root,[],[376799],"[137360, 137596, 149058, 149059, 149060, 151440, 152811, 153893, 155123, 156107, 157749, 158693, 160533, 162842, 163199]",True,False
+41416,Yorla Darksnare,[32450],classic_assets_absent_from_active_client_root,[],[376803],"[138219, 149962, 151921, 155995, 158580, 158581, 161301, 163980, 359651, 361559, 361572, 366283, 366304, 366315]",True,False
+41553,Drungeld Glowerglare,[32326],classic_assets_absent_from_active_client_root,[],[374278],"[363219, 363224, 363225, 363226, 363234, 363238, 363242, 363247, 363248, 363255, 363256, 363264, 363272]",True,False
+41866,Stonetalon Alliance Unit Proxy,"[32293, 32294, 32295]",classic_assets_absent_from_active_client_root,[],"[373015, 373016, 373017]","[149873, 149874, 153189, 154250, 155915, 155916, 158503, 158504, 161213, 163893, 313444, 313446]",True,False
+42075,Fathom-Stalker Azjentus,[32242],classic_assets_absent_from_active_client_root,[],[366833],"[352796, 364420, 364502, 364520, 366754]",True,False
+42114,Alliance Sea-Scout,"[32694, 32695, 32696, 32697]",classic_assets_absent_from_active_client_root,[],"[383949, 383950, 383951, 383952]","[137919, 162618, 162619, 165312, 165313, 352775, 352776, 352779, 352782, 352785, 352790, 352791, 352796, 352797, 352804, 352805, 352806, 352811, 352812, 364408, 366753]",True,False
+42223,Irradiated Technician,"[31649, 31650, 31651, 31652]",classic_assets_absent_from_active_client_root,[],"[362831, 364746, 364748, 364749]","[137945, 138077, 140073, 143944, 148869, 150223, 151278, 152061, 153347, 154406, 156290, 156292, 158875, 158877, 160283, 161530, 162946, 164211]",True,False
+42383,Transient,[32816],classic_assets_absent_from_active_client_root,[],[387534],"[321045, 321046, 321048, 321050, 321052]",True,False
+42384,Homeless Stormwind Citizen,"[32817, 32818, 32819, 32820]",classic_assets_absent_from_active_client_root,[],"[387531, 387532, 387535, 387536]","[148744, 151154, 151155, 151167, 152651, 154749, 154751, 154752, 154766, 154777, 154815, 157367, 157368, 157378, 157395, 157429, 160062, 160076, 160094, 160108, 162713, 162727, 162745, 162759]",True,False
+42386,Homeless Stormwind Citizen,"[32824, 32825, 32826, 32827]",classic_assets_absent_from_active_client_root,[],"[387537, 387538, 387539, 387540]","[148746, 150566, 150585, 150598, 151161, 151392, 152243, 152262, 152654, 153524, 154758, 154761, 155013, 156660, 156686, 156687, 157371, 157372, 157374, 157621, 159250, 159251, 159299, 160069, 160450, 161875, 161913, 162720, 163114, 164560, 164598]",True,False
+42387,Thug,"[32828, 32829, 32830, 32831]",classic_assets_absent_from_active_client_root,[],"[387554, 387555, 387556, 387557]","[137595, 137601, 137992, 149093, 149094, 151378, 151464, 152828, 153910, 155155, 155156, 157755, 157756, 160567, 163232]",True,False
+42391,West Plains Drifter,"[32837, 32838, 32839, 32840]",classic_assets_absent_from_active_client_root,[],"[387567, 387568, 387571, 387572]","[320342, 320358, 320359, 320382, 320383, 320384, 320385, 320404, 320412, 320413, 320414, 320431, 320432, 320433, 320449, 320450, 320451, 320587, 320606, 320612, 321332, 321338]",True,False
+42515,Shadowy Figure,[32897],classic_assets_absent_from_active_client_root,[],[387854],"[138220, 148897, 150971, 150972, 152580, 153696, 154673, 157173, 157175, 159853, 159855, 162457, 165151]",True,False
+42618,Voldreka,[32972],classic_assets_absent_from_active_client_root,[],[390489],"[144146, 150809, 152471, 153534, 156778, 156993, 159442, 159462, 162061, 164746]",True,False
+42938,Kurtok the Slayer,[33143],classic_assets_absent_from_active_client_root,[],[392667],"[144015, 150421, 152155, 153449, 154508, 156515, 156516, 159101, 159102, 161721, 164406]",True,False
+43201,Cavern Grunt,"[33294, 33295]",classic_assets_absent_from_active_client_root,[],"[396470, 396471]","[254214, 254215, 254246, 254247, 359577, 366255, 366283, 366291, 366292, 366293, 366299, 366303, 366307, 366313, 366314, 366321, 366322, 366329, 366330, 366337, 366338]",True,False
+43202,Elevator Construction Chief,[27343],classic_assets_absent_from_active_client_root,[],[242046],"[138077, 150200, 150201, 152051, 152692, 154396, 154867, 154868, 157489, 157490, 160252, 162913]",True,False
+43764,Admiral Stormblood,[33503],classic_assets_absent_from_active_client_root,[],[402628],"[137671, 148831, 150428, 151241, 153202, 154510, 154855, 155948, 157472, 158003, 160228, 162889, 254215, 254247]",True,False
+44000,Gilnean Emissary,"[33610, 33611, 33612, 33613]",classic_assets_absent_from_active_client_root,[],"[405185, 405186, 405187, 405188]","[148872, 150049, 150050, 151962, 153266, 154324, 156095, 156096, 158681, 158682, 161381, 164061, 330127, 330128, 330129, 330130]",True,False
+44120,Sauranok the Mystic,[32981],classic_assets_absent_from_active_client_root,[],[390588],"[143933, 151958, 153262, 158669, 353043, 353056, 353062, 353068, 353072]",True,False
+44132,Sauranok the Mystic Quest Tracker,[32981],classic_assets_absent_from_active_client_root,[],[390588],"[143933, 151958, 153262, 158669, 353043, 353056, 353062, 353068, 353072]",True,False
+44547,Bloodfang Scavenger,"[33950, 33951, 33952, 33953]",classic_assets_absent_from_active_client_root,[],"[409392, 409393, 409394, 409395]","[320385, 320414, 320590, 320594, 320597, 320602]",True,False
+44793,Worgen Renegade,"[34078, 34079, 34080, 34081]",classic_assets_absent_from_active_client_root,[],"[410470, 410471, 410472, 410473]","[329436, 329437, 329438, 329439, 364396, 364415, 364416, 364417, 364429, 364438, 364447, 364461, 364462, 364479, 364480, 364497, 364498, 364515, 364516]",True,False
+44825,Bat Handler Maggotbreath,[30840],classic_assets_absent_from_active_client_root,[],[337416],"[151336, 152736, 154941, 154971, 157546, 157547, 160378, 163041]",True,False
+44883,Lord Darius Crowley,[34161],classic_assets_absent_from_active_client_root,[],[411824],"[137990, 311715, 329437, 329439, 359531, 359537, 359538, 359539, 359549, 359553, 359557, 359561, 359562, 359569, 359570, 359577, 359579, 359590]",True,False
+44884,Packleader Ivar Bloodfang,[34162],classic_assets_absent_from_active_client_root,[],[411826],"[149304, 239008, 239281, 239405, 239526, 239678, 239679, 239949, 239950, 240239, 240564]",True,False
+44942,Orc Sea Dog,"[34175, 34176, 34177, 34178]",classic_assets_absent_from_active_client_root,[],"[411831, 411832, 411833, 411834]","[137669, 137990, 137993, 148835, 151245, 152684, 154851, 154857, 157474, 160236, 162897, 254215, 254247, 321046]",True,False
+44953,Human to Forsaken Kill Credit,"[33978, 33979, 33980, 33981]",classic_assets_absent_from_active_client_root,[],"[409578, 409579, 409580, 409581]","[356281, 356282, 356299, 356307, 356315, 356325, 356326, 356344, 356345, 356365, 356381, 356538, 356539, 356544, 356547, 356550, 356556, 356557, 356564, 356565, 356573, 356581, 357568, 357569, 357570, 357580, 357584, 357588, 357592, 357593, 357600, 357601, 357608, 357610, 357621, 362068, 362069, 362077, 362081, 362085, 362089, 362091, 362101, 362103, 362113, 362115, 362125, 366870]",True,False
+45524,Siege Tank Commander,"[34538, 34539, 34540]",classic_assets_absent_from_active_client_root,[],"[424589, 424590, 424593]","[138128, 350677, 350685, 350686, 350694, 350695, 350702, 350703, 357565, 357569, 357584, 357588, 357592, 357600]",True,False
+45847,S.A.F.E. Operative,"[34710, 34707, 34708, 34709]",classic_assets_absent_from_active_client_root,[],"[387546, 387550, 387553, 387566]","[138021, 138130, 140166, 143762, 148825, 148826, 151237, 152682, 153796, 154845, 154846, 157460, 157461, 157462, 160219, 160220, 162880, 162881, 164757, 164758, 357815]",True,False
+46230,S.A.F.E. Technician,"[34976, 34977, 34978, 34979]",classic_assets_absent_from_active_client_root,[],"[429628, 429629, 429630, 429631]","[138020, 148979, 149036, 151359, 152795, 153880, 154777, 154780, 155091, 157395, 157398, 157696, 157700, 160108, 160114, 160410, 162759, 162765, 163073]",True,False
+46268,Survivor,"[34987, 34988, 34989, 34990]",classic_assets_absent_from_active_client_root,[],"[429727, 429728, 429729, 429730]","[138272, 148745, 148774, 148775, 151158, 151159, 151169, 151198, 152663, 153778, 154805, 155328, 157696, 157921, 160066, 160084, 160142, 162717, 162735, 162793, 357579, 357583, 357606, 357619, 357627, 424847, 424851, 424881, 424894, 424902]",True,False
+46293,Torben Zapblast,[35012],classic_assets_absent_from_active_client_root,[],[430846],"[149194, 151511, 152871, 153921, 154777, 155251, 157395, 157796, 160108, 160642, 162759, 163309]",True,False
+46322,Shaman of the Black,"[35035, 35036, 35037, 35038]",classic_assets_absent_from_active_client_root,[],"[430961, 430962, 430963, 430964, 5586227]","[138216, 391153, 391154, 391159, 391163, 391173, 391174, 391182, 391192, 391193, 391201, 391202]",True,False
+46363,Crazed Leper Gnome,[35025],classic_assets_absent_from_active_client_root,[],[430967],"[137945, 148774, 148775, 149303, 151198, 152663, 153778, 154805, 154806, 157959, 160142, 162793]",True,False
+46964,Lord Godfrey,[34611],classic_assets_absent_from_active_client_root,[],[426004],"[423610, 423611, 423612, 423613, 423614, 423615, 423616, 423617, 423618, 423620, 423621, 423623, 423624, 423627, 426005]",True,False
+47324,Baradin Guard,[35539],classic_assets_absent_from_active_client_root,[],[446196],"[162845, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456607, 456633]",True,False
+47325,Baradin Guard,[35540],classic_assets_absent_from_active_client_root,[],[446197],"[162845, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456607, 456633]",True,False
+47335,Baradin Grunt,[35544],classic_assets_absent_from_active_client_root,[],[446198],"[162845, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456609, 456635]",True,False
+47336,Baradin Grunt,[35545],classic_assets_absent_from_active_client_root,[],[446199],"[162845, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456609, 456635]",True,False
+47675,Bloodvenom Slimeslave,[35777],classic_assets_absent_from_active_client_root,[],[451157],"[149884, 155928, 157966, 158516]",True,False
+48039,Commander Stevens,[37280],classic_assets_absent_from_active_client_root,[],[464966],"[137517, 162845, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456607, 456633]",True,False
+48061,2nd Lieutenant Wansworth,[37279],classic_assets_absent_from_active_client_root,[],[464955],"[162845, 238519, 239101, 239323, 239446, 239763, 239764, 240037, 240038, 240340, 240642, 456607, 456633]",True,False
+48062,Staff Sergeant Lazgar,[37278],classic_assets_absent_from_active_client_root,[],[464920],"[162845, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456609, 456635]",True,False
+48066,Sergeant Parker,[37277],classic_assets_absent_from_active_client_root,[],[464919],"[162845, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456607, 456633]",True,False
+48069,Commander Zanoth,[37276],classic_assets_absent_from_active_client_root,[],[464918],"[139186, 162845, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456609, 456635]",True,False
+48070,Drillmaster Razgoth,[37275],classic_assets_absent_from_active_client_root,[],[464917],"[162845, 238138, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456609, 456635]",True,False
+48071,Private Garnoth,[37274],classic_assets_absent_from_active_client_root,[],[464916],"[162845, 238519, 239101, 239323, 239446, 239763, 239764, 240037, 240038, 240340, 240642, 456609, 456635]",True,False
+48074,Marshal Fallows,[37273],classic_assets_absent_from_active_client_root,[],[464915],"[140761, 162845, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456607, 456633]",True,False
+48099,Worgmistress Othana,[35973],classic_assets_absent_from_active_client_root,[],[452138],"[148774, 148775, 149335, 151584, 152850, 153778, 155209, 155589, 158179, 160767, 163445]",True,False
+48743,Hargoth Dimblaze,[33042],classic_assets_absent_from_active_client_root,[],[391505],"[141709, 143932, 150020, 152490, 157039, 159717, 159718, 162319, 165016]",True,False
+48793,Earthmender Duarn,[31600],classic_assets_absent_from_active_client_root,[],[359720],"[360337, 361561, 361562, 361565, 361569, 361573, 361580, 361581, 361588, 361589, 361597, 361605]",True,False
+48949,Kezan Socialite,"[36350, 36351, 36352, 36353]",classic_assets_absent_from_active_client_root,[],"[459322, 459323, 459324, 459325]","[157387, 157491, 157569, 158210, 161016, 163693, 164743, 322795, 322803, 327827, 327829]",True,False
+49230,Marshal Redpath,[36417],classic_assets_absent_from_active_client_root,[],[460639],"[143954, 150107, 151993, 153293, 154828, 156161, 157442, 158781, 161432, 164112]",True,False
+49231,Valdred Moray,[36418],classic_assets_absent_from_active_client_root,[],[460640],"[150584, 152261, 152675, 154831, 154875, 157495, 157680, 161972, 164658]",True,False
+49337,Darnell,[36383],classic_assets_absent_from_active_client_root,[],[460612],"[151561, 152915, 155341, 155342, 157934, 160720, 163388]",True,False
+49355,Lord Harford,[36445],classic_assets_absent_from_active_client_root,[],[460650],"[154751, 154752, 157367, 157368, 162594, 165288]",True,False
+49356,Gally Lumpstain,[36446],classic_assets_absent_from_active_client_root,[],[460651],"[154751, 154752, 157367, 157368, 157416, 162594, 165288]",True,False
+49874,Blackrock Spy,"[36653, 36652, 36654, 36655]",classic_assets_absent_from_active_client_root,[],"[461324, 461325, 461326, 461327]","[149330, 149331, 152938, 154018, 155389, 155390, 157988, 157989, 160761, 163435, 163436]",True,False
+50039,Goblin Assassin,"[36690, 36691, 36692]",classic_assets_absent_from_active_client_root,[],"[461494, 461495, 461496]","[138891, 143804, 149479, 149480, 151640, 153006, 154075, 155527, 155528, 158114, 158115, 160873, 160874, 163551, 163552]",True,False
+50167,Rhagha,[36731],classic_assets_absent_from_active_client_root,[],[461532],"[313420, 313422, 317625, 317630, 317633, 317634, 317639, 317642, 317645, 317649, 317657, 317658, 317666, 317667, 317675]",True,False
+50173,Maven Zara,[36732],classic_assets_absent_from_active_client_root,[],[461531],"[139115, 314973, 314976, 314977, 314982, 314985, 314988, 314993, 315000, 315002, 315009, 315010, 315018, 456606, 456632]",True,False
+50517,Gilnean Refugee,"[37109, 37110, 37111, 37112]",classic_assets_absent_from_active_client_root,[],"[320401, 404130, 463302, 463304, 463305, 463306]","[320326, 320327, 320328, 320329, 320351, 320353, 320355, 320357, 320368, 320370, 320372, 320374, 320381, 320382, 320403, 320404, 320406, 320408, 320411, 320424, 320426, 320428, 320430, 320442, 320444, 320446, 320448, 320460, 320462, 320464, 320466]",True,False
+51165,Baradin Guard,"[37243, 37244, 37245, 37246]",classic_assets_absent_from_active_client_root,[],"[464886, 464887, 464888, 464889]","[140761, 162845, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456607, 456633]",True,False
+51166,Hellscream's Sentry,"[35544, 35545]",classic_assets_absent_from_active_client_root,[],"[446198, 446199]","[162845, 238519, 239102, 239323, 239446, 239568, 239763, 239764, 240037, 240038, 240340, 240642, 456609, 456635]",True,False
+52151,Bloodlord Mandokir,[37816],classic_assets_absent_from_active_client_root,[],[512184],"[141270, 143401, 150383, 150559, 152238, 153515, 154574, 156651, 156652, 159238, 161866, 164551]",True,False
+52156,Chained Spirit,"[37794, 37793, 37796, 37797]",classic_assets_absent_from_active_client_root,[],"[512071, 512072, 512074, 512075]","[139188, 143759, 149299, 149300, 150302, 150811, 151571, 151576, 152484, 152501, 154004, 155371, 156367, 157024, 157027, 157059, 157931, 157963, 159703, 159706, 159725, 159737, 159738, 161601, 162277, 162304, 162307, 162339, 164280, 164974, 165001, 165004, 165036]",True,False
+53183,Great Hunter's Challenge Counter,[25516],classic_assets_absent_from_active_client_root,[],[176167],"[141370, 148797, 151217, 152647, 154870, 157396, 157954, 160180, 160741, 162831, 163410]",True,False
+53714,Training Target,[38459],classic_assets_absent_from_active_client_root,[],[519543],[],True,False
+53762,Crone,[38521],classic_assets_absent_from_active_client_root,[],[522185],"[141396, 150656, 152346, 153538, 156778, 159442, 162060, 164745]",True,False
+54135,Master Li Fei,[39675],classic_assets_absent_from_active_client_root,[],[571670],"[356285, 356286, 356287, 356301, 356309, 356317, 356329, 356330, 356348, 356349, 356369, 356385]",True,False
+54270,Dethbringer,[38722],classic_assets_absent_from_active_client_root,[],[526143],"[456611, 463839, 463947, 463953, 463963, 463971, 465925, 465937, 465938, 465939, 465948, 465958, 465969, 465980, 465981, 465995, 466006, 468064]",True,False
+54586,Huojin Trainee,"[39902, 39903, 39904, 39905]",classic_assets_absent_from_active_client_root,[],"[537730, 571402, 575275, 575276, 575277, 575278]","[571406, 571407, 571411, 571414, 571417, 571421, 571422, 571427, 571428, 574828, 574864]",True,False
+54611,Jaomin Ro,[39755],classic_assets_absent_from_active_client_root,[],[571646],"[149118, 149127, 151479, 152840, 155181, 155182, 157778, 157779, 160590, 163257, 360337]",True,False
+54734,Master Li Fei,[39675],classic_assets_absent_from_active_client_root,[],[571670],"[356285, 356286, 356287, 356301, 356309, 356317, 356329, 356330, 356348, 356349, 356369, 356385]",True,False
+54855,Min Dimwind,[39674],classic_assets_absent_from_active_client_root,[],[571681],"[149291, 149292, 151567, 152921, 154000, 155353, 155354, 157945, 157946, 160732, 163400, 514432]",True,False
+54856,Master Li Fei,[39675],classic_assets_absent_from_active_client_root,[],[571670],"[356285, 356286, 356287, 356301, 356309, 356317, 356329, 356330, 356348, 356349, 356369, 356385]",True,False
+54870,General Nazgrim,[42562],classic_assets_absent_from_active_client_root,[],[612329],"[150416, 152150, 153444, 154503, 156505, 156506, 159055, 159092, 161711, 164396, 643248]",True,False
+55054,General Nazgrim,[42562],classic_assets_absent_from_active_client_root,[],[612329],"[150416, 152150, 153444, 154503, 156505, 156506, 159055, 159092, 161711, 164396, 643248]",True,False
+55135,General Nazgrim,[42562],classic_assets_absent_from_active_client_root,[],[612329],"[150416, 152150, 153444, 154503, 156505, 156506, 159055, 159092, 161711, 164396, 643248]",True,False
+57208,Delivery Cart,[39157],classic_assets_absent_from_active_client_root,[],[571900],[],True,False
+57710,Delivery Cart,[39157],classic_assets_absent_from_active_client_root,[],[571900],[],True,False
+57740,Delivery Cart,[39157],classic_assets_absent_from_active_client_root,[],[571900],[],True,False
+57741,Delivery Cart,[39157],classic_assets_absent_from_active_client_root,[],[571900],[],True,False
+57821,Lieutenant Shara,[39836],classic_assets_absent_from_active_client_root,[],[575046],"[531001, 534465, 534468, 534480, 534481, 534482, 534488, 534494, 534499, 534506, 534508, 534515, 534516, 534524]",True,False
+58632,Armsmaster Harlan,[40293],classic_assets_absent_from_active_client_root,[],[588829],"[143983, 150151, 150217, 152059, 153318, 154372, 156217, 156220, 158809, 158810, 158870, 161526, 164207, 520761]",True,False
+59150,Flameweaver Koegler,[40597],classic_assets_absent_from_active_client_root,[],[587774],"[151027, 153718, 464512, 464692, 464724, 464730, 464733, 464739, 464748, 464755, 464757, 464766, 464772]",True,False
+59303,Houndmaster Braun,[42264],classic_assets_absent_from_active_client_root,[],[606554],"[143883, 149064, 149903, 151442, 151892, 153198, 153895, 155940, 155941, 157730, 158526, 158527, 160536, 160537, 161247, 162600, 163202, 163927, 165294, 253213]",True,False
+59496,Delivery Cart,[39157],classic_assets_absent_from_active_client_root,[],[571900],[],True,False
+59497,Delivery Cart,[39157],classic_assets_absent_from_active_client_root,[],[571900],[],True,False
+59582,Innkeeper Lei Lan,[42628],classic_assets_absent_from_active_client_root,[],"[537730, 613550]","[151414, 157670, 160486, 163152, 321317, 321321, 321343, 321350, 362097, 362109, 571403, 571429]",True,False
+59642,Aysa Cloudsinger,[41667],classic_assets_absent_from_active_client_root,[],[603690],"[588232, 588233, 588234, 588241, 588244, 588250, 588251, 588260, 588261, 588268, 588274]",True,False
+60140,Mine Cart,[41243],classic_assets_absent_from_active_client_root,[],[603231],[],True,False
+60244,Trainee Guang,[45863],classic_assets_absent_from_active_client_root,[],"[537730, 571402, 575276]","[571406, 571407, 571414, 571417, 571421, 571422, 571427, 571428]",True,False
+60378,Mine Cart,[41243],classic_assets_absent_from_active_client_root,[],[603231],[],True,False
+60379,Mine Cart,[41243],classic_assets_absent_from_active_client_root,[],[603231],[],True,False
+60380,Mine Cart,[41243],classic_assets_absent_from_active_client_root,[],[603231],[],True,False
+61412,Dark Shaman Koranthal,[42101],classic_assets_absent_from_active_client_root,[],[605475],"[153696, 157173, 159853, 469060, 469091, 469096, 469097, 469100, 469106, 469115, 469124, 469133, 469139]",True,False
+61644,Dark Shaman Researcher,"[42194, 42210]",classic_assets_absent_from_active_client_root,[],"[605925, 606084]","[526015, 526181, 526195, 526201, 526207, 526213, 526214, 526232, 526250, 526251, 526264, 526265]",True,False
+61680,Kor'kron Scout,"[42198, 42208, 42209]",classic_assets_absent_from_active_client_root,[],"[605930, 606077, 606078]","[151557, 151558, 155332, 155338, 157924, 157925, 157930, 160712, 160714, 163380, 163382]",True,False
+61788,SI:7 Ranger,"[42259, 42260, 42261]",classic_assets_absent_from_active_client_root,[],"[606536, 606537, 606538]","[151557, 151558, 155332, 155338, 157924, 157925, 157930, 160712, 160714, 163380, 163382]",True,False
+62672,Harrison Jones,[42619],classic_assets_absent_from_active_client_root,[],[176134],"[138272, 148830, 151240, 152793, 155078, 155086, 157689, 157755, 160082, 160252, 162733, 162913]",True,False
+63310,Zabrax,[42928],classic_assets_absent_from_active_client_root,[],"[537730, 616681]","[149306, 149307, 151573, 152929, 154009, 155370, 155371, 157962, 157963, 160747, 163418, 538648, 574583, 588177]",True,False
+64100,Meng Chi the Fist,[44219],classic_assets_absent_from_active_client_root,[],[645960],"[590212, 590221, 590225, 590232, 590233, 590240, 590241, 590249]",True,False
+64738,Hooded Crusader,[43650],classic_assets_absent_from_active_client_root,[],[629505],"[140943, 162603, 164478, 165297, 340719, 340723, 340727, 340728, 340730, 340733, 340736, 340737, 340744, 340745, 340746, 340754, 350711]",True,False
+65535,Liu Ze,[41535],classic_assets_absent_from_active_client_root,[],[593440],"[349075, 349079, 349083, 349093, 349101, 349109, 362095, 362119, 366409, 366410, 366415, 366419, 366423]",True,False
+65648,Old MacDonald,[44495],classic_assets_absent_from_active_client_root,[],[647831],"[137695, 148980, 151360, 152647, 154740, 154746, 154747, 157364, 157365, 160412, 163075]",True,False
+65655,Eric Davidson,[44498],classic_assets_absent_from_active_client_root,[],[647851],"[143728, 149171, 149172, 149173, 151504, 152865, 153947, 155239, 155240, 157833, 157834, 160632, 163299]",True,False
+65656,Bill Buckler,[44500],classic_assets_absent_from_active_client_root,[],[647852],"[137669, 148835, 151245, 152647, 154740, 154895, 157512, 160236, 162897]",True,False
+66200,Thunder Hold Soldier,"[44861, 44862, 44863, 44864]",classic_assets_absent_from_active_client_root,[],"[652163, 652164, 652165, 652166]","[150105, 150106, 150107, 151172, 151993, 153293, 154351, 156161, 156162, 157383, 158752, 158753, 160095, 160096, 161431, 161432, 162618, 162619, 162746, 162747, 164111, 164112, 165312, 165313]",True,False
+66283,Captain Doren,[45057],classic_assets_absent_from_active_client_root,[],[651499],"[311769, 311776, 311777, 311778, 311781, 311784, 311787, 311792, 311793, 311798, 311799, 311806, 311808, 311814, 625712]",True,False
+66285,Thunder Hold Infantryman,"[45141, 45142, 45143, 45144]",classic_assets_absent_from_active_client_root,[],"[654417, 654418, 654419, 654420]","[150105, 150106, 150107, 151172, 151993, 153293, 154351, 156161, 156162, 157383, 158752, 158753, 160095, 160096, 161431, 161432, 162618, 162619, 162746, 162747, 164111, 164112, 165312, 165313]",True,False
+66292,Sky Admiral Rogers,[45220],classic_assets_absent_from_active_client_root,[],[654818],"[137671, 143864, 148832, 151242, 152648, 154743, 154864, 157453, 157486, 160229, 162890, 254204, 254236, 304112]",True,False
+66646,General Nazgrim,[42562],classic_assets_absent_from_active_client_root,[],[612329],"[150416, 152150, 153444, 154503, 156505, 156506, 159055, 159092, 161711, 164396, 643248]",True,False
+67040,Hellscream's Fist Deckswabber,[45680],classic_assets_absent_from_active_client_root,[],[656644],"[151327, 152723, 154948, 154949, 157555, 160351, 163014]",True,False
+68000,Hiren Loresong,[29477],classic_assets_absent_from_active_client_root,[],[308305],"[137266, 141527, 144153, 150663, 152355, 153550, 153809, 156785, 159450, 159451, 162075, 164760, 240513, 240774]",True,False
+70900,Thunderlord Crag-Leaper,"[49100, 49101]",no_complete_classic_record_set,[],[],[],True,False
+71057,"Sully ""The Pickle"" McLeary",[38872],classic_assets_absent_from_active_client_root,[],[529438],"[137466, 148866, 151274, 152807, 153889, 154875, 155115, 157495, 157745, 160277, 162940]",True,False
+71647,Thunderlord Spearhand,"[54374, 54422]",no_complete_classic_record_set,[],[],[],True,False
+72000,Sun Tenderheart,[51663],classic_assets_absent_from_active_client_root,[],"[603369, 874655]","[143424, 151024, 151025, 151026, 152601, 153717, 154694, 157233, 157234, 159922, 162499, 165193, 588265, 603308]",True,False
+73063,Shadowmoon Void Shaman,"[51105, 51106]",no_complete_classic_record_set,[],[],[],True,False
+74836,Maxima Blastenheimer,[52332],no_complete_classic_record_set,[],[],[],True,False
+75091,Grom'kar Grunt,[51767],no_complete_classic_record_set,[],[],[],True,False
+75392,Exarch Maladaar,[52435],no_complete_classic_record_set,[],[],[],True,False
+76500,Orgrimmar Sea Dog,"[53256, 53257, 53258, 53259]",no_complete_classic_record_set,[],[],[],True,False
+76791,Engineer Draxen,[53448],no_complete_classic_record_set,[],[],[],True,False
+77160,Hansel Heavyhands,[52528],no_complete_classic_record_set,[],[],[],True,False
+77161,Thaelin Darkanvil,[52540],no_complete_classic_record_set,[],[],[],True,False
+77311,Hansel Heavyhands,[52528],no_complete_classic_record_set,[],[],[],True,False
+78240,Choluna,[32253],classic_assets_absent_from_active_client_root,[],[372892],"[138790, 143795, 149455, 149460, 151632, 152995, 155503, 155511, 158096, 158098, 160857, 163536]",True,False
+78333,Gul'dan,[59808],no_complete_classic_record_set,[],[],[],True,False
+78529,Frostwolf Slave,"[54575, 54576, 54577, 54578]",no_complete_classic_record_set,[],[],[],True,False
+78556,Ariok,[36185],classic_assets_absent_from_active_client_root,[],[458392],"[238520, 239103, 239104, 239324, 239447, 239569, 239765, 239766, 240039, 240040, 240342, 240644, 366874, 366912]",True,False
+79446,Qiana Moonshadow,[55047],no_complete_classic_record_set,[],[],[],True,False
+79774,Sergeant Grimjaw,[56527],no_complete_classic_record_set,[],[],[],True,False
+80087,Liberated Frostwolf Prisoner,"[54575, 54576]",no_complete_classic_record_set,[],[],[],True,False
+80686,Garrison Event - Invasion - MASTER PROXY,"[54260, 54422]",no_complete_classic_record_set,[],[],[],True,False
+80921,Rangari D'kaan,[52536],no_complete_classic_record_set,[],[],[],True,False
+81013,Rangari Rajess,[56162],no_complete_classic_record_set,[],[],[],True,False
+81018,Rangari Kolaan,[56167],no_complete_classic_record_set,[],[],[],True,False
+81020,Rangari Jonaa,[56168],no_complete_classic_record_set,[],[],[],True,False
+82402,Shadow Hunter Ukambe,[54554],no_complete_classic_record_set,[],[],[],True,False
+82704,Reshad,[57143],no_complete_classic_record_set,[],[],[],True,False
+82871,Karabor Slave,"[54758, 54759, 54760, 54761]",no_complete_classic_record_set,[],[],[],True,False
+83242,Draenei (Sargeri) 2,[56445],no_complete_classic_record_set,[],[],[],True,False
+83243,Draenei (Sargeri) 3,[56440],no_complete_classic_record_set,[],[],[],True,False
+83686,Greblin Fastfizzle,[58050],no_complete_classic_record_set,[],[],[],True,False
+84053,Kargath Bladefist,[55867],no_complete_classic_record_set,[],[],[],True,False
+84980,Lunarfall Engineer,"[46298, 29035, 32016, 45191]",classic_assets_absent_from_active_client_root,[],"[293904, 387547, 654766, 660096]","[138021, 138278, 148797, 148851, 148852, 149017, 149081, 149082, 151256, 151449, 151452, 152690, 152821, 153292, 153803, 153904, 154767, 154863, 155137, 155142, 155143, 156159, 157379, 157441, 157485, 157737, 157738, 157743, 157744, 157796, 160111, 160247, 160549, 160554, 162762, 162908, 163214, 163219, 240506, 240767, 364411, 364427, 364436, 364457, 364458, 364476, 364494, 364512, 366639]",True,False
+85141,Frostwolf Slave,"[58666, 58667, 58668, 58669]",no_complete_classic_record_set,[],[],[],True,False
+85142,Karabor Slave,"[58670, 58671, 58672, 58673]",no_complete_classic_record_set,[],[],[],True,False
+85696,Elodor Fisherman,"[58935, 58936, 58937, 58938]",no_complete_classic_record_set,[],[],[],True,False
+87610,Grom'kar Tier One Proxy,"[59360, 59361]",no_complete_classic_record_set,[],[],[],True,False
+87611,Tipa Rimehorn,[60392],no_complete_classic_record_set,[],[],[],True,False
+87618,Grom'kar Elite Proxy,"[59360, 59361]",no_complete_classic_record_set,[],[],[],True,False
+87627,Orrelleon Searingstrike,[60403],no_complete_classic_record_set,[],[],[],True,False
+87628,Karyn Whitmoor,[60405],no_complete_classic_record_set,[],[],[],True,False
+88470,Garrison Gyrocopter,[54188],no_complete_classic_record_set,[],[],[],True,False
+90000,Battleship Cannon,[61807],no_complete_classic_record_set,[],[],[],True,False
+90247,Battlelord Gaardoun,[61903],no_complete_classic_record_set,[],[],[],True,False
+90250,Lord Grayson Shadowbreaker,[62304],no_complete_classic_record_set,[],[],[],True,False
+92232,Nightmare Bonfire,[62856],no_complete_classic_record_set,[],[],[],True,False
+92456,Linzy Blackbolt,[25619],classic_assets_absent_from_active_client_root,[],[241270],"[137425, 141402, 144137, 150626, 152303, 153538, 156730, 159380, 159381, 161987, 164673]",True,False
+92464,Kuhuine Tenderstride,[63051],no_complete_classic_record_set,[],[],[],True,False
+93117,Izal Whitemoon,[60550],no_complete_classic_record_set,[],[],[],True,False
+93230,Mannethrel Darkstar,[61732],no_complete_classic_record_set,[],[],[],True,False
+93693,Lady S'theno,[60790],no_complete_classic_record_set,[],[],[],True,False
+93762,Legion Devastator,[66377],no_complete_classic_record_set,[],[],[],True,False
+93805,Spiritwalker Ebonhorn,[63690],no_complete_classic_record_set,[],[],[],True,False
+94255,Jale Rivermane,[63712],no_complete_classic_record_set,[],[],[],True,False
+94286,Oakin Ironbull,[65464],no_complete_classic_record_set,[],[],[],True,False
+94377,Cyana Nightglaive,[63986],no_complete_classic_record_set,[],[],[],True,False
+94400,Belath Dawnblade,[60090],no_complete_classic_record_set,[],[],[],True,False
+94410,Allari the Souleater,[60079],no_complete_classic_record_set,[],[],[],True,False
+94547,Highmountain Elder,"[63943, 63946]",no_complete_classic_record_set,[],[],[],True,False
+95051,Warbrave Oro,[65455],no_complete_classic_record_set,[],[],[],True,False
+95078,Highmountain Shaman,[63946],no_complete_classic_record_set,[],[],[],True,False
+95256,Oakin Ironbull,[65464],no_complete_classic_record_set,[],[],[],True,False
+95707,Torok Bloodtotem,[66158],no_complete_classic_record_set,[],[],[],True,False
+96066,Orcs Slain,"[58888, 58887]",no_complete_classic_record_set,[],[],[],True,False
+96420,Cyana Nightglaive,[63986],no_complete_classic_record_set,[],[],[],True,False
+96436,Jace Darkweaver,[60791],no_complete_classic_record_set,[],[],[],True,False
+96582,Naval Equipment Gossip - Tutorial Part 7 - Kill Credit,[52743],no_complete_classic_record_set,[],[],[],True,False
+96653,Izal Whitemoon,[60550],no_complete_classic_record_set,[],[],[],True,False
+96654,Belath Dawnblade,[60090],no_complete_classic_record_set,[],[],[],True,False
+96731,Legion Devastator,[66377],no_complete_classic_record_set,[],[],[],True,False
+96732,Legion Devastator,[66377],no_complete_classic_record_set,[],[],[],True,False
+96786,Archmage Celindra,[25947],classic_assets_absent_from_active_client_root,[],[241411],"[139115, 144247, 150974, 152581, 153697, 154674, 157178, 159856, 159858, 162459, 163110, 165153, 240510, 240771]",True,False
+97000,Chameli Banaphash,[26438],classic_assets_absent_from_active_client_root,[],[241615],"[137780, 151012, 152596, 153712, 157217, 159902, 159904, 162489, 165183]",True,False
+97059,King Voras,[66977],no_complete_classic_record_set,[],[],[],True,False
+97382,Soul Harvester,[65196],no_complete_classic_record_set,[],[],[],True,False
+97418,Marakhan,[64018],no_complete_classic_record_set,[],[],[],True,False
+97544,Bloodtotem Warmonger,[65767],no_complete_classic_record_set,[],[],[],True,False
+97781,Grasp of Dargrul,[55720],no_complete_classic_record_set,[],[],[],True,False
+97871,Highmountain Warbrave,[63943],no_complete_classic_record_set,[],[],[],True,False
+98229,Kayn Sunfury,[61698],no_complete_classic_record_set,[],[],[],True,False
+98354,Kor'vas Bloodthorn,[66159],no_complete_classic_record_set,[],[],[],True,False
+99000,Mr. Burns,[65740],no_complete_classic_record_set,[],[],[],True,False
+99914,Ashtongue Mystic,[64414],no_complete_classic_record_set,[],[],[],True,False
+99915,Sevis Brightflame,[66396],no_complete_classic_record_set,[],[],[],True,False
+99916,Sevis Brightflame,[66396],no_complete_classic_record_set,[],[],[],True,False
+99917,Sevis Brightflame,[66396],no_complete_classic_record_set,[],[],[],True,False
+101947,Doom Fortress Stabilizer,[67413],no_complete_classic_record_set,[],[],[],True,False
+102450,Prison Shackle,[67640],no_complete_classic_record_set,[],[],[],True,False
+102546,Nomi,[67362],no_complete_classic_record_set,[],[],[],True,False
+102905,Ashtongue Mystic,[64414],no_complete_classic_record_set,[],[],[],True,False
+105300,Ularogg Cragshaper,[62390],no_complete_classic_record_set,[],[],[],True,False
+105508,Lieutenant Arguzel,[64027],no_complete_classic_record_set,[],[],[],True,False
+105932,Darkgrove Cultivator,[69437],no_complete_classic_record_set,[],[],[],True,False
+105933,Apostle of Lyrathos,[69436],no_complete_classic_record_set,[],[],[],True,False
+107891,Shadowflame Imp,[67911],no_complete_classic_record_set,[],[],[],True,False
+110000,Santus,[71285],no_complete_classic_record_set,[],[],[],True,False
+114263,Odyn,[67230],no_complete_classic_record_set,[],[],[],True,False
+116885,Dread Captain,[65980],no_complete_classic_record_set,[],[],[],True,False
+116892,Fel Cannon,[67173],no_complete_classic_record_set,[],[],[],True,False
+116909,Eredar Felbinder,"[68772, 68773]",no_complete_classic_record_set,[],[],[],True,False
+116917,Eredar Felbinder,"[68774, 68775]",no_complete_classic_record_set,[],[],[],True,False
+118224,Raemien the Soultaker,[74707],no_complete_classic_record_set,[],[],[],True,False
+118566,Lord Commander Alexius,[74813],no_complete_classic_record_set,[],[],[],True,False
+120900,Amani Warrior,[76020],no_complete_classic_record_set,[],[],[],True,False
+121235,Taelia,[81291],no_complete_classic_record_set,[],[],[],True,False
+121239,Flynn Fairwind,[76222],no_complete_classic_record_set,[],[],[],True,False
+122370,Cyrus Crestfall,[76907],no_complete_classic_record_set,[],[],[],True,False
+124024,Block Warden Carmine,[85643],no_complete_classic_record_set,[],[],[],True,False
+124030,Getaway Boat,[77955],no_complete_classic_record_set,[],[],[],True,False
+124306,Lawrence Levy,[77946],no_complete_classic_record_set,[],[],[],True,False
+124630,Kul Tiran Guard,[81516],no_complete_classic_record_set,[],[],[],True,False
+124922,Helena Gentle,[78257],no_complete_classic_record_set,[],[],[],True,False
+125380,Lucille Waycrest,[78452],no_complete_classic_record_set,[],[],[],True,False
+125394,Constable Henry Framer,[78457],no_complete_classic_record_set,[],[],[],True,False
+126159,Frightened Woodsman,"[85517, 85518, 85521, 85522]",no_complete_classic_record_set,[],[],[],True,False
+126478,Fletcher's Hollow Conscript,"[78947, 78948, 78949, 78950]",no_complete_classic_record_set,[],[],[],True,False
+128742,Injured Ranger,"[80126, 80127, 80130, 78515, 78516, 78517, 78518, 80129]",no_complete_classic_record_set,[],[],[],True,False
+130419,Cyril White,[81470],no_complete_classic_record_set,[],[],[],True,False
+130958,Rastari Enforcer,"[79770, 79771, 79773, 79774]",no_complete_classic_record_set,[],[],[],True,False
+132189,Urda Direflame,[82277],no_complete_classic_record_set,[],[],[],True,False
+134058,Galecaller Faye,[83273],no_complete_classic_record_set,[],[],[],True,False
+134063,Brother Ironhull,[84679],no_complete_classic_record_set,[],[],[],True,False
+137066,7th Legion Magus,[64085],no_complete_classic_record_set,[],[],[],True,False
+139554,Houndmaster Leopold,[86394],no_complete_classic_record_set,[],[],[],True,False
+139970,Brother Pike,[81302],no_complete_classic_record_set,[],[],[],True,False
+142739,Knight-Captain Aldrin,[87988],no_complete_classic_record_set,[],[],[],True,False
+143239,League of Arathor Proxy,[85505],no_complete_classic_record_set,[],[],[],True,False
+143613,7th Legion Magus,"[22097, 68167]",no_complete_classic_record_set,[],[175948],"[144185, 150733, 152423, 156889, 159562, 159564, 162192, 164873]",True,False
+143720,Sethrak Cannon,[79953],no_complete_classic_record_set,[],[],[],True,False
+144722,Togoth Cruelarm,[88804],no_complete_classic_record_set,[],[],[],True,False
+146128,Pit Boss Buxdoggle,[46762],classic_assets_absent_from_active_client_root,[],"[320345, 320362, 320377, 320391, 320393, 320418, 320436, 320454, 668103]","[153935, 320330]",True,False
+147594,Telaamon's Mirror Image,[90146],no_complete_classic_record_set,[],[],[],True,False
+147595,Telaamon's Mirror Image,[90146],no_complete_classic_record_set,[],[],[],True,False
+147646,Blademaster Telaamon,[76337],no_complete_classic_record_set,[],[],[],True,False
+148044,Owynn Graddock,[89851],no_complete_classic_record_set,[],[],[],True,False
+150000,The Black Knight,[29837],classic_assets_absent_from_active_client_root,[],[311707],"[140890, 144050, 150465, 150466, 152188, 153468, 154527, 156557, 156558, 159143, 159144, 161775, 164460]",True,False
+152992,Rampaging Motospider,[73603],no_complete_classic_record_set,[],[],[],True,False
+153000,Sparkqueen P'Emp,[73601],no_complete_classic_record_set,[],[],[],True,False
+154301,Lindie Springstock,[91998],no_complete_classic_record_set,[],[],[],True,False
+155000,Seer Liwatha,[145201],confirmed_combat_dimensions_missing,[145201],[],[],True,False
+155607,Private Cole,[94939],no_complete_classic_record_set,[],[],[],True,False
+156609,Bjorn Stouthands,[91995],no_complete_classic_record_set,[],[],[],True,False
+156610,Austin Huxworth,[92804],no_complete_classic_record_set,[],[],[],True,False
+156612,Kee-La,[95210],no_complete_classic_record_set,[],[],[],True,False
+156803,Alaria,[91996],no_complete_classic_record_set,[],[],[],True,False
+156891,Bjorn Stouthands,[91995],no_complete_classic_record_set,[],[],[],True,False
+161709,Highlord Darion Mograine,[27153],classic_assets_absent_from_active_client_root,[],[241962],"[137433, 140866, 144049, 150464, 152187, 153467, 154526, 156555, 156556, 159141, 159142, 161773, 164458, 240505, 240766]",True,False
+164577,Alliance Sparring Partner,[81541],no_complete_classic_record_set,[],[],[],True,False
+164605,Captain Garrick,[92690],no_complete_classic_record_set,[],[],[],True,False
+164775,Alliance Sparring Partner,[81541],no_complete_classic_record_set,[],[],[],True,False
+166786,Bo,[96318],no_complete_classic_record_set,[],[],[],True,False
+166791,Mithdran Dawntracker,[96320],no_complete_classic_record_set,[],[],[],True,False
+166796,Lana Jordan,[96363],no_complete_classic_record_set,[],[],[],True,False
+166854,Won'sa,[99206],no_complete_classic_record_set,[],[],[],True,False
+167008,Cork Fizzlepop,[96314],no_complete_classic_record_set,[],[],[],True,False
+167225,Lana Jordan,[96363],no_complete_classic_record_set,[],[],[],True,False
+167226,Won'sa,[96384],no_complete_classic_record_set,[],[],[],True,False
+168664,The Fearstalker,[93114],no_complete_classic_record_set,[],[],[],True,False
+170000,Spirit Obelisk,[97175],no_complete_classic_record_set,[],[],[],True,False
+174594,Highlord Darion Mograine,[27153],classic_assets_absent_from_active_client_root,[],[241962],"[137433, 140866, 144049, 150464, 152187, 153467, 154526, 156555, 156556, 159141, 159142, 161773, 164458, 240505, 240766]",True,False
+174596,Knight of the Ebon Blade,"[96084, 96086, 96325, 96326, 96327, 96328, 96329, 96330, 96331, 96332]",no_complete_classic_record_set,[],[],[],True,False
+174602,Remornia,[96983],no_complete_classic_record_set,[],[],[],True,False
+174608,Sparkle,[98626],no_complete_classic_record_set,[],[],[],True,False
+174609,Zaki,[98981],no_complete_classic_record_set,[],[],[],True,False
+174613,M'Can,[98982],no_complete_classic_record_set,[],[],[],True,False
+174614,Ka'ruth,[98983],no_complete_classic_record_set,[],[],[],True,False
+174618,Knight of the Ebon Blade,"[30859, 30860, 30861, 30862]",classic_assets_absent_from_active_client_root,[],"[337869, 337870, 337871, 337873]","[143378, 150273, 150274, 152081, 153367, 154426, 156333, 156334, 158918, 158919, 161568, 161569, 161570, 164250, 164251, 240504, 240505, 240765, 240766]",True,False
+174625,Bored Corpse,[95313],confirmed_combat_dimensions_missing,[95313],[],[],True,False
+174954,Combat Dummy,[70861],no_complete_classic_record_set,[],[],[],True,False
+178365,[DNT] Kill Credit - Recruited Guardian,[47399],classic_assets_absent_from_active_client_root,[],[792854],"[141370, 148797, 151217, 152647, 154870, 157395, 157956, 160180, 160742, 162831, 163412]",True,False
+179304,Slanknen,[97480],no_complete_classic_record_set,[],[],[],True,False
+179441,Prince Renathal,[95632],no_complete_classic_record_set,[],[],[],True,False
+179471,Archivist Fane,[94183],no_complete_classic_record_set,[],[],[],True,False
+179473,The Countess,[93110],no_complete_classic_record_set,[],[],[],True,False
+180090,Blacksmith Bob,[101357],confirmed_combat_dimensions_missing,[101357],[],[],True,False
+180418,Mawsworn Soulmage,[92781],no_complete_classic_record_set,[],[],[],True,False
+180634,Delayed Cartel Fe Aquisitions,[101778],confirmed_combat_dimensions_missing,[101778],[],[],True,False
+180635,Escaped Bounty,[101780],confirmed_combat_dimensions_missing,[101780],[],[],True,False
+180636,Escaped Bounty,[101782],confirmed_combat_dimensions_missing,[101782],[],[],True,False
+180707,Darkshade Inquisitor,[92781],no_complete_classic_record_set,[],[],[],True,False
+180727,Soa Elo,[101850],confirmed_combat_dimensions_missing,[101850],[],[],True,False
+180728,Soulforge Ember,[101852],confirmed_combat_dimensions_missing,[101852],[],[],True,False
+181516,Adolescent Scorcher,[102815],confirmed_combat_dimensions_missing,[102815],[],[],True,False
+181524,Obsidian Lancer,"[102261, 102258, 102260, 102259, 102265, 102264, 102263, 102262]",confirmed_combat_dimensions_missing,"[102261, 102258, 102260, 102259, 102263, 102262]",[],[],True,False
+181531,Mature Screecher,[102811],no_complete_classic_record_set,[],[],[],True,False
+181532,Mature Crasher,[102812],confirmed_combat_dimensions_missing,[102812],[],[],True,False
+181533,Mature Firebreather,[102813],confirmed_combat_dimensions_missing,[102813],[],[],True,False
+181534,Obsidian Scout,"[102297, 102296, 102295, 102294, 102290, 102291, 102292, 102293]",confirmed_combat_dimensions_missing,"[102297, 102296, 102295, 102294, 102291, 102292, 102293]",[],[],True,False
+181552,Progenitor Growth,[102000],confirmed_combat_dimensions_missing,[102000],[],[],True,False
+181597,Scalecommander Azurathel,[102032],no_complete_classic_record_set,[],[],[],True,False
+181676,Blacktalon Avenger,"[102435, 102434, 102433, 102432, 102431, 102445, 102430, 102429, 102428, 102427]",no_complete_classic_record_set,[],[],[],True,False
+181677,Blacktalon Assassin,"[102399, 102398, 102397, 102396, 102395, 102394, 102393, 102392, 102391, 102390, 102389, 102388]",confirmed_combat_dimensions_missing,"[102399, 102398, 102397, 102396, 102395, 102392, 102391, 102389]",[],[],True,False
+181678,Assassin Grok,"[102411, 102410, 102409, 102408, 102407, 102406, 102405, 102404, 102403, 102402, 102401, 102400]",confirmed_combat_dimensions_missing,"[102411, 102410, 102409, 102408, 102407, 102405, 102404, 102403, 102402, 102401, 102400]",[],[],True,False
+183414,REUSE,[101905],no_complete_classic_record_set,[],[],[],True,False
+186500,Expedition Guardian,"[105842, 105871]",no_complete_classic_record_set,[],[],[],True,False
+189900,Grom'kar Footsoldier,"[57845, 56339]",no_complete_classic_record_set,[],[],[],True,False
+190356,Alliance Footsoldier,[73351],no_complete_classic_record_set,[],[],[],True,False
+190357,Horde Footsoldier,[73352],no_complete_classic_record_set,[],[],[],True,False
+190370,Squallbringer Cyraz,[107118],no_complete_classic_record_set,[],[],[],True,False
+190371,Primalist Earthshaker,[102880],no_complete_classic_record_set,[],[],[],True,False
+190372,Skymaster Sunwing,[16057],classic_assets_absent_from_active_client_root,[],[1106553],"[149653, 151757, 153095, 154161, 155167, 155716, 157768, 158294, 161041, 163718]",True,False
+190373,Primalist Galesinger,"[102874, 102875]",no_complete_classic_record_set,[],[],[],True,False
+190377,Primalist Icecaller,[102900],no_complete_classic_record_set,[],[],[],True,False
+191580,Soulbinder Levia,[107549],confirmed_combat_dimensions_missing,[107549],[],[],True,False
+191582,Shackled Proto-Drake,[104140],no_complete_classic_record_set,[],[],[],True,False
+192366,Truesilver Crab,[107827],confirmed_combat_dimensions_missing,[107827],[],[],True,False
+192414,Green Proto-Dragon,[107593],no_complete_classic_record_set,[],[],[],True,False
+192819,Timewalker Warden,"[106125, 106124, 106122, 106121, 106120, 106119, 106118, 106117, 106116, 106115, 106126, 106127]",confirmed_combat_dimensions_missing,[106127],[],[],True,False
+198013,Sleep-Deprived Student,"[108938, 108935, 108919, 108914, 108888, 108887, 108838, 108737, 108720, 108719]",no_complete_classic_record_set,[],[],[],True,False
+198236,Divine Image,[109964],no_complete_classic_record_set,[],[],[],True,False
+198590,Sneaky Mud Mask,[110335],confirmed_combat_dimensions_missing,[110335],[],[],True,False
+198869,Sundered Devastator,[110401],no_complete_classic_record_set,[],[],[],True,False
+198896,Master Mathias Shaw,[72253],no_complete_classic_record_set,[],[],[],True,False
+198912,Cecilia Clessington,[110478],no_complete_classic_record_set,[],[],[],True,False
+199761,Deathstalker Commander Belmont,[114139],no_complete_classic_record_set,[],[],[],True,False
+199766,Forsaken Dreadmage,"[37643, 37647]",classic_assets_absent_from_active_client_root,[],"[469766, 509965]","[137596, 144184, 150728, 150729, 150730, 152422, 153574, 154586, 156884, 156886, 159559, 159561, 162190, 162191, 162842, 164871, 164872, 254218, 254219, 254250, 254251]",True,False
+199994,Stalwart Soldier,[32729],classic_assets_absent_from_active_client_root,[],[385290],"[140314, 143954, 150105, 150106, 150107, 151993, 153293, 154351, 156161, 156162, 158752, 158753, 161432, 164112, 254205, 254237]",True,False
+200000,Stalwart Recruit,"[110955, 110982, 110956, 110957, 110954, 110958, 110959, 111948, 110953, 111949, 111950, 111952, 111956, 111957, 111954, 111955]",confirmed_combat_dimensions_missing,"[110955, 110982, 110956, 110957, 110954, 110958, 110959, 111948, 110953, 111949, 111950, 111952, 111956, 111957, 111954, 111955]",[],[],True,False
+201899,Izal Whitemoon,[111523],no_complete_classic_record_set,[],[],[],True,False
+202933,Cushion of Questions,[111760],confirmed_combat_dimensions_missing,[111760],[],[],True,False
+205735,Sundered Preserver,[110407],no_complete_classic_record_set,[],[],[],True,False
+208227,Frozen Shackle,[113709],confirmed_combat_dimensions_missing,[113709],[],[],True,False
+209200,Wildfire Primalist,"[102886, 102887, 102888, 102889, 102890, 102891, 102892, 102893]",no_complete_classic_record_set,[],[],[],True,False
+211153,Earthen Mine Cart,[114328],no_complete_classic_record_set,[],[],[],True,False
+211155,Earthen Mine Cart,[114328],no_complete_classic_record_set,[],[],[],True,False
+211270,Earthen Mine Cart,[114328],no_complete_classic_record_set,[],[],[],True,False
+211271,Earthen Mine Cart,[114328],no_complete_classic_record_set,[],[],[],True,False
+211812,Kiera Torres,[114464],no_complete_classic_record_set,[],[],[],True,False
+211864,Maurice Guichi,[114475],no_complete_classic_record_set,[],[],[],True,False
+211873,Bang Sparknozzle,[26300],classic_assets_absent_from_active_client_root,[],[241541],"[140164, 148877, 151283, 152703, 154889, 154890, 157506, 157507, 160293, 162956]",True,False
+211887,Sylandra Silverbreeze,[114482],no_complete_classic_record_set,[],[],[],True,False
+211933,Hallowed Monstrosity,[117112],confirmed_combat_dimensions_missing,[117112],[],[],True,False
+212431,Lilian Voss,[85799],no_complete_classic_record_set,[],[],[],True,False
+212677,Gabbo Blinkwink,[114848],no_complete_classic_record_set,[],[],[],True,False
+213262,Ying,[115391],no_complete_classic_record_set,[],[],[],True,False
+214690,Mine Cart,[41243],classic_assets_absent_from_active_client_root,[],[603231],[],True,False
+214900,Burning Ancient,[114009],confirmed_combat_dimensions_missing,[114009],[],[],True,False
+215196,Aurora Vabsley,[116050],no_complete_classic_record_set,[],[],[],True,False
+215197,Gabbo Blinkwink,[114848],no_complete_classic_record_set,[],[],[],True,False
+217346,Mine Cart,[41243],classic_assets_absent_from_active_client_root,[],[603231],[],True,False
+221586,Speaker Dorlita,[121954],no_complete_classic_record_set,[],[],[],True,False
+222284,Beebiter,[118396],no_complete_classic_record_set,[],[],[],True,False
+223648,Betta,[120438],no_complete_classic_record_set,[],[],[],True,False
+223649,Maluc,[120443],no_complete_classic_record_set,[],[],[],True,False
+223652,Kurron,[120473],no_complete_classic_record_set,[],[],[],True,False
+223923,Natalia Pearce,[119660],no_complete_classic_record_set,[],[],[],True,False
+224466,Voidwraith,[145151],confirmed_combat_dimensions_missing,[145151],[],[],True,False
+228598,11.0 Z2 - WaT - Lost Mines - Abandoned Minecart Vehicle (HCR),[119174],no_complete_classic_record_set,[],[],[],True,False
+229276,Foreman Uzjax,[114674],no_complete_classic_record_set,[],[],[],True,False
+229277,Ruffious,[118482],no_complete_classic_record_set,[],[],[],True,False
+231039,Arator,[130420],no_complete_classic_record_set,[],[],[],True,False
+231042,Vereesa Windrunner,[28222],classic_assets_absent_from_active_client_root,[],[242579],"[137427, 143120, 149521, 149522, 151659, 153023, 154093, 155567, 155568, 158015, 158159, 160904, 163582, 240512, 240773]",True,False
+231734,Void of Doubt,[124607],no_complete_classic_record_set,[],[],[],True,False
+231735,Void of Shame,[124607],no_complete_classic_record_set,[],[],[],True,False
+231736,Void of Falter,[124607],no_complete_classic_record_set,[],[],[],True,False
+233252,Vereesa Windrunner,[28222],classic_assets_absent_from_active_client_root,[],[242579],"[137427, 143120, 149521, 149522, 151659, 153023, 154093, 155567, 155568, 158015, 158159, 160904, 163582, 240512, 240773]",True,False
+233312,Arator,[130420],no_complete_classic_record_set,[],[],[],True,False
+233329,Silver Hand Avenger,"[61947, 61948, 62328, 61950]",no_complete_classic_record_set,[],[],[],True,False
+235000,Wetlands Tallstrider,"[141227, 141228, 141229]",confirmed_combat_dimensions_missing,"[141227, 141228, 141229]",[],[],True,False
+236657,Lothraxion,[137452],no_complete_classic_record_set,[],[],[],True,False
+236789,Alonsus Faol,[141282],no_complete_classic_record_set,[],[],[],True,False
+237209,Ku'paal,[126051],no_complete_classic_record_set,[],[],[],True,False
+237211,Faerin Lothar,[115280],no_complete_classic_record_set,[],[],[],True,False
+237343,Halduron Brightwing,[137217],no_complete_classic_record_set,[],[],[],True,False
+237858,Halduron Brightwing,[137217],no_complete_classic_record_set,[],[],[],True,False
+237865,Danul,[130230],no_complete_classic_record_set,[],[],[],True,False
+237866,Oorla,[130231],no_complete_classic_record_set,[],[],[],True,False
+239676,Vaskarn,[112141],no_complete_classic_record_set,[],[],[],True,False
+240715,Halduron Brightwing,[137217],no_complete_classic_record_set,[],[],[],True,False
+241042,Mysterious Rootway,[131796],no_complete_classic_record_set,[],[],[],True,False
+241677,Image of Lady Liadrin,[136435],no_complete_classic_record_set,[],[],[],True,False
+244654,[DNT] Kill Credit,[91566],confirmed_combat_dimensions_missing,[91566],[],[],True,False
+245118,Invasive Drifter,[131465],no_complete_classic_record_set,[],[],[],True,False
+246154,Suspicious Citizen,"[140376, 140378, 140382, 140375, 110237, 110227, 110248, 110233, 110232, 108778, 108777, 108808, 108813, 108812, 108811, 108455, 108456]",no_complete_classic_record_set,[],[],[],True,False
+246605,Hunted Remnant,[140015],no_complete_classic_record_set,[],[],[],True,False
+252635,Forgemaster Garfrost,[137504],confirmed_combat_dimensions_missing,[137504],[],[],True,False
+252648,Scourgelord Tyrannus,[137505],confirmed_combat_dimensions_missing,[137505],[],[],True,False
+256000,Spellbreaker,[139109],confirmed_combat_dimensions_missing,[139109],[],[],True,False
+271954,Hawkeye Socho,[130970],no_complete_classic_record_set,[],[],[],True,False
+271957,Commander Gazba,[130719],no_complete_classic_record_set,[],[],[],True,False
+273290,Writhing Coiler,"[137231, 142379]",confirmed_combat_dimensions_missing,"[137231, 142379]",[],[],True,False

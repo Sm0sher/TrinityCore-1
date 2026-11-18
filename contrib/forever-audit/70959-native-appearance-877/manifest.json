@@ -1,0 +1,38 @@
+{
+  "client_build": 70959,
+  "client_build_config": "ad887adcf63b8746155dd40e1930b80f",
+  "production_block": 169,
+  "startup_before": 2121,
+  "startup_after": 2118,
+  "new_errors": 0,
+  "templates_restored": [
+    1293,
+    18180,
+    33439
+  ],
+  "remaining_templates_without_models": 874,
+  "verified_rows": 12,
+  "rows_verified_twice_in_fixture": true,
+  "experimental_cpp_deployed": false,
+  "client_archives_modified": false,
+  "quarantined": 0,
+  "gameplay_tables_checksums_unchanged": true,
+  "conservative_classic_source_resource_inventory": {
+    "files": 6470,
+    "locally_readable_prefix": 585,
+    "root_only": 4938,
+    "absent_from_root": 947,
+    "includes_unused_bakes_flat_materials_and_alternatives": true,
+    "not_a_download_manifest": true
+  },
+  "sources": [
+    "https://wago.tools/db2/CreatureDisplayInfo/csv?build=12.1.0.69497",
+    "https://github.com/wowdev/WoWDBDefs",
+    "native client 1.60.1.70959 DB2 and CASC, read only"
+  ],
+  "sql_sha256": {
+    "world-trial.sql": "13005e51238b6e1511e6cd385ce9f4c91e481e804b49f67267948cb55a56d5e2",
+    "hotfixes-trial.sql": "3aeb540d2cca1a318a0a911909738b742f3d8a7f2fdfad5916b87fa5af2d6745"
+  },
+  "in_game_verification": "All three restored displays rendered with body, face, clothing and portrait on native client 70959; original stationary target restored"
+}
