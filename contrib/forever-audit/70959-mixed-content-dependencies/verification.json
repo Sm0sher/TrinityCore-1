@@ -1,0 +1,85 @@
+{
+  "block": 175,
+  "client_build": 70959,
+  "before": 1826,
+  "after": 1820,
+  "new": {},
+  "removed": 6,
+  "groups": {
+    "creature models": 2,
+    "quest object loot": 3,
+    "SmartAI action link": 1
+  },
+  "creature_ids": [
+    583,
+    6866
+  ],
+  "loot_pools": {
+    "19431": [
+      182601,
+      25863,
+      10045
+    ],
+    "20682": [
+      184589,
+      29741,
+      10417
+    ],
+    "21867": [
+      185220,
+      31697,
+      10877
+    ]
+  },
+  "smart_event": [
+    160,
+    50804
+  ],
+  "vendor_missing_item_ids": {
+    "17490": [
+      20815,
+      30817,
+      39354,
+      39505,
+      85663
+    ],
+    "28686": [
+      33443,
+      33444,
+      33445,
+      33449,
+      33454,
+      35950,
+      35952,
+      35953,
+      35954
+    ]
+  },
+  "fixtures_idempotent": true,
+  "production_startup_verified": true,
+  "in_game_tested": false,
+  "loaded_counts": {
+    "item templates": 25982,
+    "creatures": 79362,
+    "gameobjects": 48714,
+    "gameobject loot templates": 13918
+  },
+  "source_sha256": {
+    "creature_details.enUS.json": "3989095c282d8745d3580e44cc3e8757daab6a0a017afc18a66f633cc576d32d",
+    "1.60.1.70938-creature_details.enUS.json": "33d9c2f933e488a1ad212af8963a6ffcfc1a925982c4339b972cee3baa169bb3",
+    "AzerothCore staged loot matching": "40812c4b75a8e5da09f330a81de5d4002153a716123c42ed2991892df9f5cb10",
+    "AzerothCore gameobject loot": "348ff855dbfd979030a259fb97f3e969aa48873b50822f6fa3620a2666f4d7bc",
+    "AzerothCore conditions": "1a40806e454211118e0b459e09eb70e0e09807987ead6b321bbd371b93ffeb7d",
+    "Item": "819228ed78803eda2a4806bfb71b1cfb94c86524e0cfaa00df9597da3a1369c7",
+    "ItemSparse": "fd952738df48e8ff35ddb36f84348b2f8e6f0c03c108c32b224d3ba275b9e89a",
+    "ItemSparse-ruRU": "596ea6ed74393e0b3d24d69fe6768f2976bd31bea0567fb10c5ffac265f4326e",
+    "File availability": "e4abc1bb36654be6bfc1553cd4f57244069c667ca428ffddb87ad94a7d8f514e",
+    "ItemXItemEffect": "41d812c51bd8d31b10712a83bddc83832072426e6c266400c9ad0f956dba512e",
+    "ItemXBonusTree": "6642435c5afa9a66ee5f11feecae31b3d209cf676dbaec3b0d228b0b6ee0fd85",
+    "ItemModifiedAppearance": "9bcbee3db2a537584b8ccf2e8972ead1b6ce525f4f4b6d340fa0648bc6d4ad3d"
+  },
+  "sql_sha256": {
+    "world": "5f54fcfe457dfc5858ce48397511e3fa4a5ec41e9512e00a493a51eb5f3b0089",
+    "hotfixes": "401d2891f394da7c9e7f8b919ebe3ed9681ba3d93c003bd342fc2621399bf8e9"
+  }
+}
