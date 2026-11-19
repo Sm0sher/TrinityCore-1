@@ -1,0 +1,113 @@
+{
+  "block": 176,
+  "client_build": 70959,
+  "before": 1820,
+  "after": 1800,
+  "new": {},
+  "removed": 20,
+  "groups": {
+    "quest items": 6,
+    "invalid breadcrumb requirements": 2,
+    "quest currencies": 12
+  },
+  "item_ids": [
+    112113,
+    112125,
+    278193,
+    279475,
+    279476,
+    279477
+  ],
+  "currency_ids": [
+    241,
+    738,
+    824,
+    944,
+    1101,
+    1220,
+    1716,
+    1717
+  ],
+  "loaded_counts": {
+    "item templates": 25988,
+    "creatures": 79362,
+    "gameobjects": 48714
+  },
+  "production_startup_verified": true,
+  "in_game_tested": false,
+  "stages": [
+    {
+      "file": "01-hotfixes-item-labels.sql",
+      "before": 1820,
+      "after": 1818,
+      "sha256": "12a8dd1ba37d08b8d08bc19c95a6d5a72899a27dfeba719100ee4d64fc7f6151"
+    },
+    {
+      "file": "02-world-breadcrumbs.sql",
+      "before": 1818,
+      "after": 1816,
+      "sha256": "6a3fc19134d6fb7b02b2d929a44ae669a0ce8dfce2b16c4fcc986531aa9914bf"
+    },
+    {
+      "file": "03-hotfixes-sound-and-currency.sql",
+      "before": 1816,
+      "after": 1801,
+      "sha256": "c8c59382c0aba4eb54d6e5b0ae8f483f2d890e235fe4bd552f9001dc1f66bb26"
+    },
+    {
+      "file": "04-hotfixes-advanced-item-sound.sql",
+      "before": 1801,
+      "after": 1800,
+      "sha256": "2716f6a8957d171e03775e63b63996da1b12236b668091d5aff698bc1a4c712d"
+    }
+  ],
+  "source_sha256": {
+    "01-hotfixes-item-labels.sql": {
+      "ItemNameDescription enUS": "d4a88b3f80ff4ecb5809b4b6aa0b49be8a7da830e360d1cb6e7ad42c686e8592",
+      "ItemNameDescription ruRU": "bb4eeb5b964c8a010fda4561e5225c894c15b39bc4f956a1c849758b1c4c5257",
+      "Item": "819228ed78803eda2a4806bfb71b1cfb94c86524e0cfaa00df9597da3a1369c7",
+      "ItemSparse": "fd952738df48e8ff35ddb36f84348b2f8e6f0c03c108c32b224d3ba275b9e89a",
+      "ItemSparse-ruRU": "596ea6ed74393e0b3d24d69fe6768f2976bd31bea0567fb10c5ffac265f4326e",
+      "Local icon availability": "d30f7f2f1903e3e3a0b4f939ec5c291db1c9f5fd71060d60e1f66466eaf4be4d",
+      "ItemXItemEffect": "41d812c51bd8d31b10712a83bddc83832072426e6c266400c9ad0f956dba512e",
+      "ItemModifiedAppearance": "9bcbee3db2a537584b8ccf2e8972ead1b6ce525f4f4b6d340fa0648bc6d4ad3d",
+      "ItemXBonusTree": "6642435c5afa9a66ee5f11feecae31b3d209cf676dbaec3b0d228b0b6ee0fd85"
+    },
+    "02-world-breadcrumbs.sql": {},
+    "03-hotfixes-sound-and-currency.sql": {
+      "Item": "819228ed78803eda2a4806bfb71b1cfb94c86524e0cfaa00df9597da3a1369c7",
+      "ItemSparse": "fd952738df48e8ff35ddb36f84348b2f8e6f0c03c108c32b224d3ba275b9e89a",
+      "ItemSparse ruRU": "596ea6ed74393e0b3d24d69fe6768f2976bd31bea0567fb10c5ffac265f4326e",
+      "ItemGroupSounds": "1c48a507879d845382749b0044e989340db74221594e04abedc35eb4de79b332",
+      "SoundKit": "3cf5dfdc0845a06e32c7409ede1291b01034a0623032c5eca50483f9a0f18332",
+      "SoundKitEntry": "df9f59ee378c406f7c2113bf5dcf550f3936ab17f07fbb214136191993fa7a13",
+      "SoundKitChild": "0dac34b2fd4c886d115baa525bf196e1fa8635ccabd1f3138ee740c4b0608cb7",
+      "Sound CASC verification": "dadb173137ffe5eea27696fc56c813ebaee639c7a5d1fbff960a8e6d117f744f",
+      "Item icon verification": "d30f7f2f1903e3e3a0b4f939ec5c291db1c9f5fd71060d60e1f66466eaf4be4d",
+      "ItemXItemEffect": "41d812c51bd8d31b10712a83bddc83832072426e6c266400c9ad0f956dba512e",
+      "ItemXBonusTree": "6642435c5afa9a66ee5f11feecae31b3d209cf676dbaec3b0d228b0b6ee0fd85",
+      "ItemModifiedAppearance": "9bcbee3db2a537584b8ccf2e8972ead1b6ce525f4f4b6d340fa0648bc6d4ad3d",
+      "CurrencyTypes": "ba492bb64c255de227e693bbca421561c2c6806cfba514861685723a8c210d35",
+      "CurrencyTypes ruRU": "210df64f87ecf5530e005f2f9a61ab69d5f98e791e41824413286f3e83114001",
+      "CurrencyCategory": "de8299c1bee87c930b8f649526b67d4646b15df89b5733a82bb7205ea6b65eac",
+      "CurrencyCategory ruRU": "b41e4c3fa248ad4eacc9511ee354ce286002ad4c510d31d5ebf7865d406cc1b2",
+      "Currency icon verification": "a04df52d9357e075e32885c57e53e7a597acc811e7cb0489ec60d7b5fbf417e7"
+    },
+    "04-hotfixes-advanced-item-sound.sql": {
+      "Item": "819228ed78803eda2a4806bfb71b1cfb94c86524e0cfaa00df9597da3a1369c7",
+      "ItemSparse": "fd952738df48e8ff35ddb36f84348b2f8e6f0c03c108c32b224d3ba275b9e89a",
+      "ItemSparse ruRU": "596ea6ed74393e0b3d24d69fe6768f2976bd31bea0567fb10c5ffac265f4326e",
+      "ItemGroupSounds": "1c48a507879d845382749b0044e989340db74221594e04abedc35eb4de79b332",
+      "SoundKit": "3cf5dfdc0845a06e32c7409ede1291b01034a0623032c5eca50483f9a0f18332",
+      "SoundKitEntry": "df9f59ee378c406f7c2113bf5dcf550f3936ab17f07fbb214136191993fa7a13",
+      "SoundKitChild": "0dac34b2fd4c886d115baa525bf196e1fa8635ccabd1f3138ee740c4b0608cb7",
+      "Sound CASC verification": "dadb173137ffe5eea27696fc56c813ebaee639c7a5d1fbff960a8e6d117f744f",
+      "SoundKitAdvanced layout": "ba41133d140841f593f8eb7fe45ddba4701686e080d84b6b1700136af38cb1f3",
+      "SoundKitAdvanced": "7acfd868e3364a2a8e1c28580bf596d540f74cbb4b5cb9df04be6f036120b47c",
+      "Item icon verification": "d30f7f2f1903e3e3a0b4f939ec5c291db1c9f5fd71060d60e1f66466eaf4be4d",
+      "ItemXItemEffect": "41d812c51bd8d31b10712a83bddc83832072426e6c266400c9ad0f956dba512e",
+      "ItemXBonusTree": "6642435c5afa9a66ee5f11feecae31b3d209cf676dbaec3b0d228b0b6ee0fd85",
+      "ItemModifiedAppearance": "9bcbee3db2a537584b8ccf2e8972ead1b6ce525f4f4b6d340fa0648bc6d4ad3d"
+    }
+  }
+}
