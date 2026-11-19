@@ -1,0 +1,61 @@
+{
+  "block": 177,
+  "client_build": 70959,
+  "before": 1800,
+  "after": 1789,
+  "new": {},
+  "removed": 11,
+  "groups": {
+    "lock opening requirements": 11
+  },
+  "locks": {
+    "1818": 4,
+    "1956": 2,
+    "1957": 2,
+    "2112": 1,
+    "2608": 2
+  },
+  "lock_messages_after": 37,
+  "opening_spells": [
+    61437,
+    98322,
+    98323,
+    136386
+  ],
+  "cast_time_224_ms": 6500,
+  "production_startup_verified": true,
+  "in_game_tested": false,
+  "loaded_counts": {
+    "item templates": 25988,
+    "creatures": 79362,
+    "gameobjects": 48714
+  },
+  "source_sha256": {
+    "Classic Lock": "df2a079ab34d8440c930d52b75f6b188930e1062ef2020c0300bd2ab186aa2ec",
+    "Retail Lock": "c241a58a85186f231039301ca0b6c24769e2c3f85bf161aab770be9d9fc1dd6b",
+    "CASC icon verification": "ff2ca8bbc82e5dcfc0c77380be107f236f59e2c8314ccbd0e89cb26977a2387d",
+    "SpellName": "7287bd413789fca108a6d872d62a4d5d63b7d9d37967f7a495dac8b6500913a3",
+    "SpellName ruRU": "24058faf94429cec17ce20a21b95eb7826be65f2596327343250222b5db535ee",
+    "SpellMisc": "13fd529b873f409aca3cb33b5bd131e47b7ad35747b1c53e49c5d7a1d7304b87",
+    "SpellEffect": "f0f47cb8e292adfa54379c8430c49a935eb1dd09527658c89e687e920d17a001",
+    "SpellXSpellVisual": "0d0bb181cd93deb0a84be00fa7762ff221c7edb9d47421c3fcb78667f962839f",
+    "SpellTargetRestrictions": "ff5e9eada55f4e647077ea2b8cb9cc41488eb45f3aef4202a846a75fc2e7849b",
+    "SpellInterrupts": "029bb6127aee3822db88444134e75166ba276e44fbf9e17493333d1fc87fe9bd",
+    "SpellCategories": "24cf628b10cce3b002706204d7abd1c7dc78e3c70475c1578baa475d95ddc2fe",
+    "SpellReagents": "f5f5d457f36303a248c96368171130e707e40268678129ddfac760b3c7dfbc96",
+    "SpellCooldowns": "f6e9fff7f83b0527b9f31ea4f513e6a4d2d1c9216bd2faf7c992b3350e9d0210",
+    "SpellCastingRequirements": "198f916b7c7c1622ecdb78b7477e5fc5b50eeb2c59d7c89e277ac173922b0b66",
+    "SpellShapeshift": "de78dd49b699e3c5b79a7f42c14a5efa6c8987bfcb76c08c9c30abbfbc283363",
+    "SpellAuraOptions": "4d777156e51eca469a844555b5e56e8272363d6b9b1f7fc945f064bef68df50f",
+    "SpellLevels": "7ed65a4edaff7814b8108caeed4e9b407b50cbbbff993e65ec36aeb6e19099c7",
+    "SpellClassOptions": "ceca83893ddba97f0ff0fba42650986cd09ba78cbf1449440c9df16eb45237f6",
+    "SpellPower": "6ec576ea609f2676ac1c22570c7c3cb5342d21ef208f56b684b60a9eacb26cc4",
+    "SpellEquippedItems": "0a2d40076333dcd7000761f9b5799d49ebf28413af6bf7ac9f433206e1700f8e",
+    "SpellAuraRestrictions": "a69e94e983aee75dc16166cad2133282d44cc3ac56cb0ecf04737adc36b494ae",
+    "SpellLabel": "d50edff83d504e94393f7114ee61cc2bc70ee952850164aa91a3de21db9098a1",
+    "SpellScaling": "dfcca4183eaccf123a6426edfeea46d47832cfbb5183a0561abce2a94e97bdb5",
+    "LockType enUS": "9dee85abe89f5906add242ac87d674ff0441cf4a6d9665809d5a78680ed94241",
+    "LockType ruRU": "050f1e70286dc3677f6bd51b50386b51867ca77eaeef6c15980bd9e3433ddc71"
+  },
+  "sql_sha256": "1e9c5bbfe5ecc431e611c4fa356b7f55502ceb01526ce92eccc7bb0f7ef6834c"
+}
