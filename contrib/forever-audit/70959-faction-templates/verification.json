@@ -1,0 +1,33 @@
+{
+  "block": 170,
+  "before": 2118,
+  "after": 2110,
+  "new": {},
+  "removed": 8,
+  "remaining_models_without_display": 874,
+  "verified_rows": 14,
+  "fixtures_idempotent": true,
+  "quarantined": 0,
+  "in_game_tested": false,
+  "remapped_reputation_slots": {
+    "978": [
+      66,
+      84
+    ]
+  },
+  "expected_removed": [
+    "GameObject (Entry: 182393) has invalid faction (1722) defined in `gameobject_template_addon`.",
+    "GameObject (Entry: 201385) has invalid faction (2102) defined in `gameobject_template_addon`.",
+    "GameObject (Entry: 212091) has invalid faction (2059) defined in `gameobject_template_addon`.",
+    "GameObject (Entry: 212092) has invalid faction (2059) defined in `gameobject_template_addon`.",
+    "GameObject (Entry: 212093) has invalid faction (2059) defined in `gameobject_template_addon`.",
+    "GameObject (Entry: 212094) has invalid faction (2059) defined in `gameobject_template_addon`.",
+    "GameObject (Entry: 422412) has invalid faction (2059) defined in `gameobject_template_addon`.",
+    "GameObject (Entry: 422413) has invalid faction (2059) defined in `gameobject_template_addon`."
+  ],
+  "source_sha256": {
+    "Faction": "12def610a6396e9ae21bbce5954128e389f185afb9b240c97c7929b879eba9b5",
+    "FactionTemplate": "e4488b1221ebe9eeee12553a36b0266929affd644af89c08d0e6623bf4d3ccb2"
+  },
+  "sql_sha256": "b6b1b4c198bba899a48d6d71fa3e2cd75ee20738e54d3b719151b0dd58416928"
+}
