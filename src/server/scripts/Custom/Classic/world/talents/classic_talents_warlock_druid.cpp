@@ -31,6 +31,7 @@
 #include "SpellMgr.h"
 #include "SpellScript.h"
 #include "Unit.h"
+#include <cmath>
 #include <mutex>
 #include <unordered_map>
 
@@ -1348,8 +1349,65 @@ public:
     }
 };
 
+class classic_talent_warl_pyroclasm : public AuraScript
+{
+    static constexpr uint32 StunSpellId = 18093;
+
+    bool Validate(SpellInfo const* /*spellInfo*/) override
+    {
+        return ValidateSpellInfo({ StunSpellId });
+    }
+
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        SpellInfo const* spellInfo = eventInfo.GetSpellInfo();
+        return spellInfo && spellInfo->SpellFamilyName == SPELLFAMILY_WARLOCK && (spellInfo->SpellFamilyFlags[0] & 0x60)
+            && eventInfo.GetActionTarget() && eventInfo.GetDamageInfo() && eventInfo.GetDamageInfo()->GetDamage() > 0;
+    }
+
+    void HandleProc(AuraEffect const* aurEff, ProcEventInfo& eventInfo)
+    {
+        PreventDefaultAction();
+
+        float chance = float(aurEff->GetAmount());
+        if (eventInfo.GetDamageInfo()->GetDamageType() == DOT)
+        {
+            SpellInfo const* source = eventInfo.GetSpellInfo();
+            uint32 period = 0;
+            for (SpellEffectInfo const& effect : source->GetEffects())
+                if (effect.IsAura(SPELL_AURA_PERIODIC_DAMAGE))
+                {
+                    period = effect.ApplyAuraPeriod;
+                    break;
+                }
+
+            if (!period || source->GetDuration() <= 0)
+                return;
+
+            uint32 ticks = uint32(source->GetDuration()) / period;
+            if (!ticks)
+                return;
+
+            // Rain of Fire and Hellfire specify the chance over the whole spell.
+            chance = 100.0f * (1.0f - std::pow(1.0f - std::clamp(chance / 100.0f, 0.0f, 1.0f), 1.0f / float(ticks)));
+        }
+
+        if (!roll_chance(chance))
+            return;
+
+        GetTarget()->CastSpell(eventInfo.GetActionTarget(), StunSpellId, CastSpellExtraArgs(TRIGGERED_FULL_MASK).SetTriggeringAura(aurEff));
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_talent_warl_pyroclasm::CheckProc);
+        OnEffectProc += AuraEffectProcFn(classic_talent_warl_pyroclasm::HandleProc, EFFECT_0, SPELL_AURA_DUMMY);
+    }
+};
+
 void AddSC_classic_talents_warlock_druid()
 {
+    RegisterSpellScript(classic_talent_warl_pyroclasm);
     // warlock
     RegisterSpellScript(classic_talent_warl_life_tap);
     RegisterSpellScript(classic_talent_warl_demonic_energies);

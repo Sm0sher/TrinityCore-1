@@ -977,8 +977,25 @@ public:
     }
 };
 
+// Combat Potency rolls the talent amount on damaging off-hand hits.
+class classic_talent_rog_combat_potency : public AuraScript
+{
+    bool CheckProc(AuraEffect const* auraEffect, ProcEventInfo& eventInfo)
+    {
+        DamageInfo const* damage = eventInfo.GetDamageInfo();
+        return damage && damage->GetAttackType() == OFF_ATTACK && damage->GetDamage() > 0
+            && roll_chance(float(auraEffect->GetAmount()));
+    }
+
+    void Register() override
+    {
+        DoCheckEffectProc += AuraCheckEffectProcFn(classic_talent_rog_combat_potency::CheckProc, EFFECT_0, SPELL_AURA_PROC_TRIGGER_SPELL);
+    }
+};
+
 void AddSC_classic_talents_warrior_rogue_hunter()
 {
+    RegisterSpellScript(classic_talent_rog_combat_potency);
     // warrior
     RegisterSpellScript(classic_spell_warr_stance_rage);
     RegisterSpellScript(classic_spell_warr_enrage_talent);

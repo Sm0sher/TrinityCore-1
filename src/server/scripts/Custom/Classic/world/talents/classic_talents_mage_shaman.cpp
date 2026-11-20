@@ -782,8 +782,22 @@ class classic_spell_sha_ancestral_guidance : public AuraScript
     }
 };
 
+class classic_spell_mage_frostbite : public AuraScript
+{
+    bool CheckProc(AuraEffect const* aurEff, ProcEventInfo& /*eventInfo*/)
+    {
+        return roll_chance(float(aurEff->GetAmount()));
+    }
+
+    void Register() override
+    {
+        DoCheckEffectProc += AuraCheckEffectProcFn(classic_spell_mage_frostbite::CheckProc, EFFECT_0, SPELL_AURA_PROC_TRIGGER_SPELL);
+    }
+};
+
 void AddSC_classic_talents_mage_shaman()
 {
+    RegisterSpellScript(classic_spell_mage_frostbite);
     // Mage
     RegisterSpellScript(classic_spell_mage_ignite);
     RegisterSpellScript(classic_spell_mage_ignite_dot);
