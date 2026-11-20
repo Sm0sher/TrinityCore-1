@@ -1889,7 +1889,8 @@ void SpellMgr::LoadSpellProcs()
 
                         if (spellEffectInfo.ApplyAuraName == SPELL_AURA_ADD_PCT_MODIFIER || spellEffectInfo.ApplyAuraName == SPELL_AURA_ADD_FLAT_MODIFIER
                             || spellEffectInfo.ApplyAuraName == SPELL_AURA_ADD_PCT_MODIFIER_BY_SPELL_LABEL || spellEffectInfo.ApplyAuraName == SPELL_AURA_ADD_FLAT_MODIFIER_BY_SPELL_LABEL
-                            || spellEffectInfo.ApplyAuraName == SPELL_AURA_IGNORE_SPELL_COOLDOWN)
+                            || spellEffectInfo.ApplyAuraName == SPELL_AURA_IGNORE_SPELL_COOLDOWN
+                            || spellEffectInfo.ApplyAuraName == SPELL_AURA_NO_REAGENT_USE)
                         {
                             found = true;
                             break;

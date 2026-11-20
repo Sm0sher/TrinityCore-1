@@ -1562,7 +1562,7 @@ class TC_GAME_API Player final : public Unit, public GridObject<Player>
         void ReplaceAllBagSlotFlags(uint32 bagIndex, EnumFlag<BagSlotFlags> flags) { SetUpdateFieldValue(m_values.ModifyValue(&Player::m_activePlayerData).ModifyValue(&UF::ActivePlayerData::BagSlotFlags, bagIndex), flags.AsUnderlyingType()); }
         bool HasItemCount(uint32 item, uint32 count = 1, bool inBankAlso = false) const;
         bool HasItemFitToSpellRequirements(SpellInfo const* spellInfo, Item const* ignoreItem = nullptr) const;
-        bool CanNoReagentCast(SpellInfo const* spellInfo) const;
+        bool CanNoReagentCast(SpellInfo const* spellInfo, Aura** chargedWaiver = nullptr) const;
         void SetNoRegentCostMask(flag128 mask)
         {
             for (uint8 i = 0; i < 4; ++i)

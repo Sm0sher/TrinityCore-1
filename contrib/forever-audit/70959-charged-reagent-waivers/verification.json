@@ -1,0 +1,49 @@
+{
+  "block": 179,
+  "client_build": 70959,
+  "before": 1677,
+  "after": 1656,
+  "new": {},
+  "removed": 21,
+  "groups": {
+    "spell proc": 21
+  },
+  "spell_proc_before": 76,
+  "spell_proc_after": 55,
+  "spell_proc_ids_fixed": [
+    2564,
+    3169,
+    7288,
+    7291,
+    7331,
+    301089,
+    301091,
+    364212,
+    364214,
+    366588,
+    366590,
+    433813,
+    1218575,
+    1220836,
+    1262636,
+    1262638,
+    1262643,
+    1262647,
+    1262650,
+    1262654,
+    1262662
+  ],
+  "worldserver_sha256": "964afc98f90099ebaa65c9f8d5fb57dc72696a97994f4161227fa1b79ceb2d10",
+  "loaded_counts": {
+    "item templates": 25988,
+    "creatures": 79362,
+    "gameobjects": 48714
+  },
+  "production_startup_verified": true,
+  "in_game_tested": false,
+  "sql_sha256": {
+    "01-world-native-event-filters.sql": "08bd7a2ee3deff72925f1a8d61c008dddb0db655e1cba7c11ff640144ecf5c7c",
+    "02-hotfixes-passive-auras.sql": "510f1fde128812af3e7e30d3ef2ebb435f815514cb1a8887e1070984f9883c64",
+    "03-world-reagent-waivers.sql": "a03e8c7f567d238a2c8f50e9e7c48da70306a7d5aa9cf707d48eebc5b44dcab6"
+  }
+}

@@ -5736,8 +5736,20 @@ void Spell::TakeReagents()
         return;
 
     Player* p_caster = m_caster->ToPlayer();
-    if (p_caster->CanNoReagentCast(m_spellInfo))
+    Aura* chargedWaiver = nullptr;
+    if (p_caster->CanNoReagentCast(m_spellInfo, &chargedWaiver))
+    {
+        if (chargedWaiver)
+            for (uint32 i = 0; i < MAX_SPELL_REAGENTS; ++i)
+                if (m_spellInfo->Reagent[i] > 0 && m_spellInfo->ReagentCount[i] > 0)
+                {
+                    // Only consume a charge when this cast actually saved an item reagent.
+                    m_appliedMods.insert(chargedWaiver);
+                    break;
+                }
+
         return;
+    }
 
     for (uint32 x = 0; x < MAX_SPELL_REAGENTS; ++x)
     {

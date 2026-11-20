@@ -27167,8 +27167,10 @@ bool Player::HasItemFitToSpellRequirements(SpellInfo const* spellInfo, Item cons
     return false;
 }
 
-bool Player::CanNoReagentCast(SpellInfo const* spellInfo) const
+bool Player::CanNoReagentCast(SpellInfo const* spellInfo, Aura** chargedWaiver) const
 {
+    if (chargedWaiver)
+        *chargedWaiver = nullptr;
     // don't take reagents for spells with SPELL_ATTR5_NO_REAGENT_WHILE_PREP
     if (spellInfo->HasAttribute(SPELL_ATTR5_NO_REAGENT_COST_WITH_AURA) &&
         HasUnitFlag(UNIT_FLAG_PREPARATION))
@@ -27198,10 +27200,32 @@ bool Player::CanNoReagentCast(SpellInfo const* spellInfo) const
     noReagentMask[1] = m_activePlayerData->NoReagentCostMask[1];
     noReagentMask[2] = m_activePlayerData->NoReagentCostMask[2];
     noReagentMask[3] = m_activePlayerData->NoReagentCostMask[3];
-    if (spellInfo->SpellFamilyFlags & noReagentMask)
-        return true;
+    if (!(spellInfo->SpellFamilyFlags & noReagentMask))
+        return false;
 
-    return false;
+    if (chargedWaiver)
+    {
+        Aura* candidate = nullptr;
+        for (AuraEffect const* effect : GetAuraEffectsByType(SPELL_AURA_NO_REAGENT_USE))
+        {
+            if (!(spellInfo->SpellFamilyFlags & effect->GetSpellEffectInfo().SpellClassMask))
+                continue;
+
+            Aura* aura = effect->GetBase();
+            if (!aura->IsUsingCharges())
+            {
+                // A permanent waiver already covers the spell.
+                return true;
+            }
+
+            if (!candidate && aura->GetCharges() && effect->IsAffectingSpell(spellInfo))
+                candidate = aura;
+        }
+
+        *chargedWaiver = candidate;
+    }
+
+    return true;
 }
 
 void Player::RemoveItemDependentAurasAndCasts(Item* pItem)
