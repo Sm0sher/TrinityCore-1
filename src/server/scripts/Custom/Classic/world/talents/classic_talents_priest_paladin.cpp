@@ -1159,8 +1159,111 @@ class classic_spell_pal_sacred_shield : public AuraScript
     TimePoint _nextShield = TimePoint::min();
 };
 
+// Holy Shock also has a damaging cast. Only its friendly cast cancels the mana regeneration.
+class classic_spell_pal_guarded_by_the_light_cancel : public SpellScript
+{
+    void HandleCast()
+    {
+        Unit const* target = GetExplTargetUnit();
+        if (target && target->IsFriendlyTo(GetCaster()))
+            GetCaster()->RemoveAurasDueToSpell(415058);
+    }
+
+    void Register() override
+    {
+        OnCast += SpellCastFn(classic_spell_pal_guarded_by_the_light_cancel::HandleCast);
+    }
+};
+
+class classic_spell_eternal_power_heal_cast : public AuraScript
+{
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        Unit const* actor = eventInfo.GetActor();
+        SpellInfo const* source = eventInfo.GetSpellInfo();
+        if (!actor || !actor->IsInCombat() || !source)
+            return false;
+
+        switch (source->SpellFamilyName)
+        {
+            case SPELLFAMILY_PRIEST:
+                return (source->SpellFamilyFlags[0] & 0x1000u) != 0; // Greater Heal
+            case SPELLFAMILY_DRUID:
+                return (source->SpellFamilyFlags[0] & 0x20u) != 0; // Healing Touch
+            case SPELLFAMILY_SHAMAN:
+                return (source->SpellFamilyFlags[0] & 0x40u) != 0; // Healing Wave
+            case SPELLFAMILY_PALADIN:
+                return (source->SpellFamilyFlags[0] & 0x4000u) != 0; // Holy Light
+            default:
+                return false;
+        }
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_spell_eternal_power_heal_cast::CheckProc);
+    }
+};
+
+class classic_spell_pal_improved_hammer_of_wrath : public AuraScript
+{
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        SpellInfo const* source = eventInfo.GetSpellInfo();
+        Unit const* victim = eventInfo.GetActionTarget();
+        AuraEffect const* threshold = GetEffect(EFFECT_0);
+        return source && source->SpellFamilyName == SPELLFAMILY_PALADIN && (source->SpellFamilyFlags[1] & 0x80u)
+            && eventInfo.GetDamageInfo() && eventInfo.GetDamageInfo()->GetDamage() > 0
+            && victim && threshold && victim->GetHealthPct() < float(threshold->GetAmount());
+    }
+
+    void HandleProc(ProcEventInfo& eventInfo)
+    {
+        GetTarget()->GetSpellHistory()->ResetCooldown(eventInfo.GetSpellInfo()->Id, true);
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_spell_pal_improved_hammer_of_wrath::CheckProc);
+        OnProc += AuraProcFn(classic_spell_pal_improved_hammer_of_wrath::HandleProc);
+    }
+};
+
+// Count actual damage redirected through the split aura against the caster's initial health-based limit.
+class classic_spell_pal_hand_of_sacrifice_limit : public AuraScript
+{
+    bool Load() override
+    {
+        Unit const* caster = GetCaster();
+        if (!caster)
+            return false;
+
+        _remaining = CalculatePct(caster->GetMaxHealth(), GetSpellInfo()->GetEffect(EFFECT_1).CalcValueAsInt());
+        return true;
+    }
+
+    void Split(AuraEffect* /*aurEff*/, DamageInfo& /*damageInfo*/, uint32& amount)
+    {
+        amount = uint32(std::min(uint64(amount), _remaining));
+        _remaining -= amount;
+        if (!_remaining)
+            GetAura()->Remove();
+    }
+
+    void Register() override
+    {
+        OnEffectSplit += AuraEffectSplitFn(classic_spell_pal_hand_of_sacrifice_limit::Split, EFFECT_0);
+    }
+
+    uint64 _remaining = 0;
+};
+
 void AddSC_classic_talents_priest_paladin()
 {
+    RegisterSpellScript(classic_spell_pal_improved_hammer_of_wrath);
+    RegisterSpellScript(classic_spell_pal_hand_of_sacrifice_limit);
+    RegisterSpellScript(classic_spell_pal_guarded_by_the_light_cancel);
+    RegisterSpellScript(classic_spell_eternal_power_heal_cast);
     // Priest
     RegisterSpellScript(classic_spell_pri_inspiration);
     RegisterSpellScript(classic_spell_pri_blessed_recovery);

@@ -1405,8 +1405,28 @@ class classic_talent_warl_pyroclasm : public AuraScript
     }
 };
 
+// Scarlet Guardian two-piece grants the absorption shield on a bear-form melee critical.
+class classic_talent_dru_scarlet_guardian : public AuraScript
+{
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        Unit const* actor = eventInfo.GetActor();
+        if (!actor || !eventInfo.GetDamageInfo() || eventInfo.GetDamageInfo()->GetDamage() <= 0)
+            return false;
+
+        ShapeshiftForm form = actor->GetShapeshiftForm();
+        return form == FORM_BEAR_FORM || form == FORM_DIRE_BEAR_FORM;
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_talent_dru_scarlet_guardian::CheckProc);
+    }
+};
+
 void AddSC_classic_talents_warlock_druid()
 {
+    RegisterSpellScript(classic_talent_dru_scarlet_guardian);
     RegisterSpellScript(classic_talent_warl_pyroclasm);
     // warlock
     RegisterSpellScript(classic_talent_warl_life_tap);

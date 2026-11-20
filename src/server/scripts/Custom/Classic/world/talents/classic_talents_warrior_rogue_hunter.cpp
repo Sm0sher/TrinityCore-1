@@ -28,6 +28,7 @@
 #include "Random.h"
 #include "SpellAuraEffects.h"
 #include "SpellAuras.h"
+#include "SpellHistory.h"
 #include "SpellInfo.h"
 #include "SpellMgr.h"
 #include "SpellScript.h"
@@ -993,8 +994,152 @@ class classic_talent_rog_combat_potency : public AuraScript
     }
 };
 
+// The Naxxramas rogue bonus energizes only on periodic Nature or Bleed damage.
+class classic_talent_rog_naxxramas_periodic_energy : public AuraScript
+{
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        SpellInfo const* source = eventInfo.GetSpellInfo();
+        return source && eventInfo.GetDamageInfo() && eventInfo.GetDamageInfo()->GetDamage() > 0
+            && ((eventInfo.GetSchoolMask() & SPELL_SCHOOL_MASK_NATURE) || (source->GetAllEffectsMechanicMask() & (uint64(1) << MECHANIC_BLEED)));
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_talent_rog_naxxramas_periodic_energy::CheckProc);
+    }
+};
+
+// Use the actual damaging Kill Shot and Chimera Shot spells. Their talent/passive records share the same names.
+class classic_talent_hun_scarlet_multishot : public AuraScript
+{
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        SpellInfo const* source = eventInfo.GetSpellInfo();
+        return source && (source->Id == 409593 || source->Id == 409433)
+            && eventInfo.GetDamageInfo() && eventInfo.GetDamageInfo()->GetDamage() > 0;
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_talent_hun_scarlet_multishot::CheckProc);
+    }
+};
+
+class classic_talent_warr_scarlet_protection : public AuraScript
+{
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        SpellInfo const* source = eventInfo.GetSpellInfo();
+        if (!source || !eventInfo.GetDamageInfo() || eventInfo.GetDamageInfo()->GetDamage() <= 0)
+            return false;
+
+        if (source->Id == 403196)
+            return true; // The triggered Devastate attack has no class mask.
+
+        return source->SpellFamilyName == SPELLFAMILY_WARRIOR
+            && (source->SpellFamilyFlags[0] & 0x02000400u || source->SpellFamilyFlags[1] & 0x40u);
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_talent_warr_scarlet_protection::CheckProc);
+    }
+};
+
+// The TAQ Protection bonus refunds Shield Slam on an avoided or blocked hit.
+class classic_talent_warr_shield_slam_refund : public AuraScript
+{
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        SpellInfo const* source = eventInfo.GetSpellInfo();
+        return source && source->SpellFamilyName == SPELLFAMILY_WARRIOR && (source->SpellFamilyFlags[0] & 0x02000000u);
+    }
+
+    void HandleProc(ProcEventInfo& eventInfo)
+    {
+        GetTarget()->GetSpellHistory()->ResetCooldown(eventInfo.GetSpellInfo()->Id, true);
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_talent_warr_shield_slam_refund::CheckProc);
+        OnProc += AuraProcFn(classic_talent_warr_shield_slam_refund::HandleProc);
+    }
+};
+
+// The melee bonus stacks on undead and is cleared when the hunter performs a ranged attack.
+class classic_talent_hun_naxxramas_melee_stacks : public AuraScript
+{
+    static constexpr uint32 UndeadSlaying = 1218587;
+
+    static bool IsRangedAttack(ProcEventInfo& eventInfo)
+    {
+        return bool(eventInfo.GetTypeMask() & (PROC_FLAG_DEAL_RANGED_ATTACK | PROC_FLAG_DEAL_RANGED_ABILITY));
+    }
+
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        if (IsRangedAttack(eventInfo))
+            return true;
+
+        Unit const* victim = eventInfo.GetActionTarget();
+        return victim && victim->GetCreatureType() == CREATURE_TYPE_UNDEAD
+            && eventInfo.GetDamageInfo() && eventInfo.GetDamageInfo()->GetDamage() > 0;
+    }
+
+    void HandleProc(AuraEffect const* /*effect*/, ProcEventInfo& eventInfo)
+    {
+        if (IsRangedAttack(eventInfo))
+        {
+            PreventDefaultAction();
+            GetTarget()->RemoveAurasDueToSpell(UndeadSlaying);
+        }
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_talent_hun_naxxramas_melee_stacks::CheckProc);
+        OnEffectProc += AuraEffectProcFn(classic_talent_hun_naxxramas_melee_stacks::HandleProc, EFFECT_0, SPELL_AURA_PROC_TRIGGER_SPELL);
+    }
+};
+
+// The client target trigger applies the dodge debuff. The same hit also buffs the hunter.
+class classic_talent_hun_melee_set_mongoose_bite : public AuraScript
+{
+    static constexpr uint32 HitBuff = 458403;
+
+    bool Validate(SpellInfo const* /*spellInfo*/) override
+    {
+        return ValidateSpellInfo({ HitBuff });
+    }
+
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        SpellInfo const* source = eventInfo.GetSpellInfo();
+        return source && (source->Id == 1495 || source->Id == 14269 || source->Id == 14270 || source->Id == 14271);
+    }
+
+    void HandleProc(AuraEffect const* effect, ProcEventInfo& /*eventInfo*/)
+    {
+        GetTarget()->CastSpell(GetTarget(), HitBuff, CastSpellExtraArgs(effect));
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_talent_hun_melee_set_mongoose_bite::CheckProc);
+        OnEffectProc += AuraEffectProcFn(classic_talent_hun_melee_set_mongoose_bite::HandleProc, EFFECT_0, SPELL_AURA_ADD_TARGET_TRIGGER);
+    }
+};
+
 void AddSC_classic_talents_warrior_rogue_hunter()
 {
+    RegisterSpellScript(classic_talent_hun_melee_set_mongoose_bite);
+    RegisterSpellScript(classic_talent_hun_naxxramas_melee_stacks);
+    RegisterSpellScript(classic_talent_warr_shield_slam_refund);
+    RegisterSpellScript(classic_talent_rog_naxxramas_periodic_energy);
+    RegisterSpellScript(classic_talent_hun_scarlet_multishot);
+    RegisterSpellScript(classic_talent_warr_scarlet_protection);
     RegisterSpellScript(classic_talent_rog_combat_potency);
     // warrior
     RegisterSpellScript(classic_spell_warr_stance_rage);

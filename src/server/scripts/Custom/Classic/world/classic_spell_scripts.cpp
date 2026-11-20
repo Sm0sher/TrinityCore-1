@@ -40,6 +40,7 @@
 #include "SpellAuraEffects.h"
 #include "SpellInfo.h"
 #include "SpellMgr.h"
+#include "SpellAuras.h"
 #include "SpellScript.h"
 #include "ThreatManager.h"
 #include "Unit.h"
@@ -1222,8 +1223,89 @@ class classic_spell_warr_gore_drinker_enrage : public AuraScript
     }
 };
 
+// These wounds name their removal condition in their native aura descriptions.
+class classic_spell_raid_wound_heal : public AuraScript
+{
+    static constexpr uint32 BlazingWounds = 466195;
+
+    static bool IsDirectHeal(ProcEventInfo& eventInfo)
+    {
+        return bool(eventInfo.GetTypeMask() & (PROC_FLAG_TAKE_HELPFUL_ABILITY | PROC_FLAG_TAKE_HELPFUL_SPELL));
+    }
+
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        HealInfo const* heal = eventInfo.GetHealInfo();
+        return heal && heal->GetHeal() > 0
+            && (GetTarget()->GetHealthPct() > 90.0f || (GetId() == BlazingWounds && IsDirectHeal(eventInfo)));
+    }
+
+    void HandleProc(ProcEventInfo& /*eventInfo*/)
+    {
+        if (GetTarget()->GetHealthPct() > 90.0f)
+            Remove();
+        else
+            GetAura()->ModStackAmount(-1);
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_spell_raid_wound_heal::CheckProc);
+        OnProc += AuraProcFn(classic_spell_raid_wound_heal::HandleProc);
+    }
+};
+
+class classic_spell_incite_madness_player_kill : public AuraScript
+{
+    static constexpr uint32 MovementSpeed = 445081;
+
+    bool Validate(SpellInfo const* /*spellInfo*/) override
+    {
+        return ValidateSpellInfo({ MovementSpeed });
+    }
+
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        Unit const* victim = eventInfo.GetActionTarget();
+        return GetTarget()->IsPlayer() && victim && victim->IsPlayer() && victim != GetTarget();
+    }
+
+    void HandleProc(AuraEffect const* effect, ProcEventInfo& /*eventInfo*/)
+    {
+        GetTarget()->CastSpell(GetTarget(), MovementSpeed, CastSpellExtraArgs(effect));
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_spell_incite_madness_player_kill::CheckProc);
+        OnEffectProc += AuraEffectProcFn(classic_spell_incite_madness_player_kill::HandleProc, EFFECT_0, SPELL_AURA_MOD_FACTION);
+    }
+};
+
+// Consume one Eye of the Dead charge when the qualifying cast finishes, after all of its targets.
+class classic_spell_eye_of_the_dead_heal_cast : public AuraScript
+{
+    bool CheckProc(ProcEventInfo& eventInfo)
+    {
+        SpellInfo const* source = eventInfo.GetSpellInfo();
+        if (!source || source->SpellFamilyName == SPELLFAMILY_POTION)
+            return false;
+
+        return ((eventInfo.GetSpellTypeMask() & PROC_SPELL_TYPE_HEAL) && source->HasEffect(SPELL_EFFECT_HEAL))
+            || source->HasAura(SPELL_AURA_PERIODIC_HEAL);
+    }
+
+    void Register() override
+    {
+        DoCheckProc += AuraCheckProcFn(classic_spell_eye_of_the_dead_heal_cast::CheckProc);
+    }
+};
+
 void AddSC_classic_spell_scripts()
 {
+    RegisterSpellScript(classic_spell_eye_of_the_dead_heal_cast);
+    RegisterSpellScript(classic_spell_raid_wound_heal);
+    RegisterSpellScript(classic_spell_incite_madness_player_kill);
     RegisterSpellScript(classic_spell_warr_gore_drinker);
     RegisterSpellScript(classic_spell_warr_gore_drinker_enrage);
     RegisterSpellScript(classic_spell_tauren_cultivation);

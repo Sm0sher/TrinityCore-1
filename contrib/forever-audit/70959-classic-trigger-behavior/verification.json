@@ -1,0 +1,141 @@
+{
+  "client_build": 70959,
+  "initial_proc_messages": 188,
+  "remaining_proc_messages": 23,
+  "stages": [
+    {
+      "block": 180,
+      "client_build": 70959,
+      "before": 1656,
+      "after": 1650,
+      "new": {},
+      "removed": 6,
+      "groups": {
+        "spell proc": 6
+      },
+      "spell_proc_before": 55,
+      "spell_proc_after": 49,
+      "spell_proc_ids_fixed": [
+        415058,
+        1219286,
+        1226121,
+        1226138,
+        1227245,
+        1249118
+      ],
+      "worldserver_sha256": "63d44f923e862ce99de6f83d623d963122f5ad22c4a040e3adad40b8b0b1c0ad",
+      "loaded_counts": {
+        "item templates": 25988,
+        "creatures": 79362,
+        "gameobjects": 48714
+      },
+      "production_startup_verified": true,
+      "in_game_tested": false
+    },
+    {
+      "block": 181,
+      "client_build": 70959,
+      "before": 1650,
+      "after": 1636,
+      "new": {},
+      "removed": 14,
+      "groups": {
+        "spell proc": 14
+      },
+      "spell_proc_before": 49,
+      "spell_proc_after": 35,
+      "spell_proc_ids_fixed": [
+        14170,
+        25160,
+        426454,
+        429152,
+        456322,
+        457571,
+        462752,
+        462853,
+        467491,
+        470105,
+        1214162,
+        1228479,
+        1230705,
+        1284560
+      ],
+      "worldserver_sha256": "1d7db9533d69a0b5566b16e93a80ad5be8d9e988e8fde9d7c7cf377ec64c9f6a",
+      "loaded_counts": {
+        "item templates": 25988,
+        "creatures": 79362,
+        "gameobjects": 48714
+      },
+      "production_startup_verified": true,
+      "in_game_tested": false
+    },
+    {
+      "block": 182,
+      "client_build": 70959,
+      "before": 1636,
+      "after": 1632,
+      "new": {},
+      "removed": 4,
+      "groups": {
+        "spell proc": 4
+      },
+      "spell_proc_before": 35,
+      "spell_proc_after": 31,
+      "spell_proc_ids_fixed": [
+        445080,
+        466195,
+        1215456,
+        1288524
+      ],
+      "worldserver_sha256": "ab56a7daf848183a3fb342078130c7ccdc4aae70ed6f8a9cb098afb1c363a1bf",
+      "loaded_counts": {
+        "item templates": 25988,
+        "creatures": 79362,
+        "gameobjects": 48714
+      },
+      "production_startup_verified": true,
+      "in_game_tested": false
+    },
+    {
+      "block": 183,
+      "client_build": 70959,
+      "before": 1632,
+      "after": 1624,
+      "new": {},
+      "removed": 8,
+      "groups": {
+        "spell proc": 8
+      },
+      "spell_proc_before": 31,
+      "spell_proc_after": 23,
+      "spell_proc_ids_fixed": [
+        28780,
+        421322,
+        424553,
+        426764,
+        435901,
+        456389,
+        1218589,
+        1219513
+      ],
+      "worldserver_sha256": "932d82517b90b81a373afdec031d8e0a2710d511565da5a327e42defa11541d4",
+      "loaded_counts": {
+        "item templates": 25988,
+        "creatures": 79362,
+        "gameobjects": 48714
+      },
+      "production_startup_verified": true,
+      "in_game_tested": false
+    }
+  ],
+  "sql_sha256": {
+    "01-world-class-actions.sql": "a90a3e13af20955fabd9dddc5f7069c383f658131d6355a86ab15a2ed9b2c795",
+    "02-hotfixes-guarded-aura.sql": "c086f67d785900c0809d67f8ad7270814dedd1d2d3a57d61c2c51843050593ac",
+    "03-world-cooldowns-and-split.sql": "478daa4cfca5173ade880897ac3c0b0b2e1e7a698419c16d4118d7c7814e7229",
+    "04-hotfixes-split-aura.sql": "2ff315a2c5e14faad1c73b2faf891be7c6d2d16789fed359cf9957f8efdf1603",
+    "05-hotfixes-native-effects.sql": "5307531ae4a17120129f2d7bd8b0a2891ef9dbcf34d3635dbc513bb84f87a6f3",
+    "06-world-heal-and-kill.sql": "a6c4a31e1cc40238ba30bd93d27b69b1f19f0190be29e4fa964886dd6aad9d0e",
+    "07-world-hunter-and-heal-charges.sql": "b885f5f1bd5306f4ce5db210947e65cabbc097f5479e1b9ef62b199ec92520cd",
+    "08-hotfixes-native-defenses.sql": "5d2c334af0ecda03f791cf9c964513bf7412c3754f43a1a7d577e1b72c1d4931"
+  }
+}
